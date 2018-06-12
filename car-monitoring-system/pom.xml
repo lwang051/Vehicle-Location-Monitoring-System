@@ -5,7 +5,7 @@
   <groupId>com.lingbo</groupId>
   <artifactId>car-monitoring-system</artifactId>
   <version>1.0.0.BUILD-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>car-monitoring-system</name>
   <url>http://maven.apache.org</url>
@@ -14,12 +14,125 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <modules>
+  	<module>location-service</module>
+  	<module>location-simulator</module>
+  </modules>
+
+  <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.1.RELEASE</version>
+  </parent>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.springframework.cloud</groupId>
+    		<artifactId>spring-cloud-starter-parent</artifactId>
+    		<version>Brixton.M1</version>
+    		<type>pom</type>
+  			<scope>import</scope>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-test</artifactId>
+    	<scope>test</scope>
     </dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<scope>runtime</scope>
+	</dependency>
+	<dependency>
+		<groupId>com.h2database</groupId>
+		<artifactId>h2</artifactId>
+		<scope>runtime</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<scope>provided</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-rest</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.data</groupId>
+		<artifactId>spring-data-rest-hal-browser</artifactId>
+	</dependency>
   </dependencies>
+  
+  <!-- Brixton.M1 is not in Maven Central.
+  Need to specify repositories and plug-in repositories. -->
+  <repositories>
+  	<repository>
+  		<id>spring-snapshots</id>
+  		<name>Spring Snapshots</name>
+  		<url>https://repo.spring.io/snapshot</url>
+  		<snapshots>
+  			<enabled>true</enabled>
+  		</snapshots>
+  	</repository>
+  	<repository>
+  		<id>spring-milestones</id>
+  		<name>Spring Milestones</name>
+  		<url>https://repo.spring.io/milestone</url>
+  		<snapshots>
+  			<enabled>false</enabled>
+  		</snapshots>
+  	</repository>
+  </repositories>
+  
+  <pluginRepositories>
+  	<pluginRepository>
+  		<id>spring-snapshots</id>
+  		<name>Spring Snapshots</name>
+  		<url>https://repo.spring.io/snapshot</url>
+  		<snapshots>
+  			<enabled>true</enabled>
+  		</snapshots>
+  	</pluginRepository>
+  	<pluginRepository>
+  		<id>spring-milestones</id>
+  		<name>Spring Milestones</name>
+  		<url>https://repo.spring.io/milestone</url>
+  		<snapshots>
+  			<enabled>false</enabled>
+  		</snapshots>
+  	</pluginRepository>
+  </pluginRepositories>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-maven-plugin</artifactId>
+  		</plugin>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-surefire-plugin</artifactId>
+  			<configuration>
+  				<systemPropertyVariables>
+  					<org.springframework.restdocs.outputDir>
+  						${project.build.directory}/generated-snippet
+  					</org.springframework.restdocs.outputDir>
+  				</systemPropertyVariables>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
