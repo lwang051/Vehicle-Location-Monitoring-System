@@ -28,13 +28,6 @@ public class CarBulkUploadRestController {
 		this.locationService = locationService;
 	}
 	
-	// for testing
-	@RequestMapping(value = "/")
-	public String hello() {
-		System.out.println("hello");
-		return "hello";
-	}
-	
 	@RequestMapping(value = "/car", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
 	public void upload(@RequestBody List<Location> locations) {
