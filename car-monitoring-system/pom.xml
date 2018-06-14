@@ -15,15 +15,15 @@
   </properties>
 
   <modules>
-  	<module>location-service</module>
-  	<module>location-simulator</module>
+  	<module>../location-service</module>
+  	<module>../simulator</module>
   </modules>
 
-  <parent>
+  <!-- <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.1.RELEASE</version>
-  </parent>
+  </parent> -->
   
   <dependencyManagement>
   	<dependencies>
@@ -121,6 +121,13 @@
   		<plugin>
   			<groupId>org.springframework.boot</groupId>
   			<artifactId>spring-boot-maven-plugin</artifactId>
+  			<executions>
+        		<execution>
+          			<goals>
+            			<goal>repackage</goal>
+          			</goals>
+       			</execution>
+      		</executions>
   		</plugin>
   		<plugin>
   			<groupId>org.apache.maven.plugins</groupId>
@@ -135,4 +142,5 @@
   		</plugin>
   	</plugins>
   </build>
+  
 </project>

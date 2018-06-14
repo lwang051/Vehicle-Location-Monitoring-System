@@ -29,7 +29,7 @@ public class CarBulkUploadRestController {
 	}
 	
 	// for testing
-	@RequestMapping(value = "/", method = RequestMethod.POST)
+	@RequestMapping(value = "/")
 	public String hello() {
 		System.out.println("hello");
 		return "hello";
