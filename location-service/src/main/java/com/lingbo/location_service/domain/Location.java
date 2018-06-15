@@ -11,16 +11,16 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
+//import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
+//import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
+//import lombok.RequiredArgsConstructor;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 @Entity
 @Table(name = "LOCATION")
 public class Location {
@@ -73,18 +73,18 @@ public class Location {
 	private String serviceType;
 	
 	// Let only me call it, but I will never call it.
-	@SuppressWarnings("unused")
+//	@SuppressWarnings("unused")
 	private Location() {
 		this.carInfo = null;
 	}
 	
-	@JsonCreator
-	private Location(@JsonProperty("vin") String vin) {
-		this.carInfo = new CarInfo(vin);
-	}
+//	@JsonCreator
+//	private Location(@JsonProperty("vin") String vin) {
+//		this.carInfo = new CarInfo(vin);
+//	}
 	
-	public String getVin() {
-		return this.carInfo == null ?  null : this.carInfo.getVin();
-	}
+//	public String getVin() {
+//		return this.carInfo == null ?  null : this.carInfo.getVin();
+//	}
 	
 }
