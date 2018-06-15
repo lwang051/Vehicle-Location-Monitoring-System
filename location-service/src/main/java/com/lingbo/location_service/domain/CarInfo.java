@@ -20,4 +20,9 @@ public class CarInfo {
 	private String customerName;
 	private String number;
 	
+	@SuppressWarnings("unused")
+	private CarInfo() {
+		this.vin = null;
+	}
+	
 }

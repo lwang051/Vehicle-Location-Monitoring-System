@@ -15,4 +15,9 @@ public class CarFault {
 	private Long spn;
 	private Long fmi;
 	
+	@SuppressWarnings("unused")
+	private CarFault() {
+		this.vin = null;
+	}
+	
 }

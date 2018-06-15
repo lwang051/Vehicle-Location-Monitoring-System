@@ -43,17 +43,17 @@ public class Location {
 	@Embedded
 	@AttributeOverrides({
 		@AttributeOverride(name = "vin", 			column = @Column(name = "carInfo_vin")),
-		@AttributeOverride(name = "engineMake", 	column = @Column(name = "car_engine_make")),
-		@AttributeOverride(name = "customerName", 	column = @Column(name = "car_customer_name")),
-		@AttributeOverride(name = "number", 		column = @Column(name = "car_number"))
+		@AttributeOverride(name = "engineMake", 	column = @Column(name = "carInfo_engineMake")),
+		@AttributeOverride(name = "customerName", 	column = @Column(name = "carInfo_customerName")),
+		@AttributeOverride(name = "number", 		column = @Column(name = "carInfo_number"))
 	})
 	private final CarInfo carInfo;
 	
 	@Embedded
 	@AttributeOverrides({
 		@AttributeOverride(name = "vin",	column = @Column(name = "carFault_vin")),
-		@AttributeOverride(name = "spn", 	column = @Column(name = "car_spn")),
-		@AttributeOverride(name = "fmi", 	column = @Column(name = "car_fmi")),
+		@AttributeOverride(name = "spn", 	column = @Column(name = "carFault_spn")),
+		@AttributeOverride(name = "fmi", 	column = @Column(name = "carFault_fmi")),
 	})
 	private CarFault carFault;
 	

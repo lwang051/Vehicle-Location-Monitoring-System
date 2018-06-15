@@ -28,7 +28,7 @@ public class CarBulkUploadRestController {
 		this.locationService = locationService;
 	}
 	
-	@RequestMapping(value = "/car", method = RequestMethod.POST)
+	@RequestMapping(value = "/init", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
 	public void upload(@RequestBody List<Location> locations) {
 		locationService.saveCarLocations(locations);
@@ -39,7 +39,7 @@ public class CarBulkUploadRestController {
 		locationService.deleteAll();
 	}
 	
-	@RequestMapping(value = "/car/{movementType}", method = RequestMethod.GET)
+	@RequestMapping(value = "/find/movementType/{movementType}", method = RequestMethod.GET)
 	public Page<Location> findByMovementType(
 			@PathVariable String movementType, 
 			@RequestParam(name = "page") int page, 
@@ -47,7 +47,7 @@ public class CarBulkUploadRestController {
 		return locationService.findByVehicleMovementType(movementType, new PageRequest(page, size));
 	}
 	
-	@RequestMapping(value = "/car/vin/{vin}", method = RequestMethod.GET)
+	@RequestMapping(value = "/find/vin/{vin}", method = RequestMethod.GET)
 	public Page<Location> findByVin(
 			@PathVariable String vin, 
 			@RequestParam(name = "page") int page, 
