@@ -11,9 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-//import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;
-//import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 //import lombok.RequiredArgsConstructor;
@@ -72,16 +70,10 @@ public class Location {
 	private VehicleMovementType  vehicleMovementType = VehicleMovementType.STOPPED;
 	private String serviceType;
 	
-	// Let only me call it, but I will never call it.
 //	@SuppressWarnings("unused")
 	private Location() {
 		this.carInfo = null;
 	}
-	
-//	@JsonCreator
-//	private Location(@JsonProperty("vin") String vin) {
-//		this.carInfo = new CarInfo(vin);
-//	}
 	
 //	public String getVin() {
 //		return this.carInfo == null ?  null : this.carInfo.getVin();

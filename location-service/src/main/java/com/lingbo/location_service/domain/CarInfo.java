@@ -4,14 +4,14 @@ import javax.persistence.Embeddable;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-//import lombok.AllArgsConstructor;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-//import lombok.RequiredArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
-//@RequiredArgsConstructor
-//@AllArgsConstructor
+@RequiredArgsConstructor
+@AllArgsConstructor
 @Embeddable
 public class CarInfo {
 	
@@ -20,9 +20,9 @@ public class CarInfo {
 	private String customerName;
 	private String number;
 	
-//	@SuppressWarnings("unused")
+	@SuppressWarnings("unused")
 	private CarInfo() {
-		this.vin = null;
+		this.vin = "";
 	}
 	
 }
