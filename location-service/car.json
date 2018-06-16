@@ -1,4 +1,4 @@
-[ {
+[{
   "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
   "latitude" : "38.9093216",
   "longitude" : "-77.0036435",
@@ -14,14 +14,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Koss and Sons",
-    "unitNumber" : "22832911"
+    "number" : "22832911"
   },
-  "unitFault" : {
-    "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
+  "carFault" : {
     "spn" : "524287",
     "fmi" : "31"
   },
@@ -42,7 +40,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "902f1305-4929-4aa6-a616-7d33fd026d2d",
@@ -60,7 +58,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "2f3c321b-d239-43d6-8fe0-c035ecdff232",
@@ -78,14 +76,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "2f3c321b-d239-43d6-8fe0-c035ecdff232",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Toy Inc",
-    "unitNumber" : "61803809"
+    "number" : "61803809"
   },
-  "unitFault" : {
-    "vin" : "2f3c321b-d239-43d6-8fe0-c035ecdff232",
+  "carFault" : {
     "spn" : "157",
     "fmi" : "18"
   },
@@ -106,14 +102,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "28810a26-25e6-4680-8baf-59bb07c4aee0",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Goldner-Ryan",
-    "unitNumber" : "93274485"
+    "number" : "93274485"
   },
-  "unitFault" : {
-    "vin" : "28810a26-25e6-4680-8baf-59bb07c4aee0",
+  "carFault" : {
     "spn" : "424",
     "fmi" : "1"
   },
@@ -134,14 +128,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "fb0b4725-ac25-4812-b425-d43a18c958bb",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Lockman-Corkery",
-    "unitNumber" : "83916206"
+    "number" : "83916206"
   },
-  "unitFault" : {
-    "vin" : "fb0b4725-ac25-4812-b425-d43a18c958bb",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -162,7 +154,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "80352346-b30c-47d5-9d5a-32a207d9427a",
@@ -180,7 +172,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "15dfe2b9-e097-4899-bcb2-e0e8e72416ad",
@@ -198,7 +190,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5f61c0bc-9490-4966-ac48-17bc0c258dc8",
@@ -216,14 +208,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "5f61c0bc-9490-4966-ac48-17bc0c258dc8",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Hickle-Kessler",
-    "unitNumber" : "93298974"
+    "number" : "93298974"
   },
-  "unitFault" : {
-    "vin" : "5f61c0bc-9490-4966-ac48-17bc0c258dc8",
+  "carFault" : {
     "spn" : "353",
     "fmi" : "0"
   },
@@ -244,7 +234,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "571614ff-e718-40aa-9906-2faa63c74db0",
@@ -262,14 +252,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "571614ff-e718-40aa-9906-2faa63c74db0",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Reynolds Inc",
-    "unitNumber" : "90270954"
+    "number" : "90270954"
   },
-  "unitFault" : {
-    "vin" : "571614ff-e718-40aa-9906-2faa63c74db0",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "31"
   },
@@ -288,19 +276,19 @@
   "vin" : "34aff078-569a-48f2-a796-6b01ab931d79",
   "latitude" : "38.7922671",
   "longitude" : "-77.1579683",
-  "heading" : "71.10",
-  "gpsSpeed" : "57",
+  "heading" : "NE",
+  "gpsSpeed" : "0",
   "gpsStatus" : "UNKNOWN",
   "odometer" : "34573360",
-  "totalEngineTime" : 0,
-  "totalIdleTime" : 0,
-  "totalFuelUsage" : 0,
-  "address" : "",
+  "totalEngineTime" : "0",
+  "totalIdleTime" : "0",
+  "totalFuelUsage" : "0",
+  "address" : "237 Keystone Blvd, Pottsville, PA, 17901, USA",
   "timestamp" : "Thu, 02 Jul 2015 12:21:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7be282b4-c656-44e5-b411-edd6337e5b79",
@@ -318,7 +306,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "58db1dda-77c8-40bc-961d-00e2ddc6a441",
@@ -336,13 +324,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "58db1dda-77c8-40bc-961d-00e2ddc6a441",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Ankunding, Kovacek and Lakin",
-    "unitNumber" : "91140607"
+    "number" : "91140607"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "6b3780e4-acec-4789-a76a-8e8c1a6e5134",
@@ -360,7 +347,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "50fae119-0c18-4239-b084-76a145130b40",
@@ -378,7 +365,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f6967522-6a93-46f3-a9aa-8dd9b54333b9",
@@ -396,13 +383,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "f6967522-6a93-46f3-a9aa-8dd9b54333b9",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Kertzmann-Beatty",
-    "unitNumber" : "77712036"
+    "number" : "77712036"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "67aff97b-7c94-441b-92af-1ef8bd30e4ab",
@@ -420,7 +406,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3f640067-33fd-4ad0-b132-6e703bd82dc4",
@@ -438,13 +424,12 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "3f640067-33fd-4ad0-b132-6e703bd82dc4",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Thompson, Mann and Trantow",
-    "unitNumber" : "36569627"
+    "number" : "36569627"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "630abdcb-2f42-427a-8a6d-7f3f085156b1",
@@ -462,7 +447,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "2ef6f15a-2430-4413-9740-08aa209dc175",
@@ -480,14 +465,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "2ef6f15a-2430-4413-9740-08aa209dc175",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Lockman, Cole and Gutmann",
-    "unitNumber" : "20832369"
+    "number" : "20832369"
   },
-  "unitFault" : {
-    "vin" : "2ef6f15a-2430-4413-9740-08aa209dc175",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -508,14 +491,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "7818d92f-fc64-4112-be3c-2cdcc3887e36",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Beahan, Stanton and Heidenreich",
-    "unitNumber" : "20735215"
+    "number" : "20735215"
   },
-  "unitFault" : {
-    "vin" : "7818d92f-fc64-4112-be3c-2cdcc3887e36",
+  "carFault" : {
     "spn" : "94",
     "fmi" : "15"
   },
@@ -546,7 +527,7 @@
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "dd6a250b-5f88-419e-a90b-74e621237bf9",
@@ -564,7 +545,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "011d3885-b1e8-4f1c-828e-4b418fd747d5",
@@ -582,14 +563,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "011d3885-b1e8-4f1c-828e-4b418fd747d5",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Schuster-Barton",
-    "unitNumber" : "50940581"
+    "number" : "50940581"
   },
-  "unitFault" : {
-    "vin" : "011d3885-b1e8-4f1c-828e-4b418fd747d5",
+  "carFault" : {
     "spn" : "98",
     "fmi" : "5"
   },
@@ -610,7 +589,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "69d25a4d-bd52-47e1-9489-4305353c28d7",
@@ -628,7 +607,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ea86886e-17d9-4358-8fde-97e82a78581f",
@@ -646,7 +625,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "cd51abf4-7e14-4048-bdf1-4d752dc51a8c",
@@ -664,7 +643,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "71df943d-b375-4dfd-b52f-2ff379e8f67c",
@@ -682,13 +661,12 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "71df943d-b375-4dfd-b52f-2ff379e8f67c",
+  "carInfo" : {
     "engineMake" : null,
     "customerName" : "Stanton Group",
-    "unitNumber" : "35654051"
+    "number" : "35654051"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "bf0b601d-dcf1-4753-81a3-825fba9e62c1",
@@ -706,7 +684,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "afc23d41-dd2b-4aff-b1b9-1623ad8a52cc",
@@ -724,7 +702,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7bc918a3-bdd3-4220-acad-66caabc358b4",
@@ -742,14 +720,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "7bc918a3-bdd3-4220-acad-66caabc358b4",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Schmeler, Funk and Hilpert",
-    "unitNumber" : "32696381"
+    "number" : "32696381"
   },
-  "unitFault" : {
-    "vin" : "7bc918a3-bdd3-4220-acad-66caabc358b4",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "31"
   },
@@ -780,14 +756,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "528a6325-f4bc-40bb-9513-885a1fc3d293",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Howell Inc",
-    "unitNumber" : "75091025"
+    "number" : "75091025"
   },
-  "unitFault" : {
-    "vin" : "528a6325-f4bc-40bb-9513-885a1fc3d293",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -808,14 +782,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3a65e0d1-40a1-426c-8001-4f02a33fc6e9",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Pouros-Runolfsdottir",
-    "unitNumber" : "93455690"
+    "number" : "93455690"
   },
-  "unitFault" : {
-    "vin" : "3a65e0d1-40a1-426c-8001-4f02a33fc6e9",
+  "carFault" : {
     "spn" : "6918",
     "fmi" : "7"
   },
@@ -836,7 +808,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "76f202f9-ea92-4d15-b4a2-b4881c4396fa",
@@ -854,7 +826,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9759aae2-ec01-441e-8b8c-cb487c3d3918",
@@ -872,13 +844,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "9759aae2-ec01-441e-8b8c-cb487c3d3918",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Mante, Greenfelder and Paucek",
-    "unitNumber" : "83588996"
+    "number" : "83588996"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "27ba0b09-7461-4466-ae16-286dd5bb4f1a",
@@ -896,7 +867,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a85087ee-8b2d-4a9d-8c88-df46e3e167e1",
@@ -914,14 +885,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "a85087ee-8b2d-4a9d-8c88-df46e3e167e1",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Rice-Beier",
-    "unitNumber" : "39624839"
+    "number" : "39624839"
   },
-  "unitFault" : {
-    "vin" : "a85087ee-8b2d-4a9d-8c88-df46e3e167e1",
+  "carFault" : {
     "spn" : "97",
     "fmi" : "15"
   },
@@ -942,14 +911,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "ba6d29ab-f137-47df-832a-0ba6270cb49f",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Tillman and Sons",
-    "unitNumber" : "03810426"
+    "number" : "03810426"
   },
-  "unitFault" : {
-    "vin" : "ba6d29ab-f137-47df-832a-0ba6270cb49f",
+  "carFault" : {
     "spn" : "424",
     "fmi" : "1"
   },
@@ -970,7 +937,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "972fa2f8-b910-4069-aa94-cd918a4e93ff",
@@ -988,7 +955,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3358190c-a604-405a-8785-766e2236fcee",
@@ -1006,14 +973,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3358190c-a604-405a-8785-766e2236fcee",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Weber, Simonis and McLaughlin",
-    "unitNumber" : "16324482"
+    "number" : "16324482"
   },
-  "unitFault" : {
-    "vin" : "3358190c-a604-405a-8785-766e2236fcee",
+  "carFault" : {
     "spn" : "524287",
     "fmi" : "31"
   },
@@ -1034,14 +999,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "138e98fc-7318-4d94-bbb9-479352d774b1",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Wisoky Group",
-    "unitNumber" : "24920195"
+    "number" : "24920195"
   },
-  "unitFault" : {
-    "vin" : "138e98fc-7318-4d94-bbb9-479352d774b1",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -1062,14 +1025,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "c8eb288b-9b86-4705-8177-89591a038b7b",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Lesch Inc",
-    "unitNumber" : "22295652"
+    "number" : "22295652"
   },
-  "unitFault" : {
-    "vin" : "c8eb288b-9b86-4705-8177-89591a038b7b",
+  "carFault" : {
     "spn" : "523318",
     "fmi" : "6"
   },
@@ -1090,7 +1051,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9844ea0f-c1f4-441b-b6c3-154172f53f9d",
@@ -1108,14 +1069,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "9844ea0f-c1f4-441b-b6c3-154172f53f9d",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Welch-Wiegand",
-    "unitNumber" : "16588804"
+    "number" : "16588804"
   },
-  "unitFault" : {
-    "vin" : "9844ea0f-c1f4-441b-b6c3-154172f53f9d",
+  "carFault" : {
     "spn" : "4364",
     "fmi" : "18"
   },
@@ -1136,13 +1095,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "e2f39aa2-9863-4cd0-8a56-945b3967c064",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Balistreri-Pfannerstill",
-    "unitNumber" : "31110232"
+    "number" : "31110232"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "bdb52305-19d8-4869-90f0-d1c9926ae3f3",
@@ -1160,7 +1118,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "99d8b663-8807-47e0-ad86-de31b4c884d3",
@@ -1178,14 +1136,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "99d8b663-8807-47e0-ad86-de31b4c884d3",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Stracke LLC",
-    "unitNumber" : "19615159"
+    "number" : "19615159"
   },
-  "unitFault" : {
-    "vin" : "99d8b663-8807-47e0-ad86-de31b4c884d3",
+  "carFault" : {
     "spn" : "6893",
     "fmi" : "4"
   },
@@ -1206,13 +1162,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "c76a3901-9215-4e82-96f3-944e22b11b91",
+  "carInfo" : {
     "engineMake" : "GMC",
     "customerName" : "Bradtke-Wisoky",
-    "unitNumber" : "20590037"
+    "number" : "20590037"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e867b142-10fb-4091-b736-820bddf7b445",
@@ -1230,14 +1185,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "e867b142-10fb-4091-b736-820bddf7b445",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Altenwerth Inc",
-    "unitNumber" : "70585391"
+    "number" : "70585391"
   },
-  "unitFault" : {
-    "vin" : "e867b142-10fb-4091-b736-820bddf7b445",
+  "carFault" : {
     "spn" : "3696",
     "fmi" : "14"
   },
@@ -1268,7 +1221,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f03ed986-9b0a-41d9-93b4-ab3972f28407",
@@ -1286,7 +1239,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "2f219293-d7ec-4457-85dd-ed001136b5f1",
@@ -1304,14 +1257,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "2f219293-d7ec-4457-85dd-ed001136b5f1",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Rolfson-VonRueden",
-    "unitNumber" : "31947924"
+    "number" : "31947924"
   },
-  "unitFault" : {
-    "vin" : "2f219293-d7ec-4457-85dd-ed001136b5f1",
+  "carFault" : {
     "spn" : "424",
     "fmi" : "1"
   },
@@ -1332,7 +1283,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a60df1eb-9e67-4061-91a6-e65ad35e238e",
@@ -1350,7 +1301,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3800bd00-4b82-4ffa-91ea-d850fe562591",
@@ -1368,7 +1319,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d2b209fc-0e22-433f-bc67-8ea38070d589",
@@ -1386,14 +1337,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "d2b209fc-0e22-433f-bc67-8ea38070d589",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Kiehn LLC",
-    "unitNumber" : "01486750"
+    "number" : "01486750"
   },
-  "unitFault" : {
-    "vin" : "d2b209fc-0e22-433f-bc67-8ea38070d589",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "15"
   },
@@ -1424,7 +1373,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a380250f-59bd-45cd-b3da-61f7a0dd6c1e",
@@ -1442,7 +1391,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ea3d808e-692c-4e36-ba03-ae32ec433265",
@@ -1460,7 +1409,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7c9f762e-e841-45a6-8aea-8d8477af53b8",
@@ -1478,14 +1427,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "7c9f762e-e841-45a6-8aea-8d8477af53b8",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Ankunding and Sons",
-    "unitNumber" : "40128037"
+    "number" : "40128037"
   },
-  "unitFault" : {
-    "vin" : "7c9f762e-e841-45a6-8aea-8d8477af53b8",
+  "carFault" : {
     "spn" : "5443",
     "fmi" : "15"
   },
@@ -1516,7 +1463,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c5496cb4-85cf-4914-9ecc-70fa305da6f2",
@@ -1534,7 +1481,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ce8b2b44-f751-4d20-84ae-f7c30bdbad9e",
@@ -1552,13 +1499,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "ce8b2b44-f751-4d20-84ae-f7c30bdbad9e",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Bayer-Towne",
-    "unitNumber" : "53563912"
+    "number" : "53563912"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e66d0706-9d59-4797-b870-7f8b6712b2c8",
@@ -1576,13 +1522,12 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "e66d0706-9d59-4797-b870-7f8b6712b2c8",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Sanford Group",
-    "unitNumber" : "16657563"
+    "number" : "16657563"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4c3476fb-c60e-4970-8c3d-cb788c49f766",
@@ -1600,7 +1545,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9b603b64-dfff-4c63-be5a-5ea7b445702f",
@@ -1618,7 +1563,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "19f9e918-c592-46f9-8048-5b35ce304756",
@@ -1636,7 +1581,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3f08f07f-c0f1-40d7-9bef-c878dfddb94e",
@@ -1654,7 +1599,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d8176763-63d2-4e70-9369-0d9bc3393531",
@@ -1672,7 +1617,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
@@ -1690,14 +1635,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Frami LLC",
-    "unitNumber" : "72576016"
+    "number" : "72576016"
   },
-  "unitFault" : {
-    "vin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
+  "carFault" : {
     "spn" : "156",
     "fmi" : "0"
   },
@@ -1718,14 +1661,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "c2d4efbe-2ea5-43ae-9399-fec60746c9ad",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Schmitt-Johnston",
-    "unitNumber" : "91138528"
+    "number" : "91138528"
   },
-  "unitFault" : {
-    "vin" : "c2d4efbe-2ea5-43ae-9399-fec60746c9ad",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -1746,13 +1687,12 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "842206e7-b1b5-4395-a64f-d09999b6434c",
+  "carInfo" : {
     "engineMake" : null,
     "customerName" : "Thiel, Abbott and Homenick",
-    "unitNumber" : "73186304"
+    "number" : "73186304"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fb5ef8e0-207c-4cef-b6f0-a79282dc195d",
@@ -1770,14 +1710,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "fb5ef8e0-207c-4cef-b6f0-a79282dc195d",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Wolff-Anderson",
-    "unitNumber" : "31939780"
+    "number" : "31939780"
   },
-  "unitFault" : {
-    "vin" : "fb5ef8e0-207c-4cef-b6f0-a79282dc195d",
+  "carFault" : {
     "spn" : "524287",
     "fmi" : "31"
   },
@@ -1798,14 +1736,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "0c196b19-1d70-4883-865b-191cd525bc90",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Collier, McCullough and Ritchie",
-    "unitNumber" : "82569715"
+    "number" : "82569715"
   },
-  "unitFault" : {
-    "vin" : "0c196b19-1d70-4883-865b-191cd525bc90",
+  "carFault" : {
     "spn" : "168",
     "fmi" : "14"
   },
@@ -1826,7 +1762,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "49f6168a-c997-4e5d-ba21-5dc685768c7e",
@@ -1844,7 +1780,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5b012f6c-1ec4-4702-aaf4-746bdbe2ac46",
@@ -1862,7 +1798,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7e0b4fd4-2029-4312-8b9a-6f715914397f",
@@ -1880,14 +1816,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7e0b4fd4-2029-4312-8b9a-6f715914397f",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Lind-Stark",
-    "unitNumber" : "88846477"
+    "number" : "88846477"
   },
-  "unitFault" : {
-    "vin" : "7e0b4fd4-2029-4312-8b9a-6f715914397f",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -1908,13 +1842,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "a85845df-4467-4ad6-9852-8633a11c9c09",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Friesen Inc",
-    "unitNumber" : "62942775"
+    "number" : "62942775"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c2a7915f-dd66-4e2f-bcfb-7525f0ab51d9",
@@ -1932,7 +1865,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9d22189b-9c7f-4ad8-b4f9-49aa178000c6",
@@ -1950,13 +1883,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "9d22189b-9c7f-4ad8-b4f9-49aa178000c6",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Rodriguez Inc",
-    "unitNumber" : "07261373"
+    "number" : "07261373"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b1712216-0c15-4485-96ae-2e2d059e67fb",
@@ -1974,13 +1906,12 @@
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "b1712216-0c15-4485-96ae-2e2d059e67fb",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Moore, Steuber and Kunze",
-    "unitNumber" : "24961176"
+    "number" : "24961176"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "832ff92b-6d86-4581-89a5-38683696d0e6",
@@ -1998,7 +1929,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4545f73e-30b9-4bd3-ad54-80f9205e2ca1",
@@ -2016,7 +1947,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "dc2b3f2d-27a3-46fc-957d-03984e07c4d6",
@@ -2034,14 +1965,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "dc2b3f2d-27a3-46fc-957d-03984e07c4d6",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Beahan, Stanton and Heidenreich",
-    "unitNumber" : "33051453"
+    "number" : "33051453"
   },
-  "unitFault" : {
-    "vin" : "dc2b3f2d-27a3-46fc-957d-03984e07c4d6",
+  "carFault" : {
     "spn" : "96381",
     "fmi" : "10"
   },
@@ -2062,14 +1991,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7275d27a-9a20-49b4-acb8-392ebd94f7fa",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Wolf Inc",
-    "unitNumber" : "45941650"
+    "number" : "45941650"
   },
-  "unitFault" : {
-    "vin" : "7275d27a-9a20-49b4-acb8-392ebd94f7fa",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2090,7 +2017,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "89ff07bc-6750-4c6c-93a4-9cbb3956cb14",
@@ -2108,7 +2035,7 @@
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c90568af-c86b-4d5c-a116-c13f838ecd30",
@@ -2126,7 +2053,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ec0c0d0d-348b-4cf4-97ba-32a6896eb76f",
@@ -2144,7 +2071,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a49310de-27ab-4c97-9424-7843e4c9965d",
@@ -2162,14 +2089,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "a49310de-27ab-4c97-9424-7843e4c9965d",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Reynolds, Considine and Herman",
-    "unitNumber" : "54056681"
+    "number" : "54056681"
   },
-  "unitFault" : {
-    "vin" : "a49310de-27ab-4c97-9424-7843e4c9965d",
+  "carFault" : {
     "spn" : "524033",
     "fmi" : "31"
   },
@@ -2190,7 +2115,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "088f1dfe-65bf-45df-91d7-4c5f96448661",
@@ -2208,14 +2133,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "088f1dfe-65bf-45df-91d7-4c5f96448661",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Predovic, Block and Paucek",
-    "unitNumber" : "15454729"
+    "number" : "15454729"
   },
-  "unitFault" : {
-    "vin" : "088f1dfe-65bf-45df-91d7-4c5f96448661",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2236,14 +2159,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3edda5bd-efc4-410d-8227-2951e7f3f006",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Little-McGlynn",
-    "unitNumber" : "03687607"
+    "number" : "03687607"
   },
-  "unitFault" : {
-    "vin" : "3edda5bd-efc4-410d-8227-2951e7f3f006",
+  "carFault" : {
     "spn" : "96",
     "fmi" : "5"
   },
@@ -2264,7 +2185,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e2816602-ca23-4ac1-bf87-416e5ea1bef9",
@@ -2282,14 +2203,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "e2816602-ca23-4ac1-bf87-416e5ea1bef9",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Kshlerin-Russel",
-    "unitNumber" : "76926925"
+    "number" : "76926925"
   },
-  "unitFault" : {
-    "vin" : "e2816602-ca23-4ac1-bf87-416e5ea1bef9",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2310,7 +2229,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b54e7127-56df-4073-981b-a922da03f11b",
@@ -2328,13 +2247,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "b54e7127-56df-4073-981b-a922da03f11b",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Volkman Inc",
-    "unitNumber" : "39524004"
+    "number" : "39524004"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "402f3cba-2ce2-4a45-9dcb-774ba46361d8",
@@ -2352,7 +2270,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ca98cccc-f270-4851-8608-5dc80250cb61",
@@ -2370,13 +2288,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "ca98cccc-f270-4851-8608-5dc80250cb61",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Denesik, Carroll and Kovacek",
-    "unitNumber" : "00642138"
+    "number" : "00642138"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5c20f5c9-768b-4eaf-9033-477e5dcdb4b4",
@@ -2394,14 +2311,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "5c20f5c9-768b-4eaf-9033-477e5dcdb4b4",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Effertz-Kris",
-    "unitNumber" : "96955410"
+    "number" : "96955410"
   },
-  "unitFault" : {
-    "vin" : "5c20f5c9-768b-4eaf-9033-477e5dcdb4b4",
+  "carFault" : {
     "spn" : "5443",
     "fmi" : "15"
   },
@@ -2432,7 +2347,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a4872b12-218c-4847-bc86-961dc42b10d9",
@@ -2450,14 +2365,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "a4872b12-218c-4847-bc86-961dc42b10d9",
+  "carInfo" : {
     "engineMake" : null,
     "customerName" : "Jacobi LLC",
-    "unitNumber" : "36306783"
+    "number" : "36306783"
   },
-  "unitFault" : {
-    "vin" : "a4872b12-218c-4847-bc86-961dc42b10d9",
+  "carFault" : {
     "spn" : "791",
     "fmi" : "8"
   },
@@ -2478,13 +2391,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "83336903-db8e-4e80-82d0-96c22f4fc45d",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Kuhic, Leuschke and Goodwin",
-    "unitNumber" : "81736800"
+    "number" : "81736800"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b5d795c5-b811-4c1b-a575-d507ea2e7b8f",
@@ -2502,13 +2414,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "b5d795c5-b811-4c1b-a575-d507ea2e7b8f",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Walker, Schmitt and Luettgen",
-    "unitNumber" : "70098023"
+    "number" : "70098023"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ea84d116-9dff-4f05-967e-a7fcd973e5c8",
@@ -2526,7 +2437,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d097b7a0-e290-4610-8d98-01eac873fbfc",
@@ -2544,7 +2455,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "200d2ac5-b14f-4a63-ac86-ef424af4298d",
@@ -2562,7 +2473,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "826045b7-0fb9-48c7-b7a7-65b16bc4da0a",
@@ -2580,7 +2491,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e002cb50-65a9-46e1-acee-f2b50010f412",
@@ -2598,7 +2509,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "bfaab6e0-c93f-49b9-9ee6-38d359a6c1e6",
@@ -2616,7 +2527,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "bca5fa22-d04c-45ba-a10b-f7fa92cd6fcb",
@@ -2634,7 +2545,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "33082e96-0f1c-4975-aa6a-379bd37892b7",
@@ -2652,13 +2563,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "33082e96-0f1c-4975-aa6a-379bd37892b7",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Hahn, Lang and Witting",
-    "unitNumber" : "84103961"
+    "number" : "84103961"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "94515e3e-896a-4aca-9d1e-a2996932b0cc",
@@ -2676,13 +2586,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "94515e3e-896a-4aca-9d1e-a2996932b0cc",
+  "carInfo" : {
     "engineMake" : null,
     "customerName" : "Rohan, Witting and Hudson",
-    "unitNumber" : "10563268"
+    "number" : "10563268"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "df9a96c4-959d-47bc-a87e-3c4082b1021f",
@@ -2700,7 +2609,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5f27655e-5f71-499b-979f-f8002b57b6b0",
@@ -2718,7 +2627,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "597c8597-270c-4865-9078-11f6fe70f895",
@@ -2736,7 +2645,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "56c1aa37-dedd-4bd4-a282-cd6228786a6e",
@@ -2754,7 +2663,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "479c79b4-306c-492c-9c58-3c53b97484d1",
@@ -2772,7 +2681,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "6eb9ef9a-6bef-4b56-959b-55342e2277a9",
@@ -2790,7 +2699,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f33d3371-0549-4188-b141-4077587ec439",
@@ -2808,7 +2717,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "cdfd5f70-4f69-4457-85e2-a7e1e0a3118b",
@@ -2826,7 +2735,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "334d0fa5-687d-4e59-a088-ab05920956eb",
@@ -2844,7 +2753,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ff1f302d-f8d6-4626-9beb-bbc077c02ed6",
@@ -2862,14 +2771,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "ff1f302d-f8d6-4626-9beb-bbc077c02ed6",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Raynor Inc",
-    "unitNumber" : "44739668"
+    "number" : "44739668"
   },
-  "unitFault" : {
-    "vin" : "ff1f302d-f8d6-4626-9beb-bbc077c02ed6",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2890,7 +2797,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "23aa8206-d402-49f5-9e95-b1d5819faf3c",
@@ -2908,13 +2815,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "23aa8206-d402-49f5-9e95-b1d5819faf3c",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Moen and Sons",
-    "unitNumber" : "62302638"
+    "number" : "62302638"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "1d4819e0-65a1-4d12-8e1d-820b436a4cd7",
@@ -2932,13 +2838,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "1d4819e0-65a1-4d12-8e1d-820b436a4cd7",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Dickinson and Sons",
-    "unitNumber" : "08019510"
+    "number" : "08019510"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "600520d3-f921-4e0c-ab23-e3220d610993",
@@ -2956,7 +2861,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fdaef560-bbe2-4e28-ac90-829d49e5f4d9",
@@ -2974,13 +2879,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "fdaef560-bbe2-4e28-ac90-829d49e5f4d9",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Johns Group",
-    "unitNumber" : "68589239"
+    "number" : "68589239"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "eee6ce14-9e6b-4ae3-9bfc-88c958fe5759",
@@ -2998,14 +2902,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "eee6ce14-9e6b-4ae3-9bfc-88c958fe5759",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Tillman and Sons",
-    "unitNumber" : "23206277"
+    "number" : "23206277"
   },
-  "unitFault" : {
-    "vin" : "eee6ce14-9e6b-4ae3-9bfc-88c958fe5759",
+  "carFault" : {
     "spn" : "464650",
     "fmi" : "6"
   },
@@ -3026,14 +2928,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "26cfbd31-408c-4e16-8fe9-151b7ab29f57",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Lockman, Kuhn and Hermann",
-    "unitNumber" : "11356910"
+    "number" : "11356910"
   },
-  "unitFault" : {
-    "vin" : "26cfbd31-408c-4e16-8fe9-151b7ab29f57",
+  "carFault" : {
     "spn" : "191",
     "fmi" : "19"
   },
@@ -3054,7 +2954,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c1080f74-a368-44c5-b181-4166a9d45083",
@@ -3072,7 +2972,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "84fb5852-91b3-4792-9417-bef9d5855dad",
@@ -3090,7 +2990,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "8fb82a50-6d48-4e32-89d5-b92a7dfae127",
@@ -3108,7 +3008,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d7d7669b-5782-4dcd-92e7-058697f09f71",
@@ -3126,7 +3026,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "37d4c763-2615-4436-b375-142e02b1e2fe",
@@ -3144,7 +3044,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
@@ -3162,14 +3062,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Johnson-Hansen",
-    "unitNumber" : "41755838"
+    "number" : "41755838"
   },
-  "unitFault" : {
-    "vin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
+  "carFault" : {
     "spn" : "72",
     "fmi" : "0"
   },
@@ -3190,7 +3088,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b0fd9bc3-9aac-40e5-af70-b41f3d6e1ce3",
@@ -3208,14 +3106,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "b0fd9bc3-9aac-40e5-af70-b41f3d6e1ce3",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Bradtke and Sons",
-    "unitNumber" : "98781331"
+    "number" : "98781331"
   },
-  "unitFault" : {
-    "vin" : "b0fd9bc3-9aac-40e5-af70-b41f3d6e1ce3",
+  "carFault" : {
     "spn" : "5018",
     "fmi" : "11"
   },
@@ -3236,13 +3132,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "b32ba575-bd98-4ef8-b7f7-e43d480c2a84",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Johns Group",
-    "unitNumber" : "82013320"
+    "number" : "82013320"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d383396f-6940-485b-87cc-6c061396b775",
@@ -3260,7 +3155,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d9ee5701-7370-493b-b47c-78d2bd3c2c9d",
@@ -3278,7 +3173,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "59c9c5eb-77bf-41e7-a1a3-f268c636fc80",
@@ -3296,7 +3191,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "28cfff12-3a2f-4578-b00b-36c3bff006d7",
@@ -3314,14 +3209,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "28cfff12-3a2f-4578-b00b-36c3bff006d7",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Frami, Hoppe and Lesch",
-    "unitNumber" : "33211433"
+    "number" : "33211433"
   },
-  "unitFault" : {
-    "vin" : "28cfff12-3a2f-4578-b00b-36c3bff006d7",
+  "carFault" : {
     "spn" : "523318",
     "fmi" : "7"
   },
@@ -3342,7 +3235,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ecd69d3b-7ff4-460e-8544-547e75745937",
@@ -3360,13 +3253,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "ecd69d3b-7ff4-460e-8544-547e75745937",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Cruickshank-Braun",
-    "unitNumber" : "10509592"
+    "number" : "10509592"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "964b5619-debe-4f8f-a3e0-24471fedffad",
@@ -3384,7 +3276,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a9ed3952-a721-400d-a85f-c508e77c6bc3",
@@ -3402,7 +3294,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "98c13105-09ea-4313-b19a-af54fec0e7dd",
@@ -3420,7 +3312,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9cbc6ffc-0c0e-4dfa-8f21-a749ac1d755d",
@@ -3438,7 +3330,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "1d81e8b5-2956-4ccd-9b15-678d14e03068",
@@ -3456,7 +3348,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fc1a1f6a-52f0-4433-b112-4507276c5091",
@@ -3474,14 +3366,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "fc1a1f6a-52f0-4433-b112-4507276c5091",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Tillman, Swaniawski and Schmidt",
-    "unitNumber" : "37058936"
+    "number" : "37058936"
   },
-  "unitFault" : {
-    "vin" : "fc1a1f6a-52f0-4433-b112-4507276c5091",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "31"
   },
@@ -3512,14 +3402,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "ceb3712c-7b05-452d-8dd5-cb7f85f26865",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Klocko LLC",
-    "unitNumber" : "93578385"
+    "number" : "93578385"
   },
-  "unitFault" : {
-    "vin" : "ceb3712c-7b05-452d-8dd5-cb7f85f26865",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3540,14 +3428,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "0da43bdf-ec3c-4538-86d3-c39abc1403e0",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Braun, Armstrong and Cartwright",
-    "unitNumber" : "38383707"
+    "number" : "38383707"
   },
-  "unitFault" : {
-    "vin" : "0da43bdf-ec3c-4538-86d3-c39abc1403e0",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3568,7 +3454,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "bbbab6da-5cf1-4e66-8641-03c812cee29e",
@@ -3586,14 +3472,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "bbbab6da-5cf1-4e66-8641-03c812cee29e",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Lesch Inc",
-    "unitNumber" : "20464169"
+    "number" : "20464169"
   },
-  "unitFault" : {
-    "vin" : "bbbab6da-5cf1-4e66-8641-03c812cee29e",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3614,14 +3498,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "a4ff2dab-6011-40c6-b16b-6fcff4f9903c",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "O'Hara Group",
-    "unitNumber" : "92493091"
+    "number" : "92493091"
   },
-  "unitFault" : {
-    "vin" : "a4ff2dab-6011-40c6-b16b-6fcff4f9903c",
+  "carFault" : {
     "spn" : "3216",
     "fmi" : "9"
   },
@@ -3642,7 +3524,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a14845de-4523-4a6f-8ee0-1ec8d6b40286",
@@ -3660,14 +3542,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "a14845de-4523-4a6f-8ee0-1ec8d6b40286",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Schuster, Pollich and Davis",
-    "unitNumber" : "13598401"
+    "number" : "13598401"
   },
-  "unitFault" : {
-    "vin" : "a14845de-4523-4a6f-8ee0-1ec8d6b40286",
+  "carFault" : {
     "spn" : "367",
     "fmi" : "1"
   },
@@ -3688,7 +3568,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e3e71ae9-3dfb-4802-9571-f1c7a23a7fb9",
@@ -3706,14 +3586,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "e3e71ae9-3dfb-4802-9571-f1c7a23a7fb9",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Hamill-Brekke",
-    "unitNumber" : "16127177"
+    "number" : "16127177"
   },
-  "unitFault" : {
-    "vin" : "e3e71ae9-3dfb-4802-9571-f1c7a23a7fb9",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3734,14 +3612,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "f4aeda18-a5e2-41ad-bfc8-f800cc59222a",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Ankunding, Haley and Mayert",
-    "unitNumber" : "49150950"
+    "number" : "49150950"
   },
-  "unitFault" : {
-    "vin" : "f4aeda18-a5e2-41ad-bfc8-f800cc59222a",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3762,14 +3638,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "b608a04d-a47d-47fc-9b1b-671fed68e2f4",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Jaskolski, Bernier and Schneider",
-    "unitNumber" : "18181573"
+    "number" : "18181573"
   },
-  "unitFault" : {
-    "vin" : "b608a04d-a47d-47fc-9b1b-671fed68e2f4",
+  "carFault" : {
     "spn" : "424",
     "fmi" : "1"
   },
@@ -3790,7 +3664,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a23bd521-386c-462d-bfe5-9251c8adeec7",
@@ -3808,7 +3682,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "98ac7e57-ac64-46c1-9682-b59d443310dd",
@@ -3826,7 +3700,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "14024705-72d4-458a-8a5b-0346ce83962d",
@@ -3844,7 +3718,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5b8af051-b69a-4aa2-a6b7-c0d4b2690cfb",
@@ -3862,7 +3736,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "40237f6d-b359-4684-9326-a32ba2802338",
@@ -3880,7 +3754,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "282a4667-8023-4fa2-a935-d4797c6789b3",
@@ -3898,7 +3772,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f0dccb38-954c-477a-a6e4-a2a8202fba7c",
@@ -3916,13 +3790,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "f0dccb38-954c-477a-a6e4-a2a8202fba7c",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Kris, Heller and Lubowitz",
-    "unitNumber" : "15780888"
+    "number" : "15780888"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "13912fde-78e8-4455-b1d4-e40fb884c831",
@@ -3940,14 +3813,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "13912fde-78e8-4455-b1d4-e40fb884c831",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Muller LLC",
-    "unitNumber" : "13861293"
+    "number" : "13861293"
   },
-  "unitFault" : {
-    "vin" : "13912fde-78e8-4455-b1d4-e40fb884c831",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3968,7 +3839,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "6977fd91-d115-490f-98a3-0b14f47b62a9",
@@ -3986,7 +3857,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "408b5cea-902e-4c8e-9f9e-a198cc0225d2",
@@ -4004,7 +3875,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "8dfb2faa-be17-451e-9c11-3955243abfa6",
@@ -4022,7 +3893,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4b19f5f6-ed46-4513-aa3b-6cdc9974c70a",
@@ -4040,7 +3911,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "0e7302b0-09dd-4d8e-93e3-b8981630e831",
@@ -4058,7 +3929,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9ec0a635-aaf0-4716-bde5-236e5f106147",
@@ -4076,13 +3947,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "9ec0a635-aaf0-4716-bde5-236e5f106147",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Carter, Reichel and Hirthe",
-    "unitNumber" : "49236517"
+    "number" : "49236517"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "8e98b96d-3dec-4de2-bf01-e2de97704cf3",
@@ -4100,14 +3970,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "8e98b96d-3dec-4de2-bf01-e2de97704cf3",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Stanton Group",
-    "unitNumber" : "48249557"
+    "number" : "48249557"
   },
-  "unitFault" : {
-    "vin" : "8e98b96d-3dec-4de2-bf01-e2de97704cf3",
+  "carFault" : {
     "spn" : "5443",
     "fmi" : "15"
   },
@@ -4138,7 +4006,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fd0e6fca-9c73-4c7a-89fc-96e622ad31f3",
@@ -4156,7 +4024,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7ca3ec62-6a22-4291-af95-d2a7d795ca7c",
@@ -4174,7 +4042,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c35c2733-e649-42ed-942b-ccfc63ddda32",
@@ -4192,13 +4060,12 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "c35c2733-e649-42ed-942b-ccfc63ddda32",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Gleichner and Sons",
-    "unitNumber" : "00278145"
+    "number" : "00278145"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fd0c43fd-78b8-41ee-b7ad-219d6112136b",
@@ -4216,7 +4083,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "0f8ad239-5a88-4af0-948b-fe11176ec889",
@@ -4234,14 +4101,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "0f8ad239-5a88-4af0-948b-fe11176ec889",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Heathcote, Schoen and Ferry",
-    "unitNumber" : "74681755"
+    "number" : "74681755"
   },
-  "unitFault" : {
-    "vin" : "0f8ad239-5a88-4af0-948b-fe11176ec889",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -4262,13 +4127,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "f7a48499-5f43-4d03-a8d2-6eaae11af479",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Ankunding, Kovacek and Lakin",
-    "unitNumber" : "42839234"
+    "number" : "42839234"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "11fd699b-a73b-4f14-96f0-658f6c2dbb1d",
@@ -4286,13 +4150,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "11fd699b-a73b-4f14-96f0-658f6c2dbb1d",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Bradtke and Sons",
-    "unitNumber" : "76093725"
+    "number" : "76093725"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "16ae8e36-2aaa-4f3f-9355-f6c57da13769",
@@ -4310,7 +4173,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ea3d1ec3-e00a-49ad-b7fa-7cb55a17351c",
@@ -4328,13 +4191,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "ea3d1ec3-e00a-49ad-b7fa-7cb55a17351c",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Murray, Fay and Mann",
-    "unitNumber" : "55016150"
+    "number" : "55016150"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5eed5708-fcc3-4698-bf16-7ac9ef90a9bc",
@@ -4352,7 +4214,7 @@
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fb3a8848-37ef-47bd-9d3e-9a6f97c7ad5f",
@@ -4370,7 +4232,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4abc882c-23f1-4c1e-a5f5-3e8e32574000",
@@ -4388,7 +4250,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "90efcf30-fae3-4f57-89bc-6aae1d034571",
@@ -4406,7 +4268,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f4cb5734-14e7-4600-8e0b-af264609a9ad",
@@ -4424,7 +4286,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "46aadd07-2ab7-4500-8e86-093be5e97203",
@@ -4442,14 +4304,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "46aadd07-2ab7-4500-8e86-093be5e97203",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Block-Cartwright",
-    "unitNumber" : "74213696"
+    "number" : "74213696"
   },
-  "unitFault" : {
-    "vin" : "46aadd07-2ab7-4500-8e86-093be5e97203",
+  "carFault" : {
     "spn" : "111",
     "fmi" : "19"
   },
@@ -4480,13 +4340,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "b73869de-609c-4d5b-ad16-f519fb40b454",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Renner, Strosin and Cremin",
-    "unitNumber" : "16174334"
+    "number" : "16174334"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "106beeff-c221-4394-84ce-a37c02a885e9",
@@ -4504,7 +4363,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b9e3655f-8b64-40e9-b4d1-dc4d3526eeea",
@@ -4522,7 +4381,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "118c0f0e-0240-4d09-9527-5f43e614dbf9",
@@ -4540,14 +4399,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "118c0f0e-0240-4d09-9527-5f43e614dbf9",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Towne Inc",
-    "unitNumber" : "64746720"
+    "number" : "64746720"
   },
-  "unitFault" : {
-    "vin" : "118c0f0e-0240-4d09-9527-5f43e614dbf9",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -4568,7 +4425,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "feee7c98-6898-4854-8847-b752761a102b",
@@ -4586,14 +4443,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "feee7c98-6898-4854-8847-b752761a102b",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Daugherty Group",
-    "unitNumber" : "34430389"
+    "number" : "34430389"
   },
-  "unitFault" : {
-    "vin" : "feee7c98-6898-4854-8847-b752761a102b",
+  "carFault" : {
     "spn" : "39166",
     "fmi" : "0"
   },
@@ -4614,13 +4469,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "bf128b8b-2b78-4e2d-8ba4-f87620845aec",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Ruecker, Dietrich and Bernhard",
-    "unitNumber" : "87344767"
+    "number" : "87344767"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "6936c397-ba11-4203-8ce0-8a9700b8ef8c",
@@ -4638,7 +4492,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "06afdf3f-de0b-4ba6-9cc9-2d7e6d9a0612",
@@ -4656,14 +4510,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "06afdf3f-de0b-4ba6-9cc9-2d7e6d9a0612",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "O'Connell-Lesch",
-    "unitNumber" : "30008851"
+    "number" : "30008851"
   },
-  "unitFault" : {
-    "vin" : "06afdf3f-de0b-4ba6-9cc9-2d7e6d9a0612",
+  "carFault" : {
     "spn" : "353",
     "fmi" : "0"
   },
@@ -4684,13 +4536,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "c3e805a5-d7d3-4758-be6d-f5d6f9f0437d",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Buckridge LLC",
-    "unitNumber" : "20690782"
+    "number" : "20690782"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "893e0bae-b4e5-4333-940b-8dc727cb076d",
@@ -4708,7 +4559,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "661bb401-ff53-4f44-b32e-5ced1e67695d",
@@ -4726,14 +4577,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "661bb401-ff53-4f44-b32e-5ced1e67695d",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Ritchie LLC",
-    "unitNumber" : "96432251"
+    "number" : "96432251"
   },
-  "unitFault" : {
-    "vin" : "661bb401-ff53-4f44-b32e-5ced1e67695d",
+  "carFault" : {
     "spn" : "524285",
     "fmi" : "14"
   },
@@ -4754,7 +4603,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d4ec9375-bbfc-49ef-9310-b0445dad7ed8",
@@ -4772,7 +4621,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ee172a59-6f4a-4ee8-bc29-c4df4f528858",
@@ -4790,7 +4639,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b752242d-6acd-42ec-9d93-2788822cad52",
@@ -4808,14 +4657,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "b752242d-6acd-42ec-9d93-2788822cad52",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Harvey-Klocko",
-    "unitNumber" : "43734646"
+    "number" : "43734646"
   },
-  "unitFault" : {
-    "vin" : "b752242d-6acd-42ec-9d93-2788822cad52",
+  "carFault" : {
     "spn" : "520702",
     "fmi" : "4"
   },
@@ -4836,7 +4683,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "df6fdfb1-bd26-424a-a589-a34391d46a3e",
@@ -4854,7 +4701,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "00b86fe9-e704-4bd3-bb56-e583483af343",
@@ -4872,14 +4719,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "00b86fe9-e704-4bd3-bb56-e583483af343",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Gulgowski, Marks and Hahn",
-    "unitNumber" : "06628748"
+    "number" : "06628748"
   },
-  "unitFault" : {
-    "vin" : "00b86fe9-e704-4bd3-bb56-e583483af343",
+  "carFault" : {
     "spn" : "2071",
     "fmi" : "19"
   },
@@ -4900,7 +4745,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "94685b1d-0fb7-4965-9832-f442d2d1f38a",
@@ -4918,7 +4763,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d5e40af9-4fe8-448b-aab0-58dd242934a1",
@@ -4936,7 +4781,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "8fa820e9-b736-4320-a97e-6855b6d5f9c4",
@@ -4954,7 +4799,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "6b2ea130-7b41-4f88-87da-70e7068466bb",
@@ -4972,7 +4817,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "622b846a-c309-4afe-bcce-fdf7c5f158a9",
@@ -4990,7 +4835,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "5e58d4b3-4619-4c64-a685-0639213a6bce",
@@ -5008,14 +4853,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "5e58d4b3-4619-4c64-a685-0639213a6bce",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Weber, Ferry and Boyle",
-    "unitNumber" : "15091210"
+    "number" : "15091210"
   },
-  "unitFault" : {
-    "vin" : "5e58d4b3-4619-4c64-a685-0639213a6bce",
+  "carFault" : {
     "spn" : "517529",
     "fmi" : "13"
   },
@@ -5036,7 +4879,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "2d092e83-b995-4567-9f39-a6e3836b8838",
@@ -5054,13 +4897,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "2d092e83-b995-4567-9f39-a6e3836b8838",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Crooks and Sons",
-    "unitNumber" : "74061845"
+    "number" : "74061845"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d0ea2e32-c7bf-4bd9-992b-0f055dd55c32",
@@ -5078,14 +4920,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "d0ea2e32-c7bf-4bd9-992b-0f055dd55c32",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Willms LLC",
-    "unitNumber" : "24164953"
+    "number" : "24164953"
   },
-  "unitFault" : {
-    "vin" : "d0ea2e32-c7bf-4bd9-992b-0f055dd55c32",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5106,7 +4946,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "08d0979f-ef4b-4af9-901e-8acc9c0d884a",
@@ -5124,14 +4964,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "08d0979f-ef4b-4af9-901e-8acc9c0d884a",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Braun, Armstrong and Cartwright",
-    "unitNumber" : "81538758"
+    "number" : "81538758"
   },
-  "unitFault" : {
-    "vin" : "08d0979f-ef4b-4af9-901e-8acc9c0d884a",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5152,7 +4990,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4a6067d9-2176-4056-99d9-b5861356d804",
@@ -5170,7 +5008,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "007bc9bf-56a3-4c2d-86a8-174c846536ee",
@@ -5188,7 +5026,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f97365f6-5e1c-42a6-9fea-22cd19685a5e",
@@ -5206,7 +5044,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "09c40767-1ab9-4b38-b14f-b08a05b9da7d",
@@ -5224,7 +5062,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "39d774e1-5b38-45c1-9dfa-a5c8c0206182",
@@ -5242,14 +5080,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "39d774e1-5b38-45c1-9dfa-a5c8c0206182",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Kiehn Group",
-    "unitNumber" : "78713448"
+    "number" : "78713448"
   },
-  "unitFault" : {
-    "vin" : "39d774e1-5b38-45c1-9dfa-a5c8c0206182",
+  "carFault" : {
     "spn" : "146",
     "fmi" : "7"
   },
@@ -5270,7 +5106,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "56efac68-65a9-4de6-84ee-92413ada31ed",
@@ -5288,7 +5124,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a21b1fd3-26ea-40a6-b9f4-0b909448f18d",
@@ -5306,14 +5142,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "a21b1fd3-26ea-40a6-b9f4-0b909448f18d",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Vandervort-West",
-    "unitNumber" : "02264614"
+    "number" : "02264614"
   },
-  "unitFault" : {
-    "vin" : "a21b1fd3-26ea-40a6-b9f4-0b909448f18d",
+  "carFault" : {
     "spn" : "625",
     "fmi" : "8"
   },
@@ -5344,7 +5178,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ea9bdcb7-cd47-4d75-93f2-55dd7e21c160",
@@ -5362,7 +5196,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "706fd266-24b3-4f7d-a939-691d73afd46a",
@@ -5380,7 +5214,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c4f310d4-e704-43db-977e-cadc5f28dfa5",
@@ -5398,7 +5232,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e90dd9b5-6b63-4862-936a-e283a557d7b8",
@@ -5416,7 +5250,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "014132a5-4a22-497b-b8d3-a6a9e1e0052a",
@@ -5434,14 +5268,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "014132a5-4a22-497b-b8d3-a6a9e1e0052a",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Hickle, Purdy and Schumm",
-    "unitNumber" : "99248874"
+    "number" : "99248874"
   },
-  "unitFault" : {
-    "vin" : "014132a5-4a22-497b-b8d3-a6a9e1e0052a",
+  "carFault" : {
     "spn" : "2655",
     "fmi" : "5"
   },
@@ -5462,7 +5294,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "21bac004-8223-44e4-a1da-d2938c448d13",
@@ -5480,14 +5312,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceNow",
-  "unitInfo" : {
-    "unitVin" : "21bac004-8223-44e4-a1da-d2938c448d13",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Daugherty-Russel",
-    "unitNumber" : "63754641"
+    "number" : "63754641"
   },
-  "unitFault" : {
-    "vin" : "21bac004-8223-44e4-a1da-d2938c448d13",
+  "carFault" : {
     "spn" : "4364",
     "fmi" : "18"
   },
@@ -5518,7 +5348,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c45c3ce0-6c91-426d-a02b-50a3eb58a29a",
@@ -5536,7 +5366,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "28496158-1ba5-4828-b128-8e2669309e09",
@@ -5554,7 +5384,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ec39f2e3-8ea9-4d3e-8f60-7528e249a5cb",
@@ -5572,7 +5402,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "2a2ae4dc-8555-470e-ad5c-c0b9b1758bf8",
@@ -5590,14 +5420,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "2a2ae4dc-8555-470e-ad5c-c0b9b1758bf8",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Hills, Kulas and Nikolaus",
-    "unitNumber" : "45765746"
+    "number" : "45765746"
   },
-  "unitFault" : {
-    "vin" : "2a2ae4dc-8555-470e-ad5c-c0b9b1758bf8",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5618,13 +5446,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "920573a7-3c20-4f21-8f10-19f95bc457d5",
+  "carInfo" : {
     "engineMake" : "CAT",
     "customerName" : "Gleichner and Sons",
-    "unitNumber" : "15395003"
+    "number" : "15395003"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "0ff5eda6-e238-4f80-928a-9a367dbaf269",
@@ -5642,13 +5469,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "0ff5eda6-e238-4f80-928a-9a367dbaf269",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Weber, Ferry and Boyle",
-    "unitNumber" : "24483541"
+    "number" : "24483541"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4ff47af9-1ad8-436b-a772-01a11e14e451",
@@ -5666,14 +5492,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "4ff47af9-1ad8-436b-a772-01a11e14e451",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Block Group",
-    "unitNumber" : "45347911"
+    "number" : "45347911"
   },
-  "unitFault" : {
-    "vin" : "4ff47af9-1ad8-436b-a772-01a11e14e451",
+  "carFault" : {
     "spn" : "97",
     "fmi" : "15"
   },
@@ -5694,7 +5518,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b0dace54-25bf-47fb-ac56-a2513fdbaab6",
@@ -5712,14 +5536,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "b0dace54-25bf-47fb-ac56-a2513fdbaab6",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Beahan, Nolan and Boyer",
-    "unitNumber" : "82936369"
+    "number" : "82936369"
   },
-  "unitFault" : {
-    "vin" : "b0dace54-25bf-47fb-ac56-a2513fdbaab6",
+  "carFault" : {
     "spn" : "2071",
     "fmi" : "19"
   },
@@ -5740,7 +5562,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "911e9110-3a76-4659-bc8c-053555e413ea",
@@ -5758,7 +5580,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9c41915e-a2c9-4df3-bb70-053de8e86946",
@@ -5776,14 +5598,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "9c41915e-a2c9-4df3-bb70-053de8e86946",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "O'Conner, Murphy and Larson",
-    "unitNumber" : "33643321"
+    "number" : "33643321"
   },
-  "unitFault" : {
-    "vin" : "9c41915e-a2c9-4df3-bb70-053de8e86946",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5804,7 +5624,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f551b9e2-30b9-4f20-ada9-0c7ce91fb8ad",
@@ -5822,14 +5642,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "f551b9e2-30b9-4f20-ada9-0c7ce91fb8ad",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "West-Johnston",
-    "unitNumber" : "88002170"
+    "number" : "88002170"
   },
-  "unitFault" : {
-    "vin" : "f551b9e2-30b9-4f20-ada9-0c7ce91fb8ad",
+  "carFault" : {
     "spn" : "1590",
     "fmi" : "19"
   },
@@ -5860,13 +5678,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "2e42d903-c9a0-4646-b38e-435f3f8eeac1",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Dicki, Schaefer and Nader",
-    "unitNumber" : "92923928"
+    "number" : "92923928"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4c695034-8959-483b-99d0-f678ec9e6d5e",
@@ -5884,7 +5701,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "2b07d1f7-3fdf-4fb2-bc54-cb989b9adc4d",
@@ -5902,14 +5719,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "2b07d1f7-3fdf-4fb2-bc54-cb989b9adc4d",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Gleichner and Sons",
-    "unitNumber" : "94578392"
+    "number" : "94578392"
   },
-  "unitFault" : {
-    "vin" : "2b07d1f7-3fdf-4fb2-bc54-cb989b9adc4d",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5930,7 +5745,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c8697e98-cc66-4fb6-a1c0-097e3d904a3a",
@@ -5948,7 +5763,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "adfab9dc-5a63-48e9-93dc-cfa955253478",
@@ -5966,7 +5781,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a4fff7e1-32cd-4aff-9ca4-aea34cfbe204",
@@ -5984,7 +5799,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b1d03d82-660a-4b82-87a2-c079dbf428c7",
@@ -6002,7 +5817,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fedb9388-918f-43ba-84d9-8ceb37f39c90",
@@ -6020,7 +5835,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c8b241f8-41ec-4239-9520-45bd0d18f2b6",
@@ -6038,7 +5853,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "da0c2220-0dee-4952-bc66-4d100d33ccfc",
@@ -6056,14 +5871,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "da0c2220-0dee-4952-bc66-4d100d33ccfc",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Hills, Kulas and Nikolaus",
-    "unitNumber" : "27313379"
+    "number" : "27313379"
   },
-  "unitFault" : {
-    "vin" : "da0c2220-0dee-4952-bc66-4d100d33ccfc",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6084,13 +5897,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "4cb9032e-b2ff-44fe-906f-877f63659e77",
+  "carInfo" : {
     "engineMake" : null,
     "customerName" : "Rogahn-Satterfield",
-    "unitNumber" : "87859562"
+    "number" : "87859562"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e90bfd41-5f25-4832-9c7e-df4603353cb8",
@@ -6108,13 +5920,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "e90bfd41-5f25-4832-9c7e-df4603353cb8",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Miller-Mueller",
-    "unitNumber" : "81953058"
+    "number" : "81953058"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3e24edb2-81ff-4f3c-bb55-67725993bd21",
@@ -6132,7 +5943,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "918dce84-7ad0-4983-ba65-e536c7e74a49",
@@ -6150,14 +5961,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "918dce84-7ad0-4983-ba65-e536c7e74a49",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Von-Roob",
-    "unitNumber" : "13272090"
+    "number" : "13272090"
   },
-  "unitFault" : {
-    "vin" : "918dce84-7ad0-4983-ba65-e536c7e74a49",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6178,14 +5987,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "390c0538-f766-4ccf-8dd3-0c39d3ce121d",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Corwin Inc",
-    "unitNumber" : "20314852"
+    "number" : "20314852"
   },
-  "unitFault" : {
-    "vin" : "390c0538-f766-4ccf-8dd3-0c39d3ce121d",
+  "carFault" : {
     "spn" : "1231",
     "fmi" : "9"
   },
@@ -6216,7 +6023,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7f86974a-4b0a-4c8e-9a23-62b8972c4824",
@@ -6234,7 +6041,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "240954c9-7387-4d3d-8813-edf4ea265113",
@@ -6252,7 +6059,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "1e1a38a3-8534-49aa-b2a9-15b69e903472",
@@ -6270,14 +6077,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "1e1a38a3-8534-49aa-b2a9-15b69e903472",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Hahn, Lang and Witting",
-    "unitNumber" : "70269246"
+    "number" : "70269246"
   },
-  "unitFault" : {
-    "vin" : "1e1a38a3-8534-49aa-b2a9-15b69e903472",
+  "carFault" : {
     "spn" : "411",
     "fmi" : "7"
   },
@@ -6308,14 +6113,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "3a7d674f-f7e0-4925-bb2b-bd93d62a5309",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Braun-Hilpert",
-    "unitNumber" : "14558526"
+    "number" : "14558526"
   },
-  "unitFault" : {
-    "vin" : "3a7d674f-f7e0-4925-bb2b-bd93d62a5309",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "31"
   },
@@ -6346,7 +6149,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "446252ca-b086-4044-a6d4-b936a466497b",
@@ -6364,13 +6167,12 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "446252ca-b086-4044-a6d4-b936a466497b",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Auer Group",
-    "unitNumber" : "69612797"
+    "number" : "69612797"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "6f94a42c-16a2-4887-aa0c-2862248dde3f",
@@ -6388,13 +6190,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "6f94a42c-16a2-4887-aa0c-2862248dde3f",
+  "carInfo" : {
     "engineMake" : "ISU",
     "customerName" : "Jaskolski Group",
-    "unitNumber" : "45187754"
+    "number" : "45187754"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b594f86b-9e33-4f51-8caa-7e31bb205178",
@@ -6412,13 +6213,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "b594f86b-9e33-4f51-8caa-7e31bb205178",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Ankunding and Sons",
-    "unitNumber" : "11791698"
+    "number" : "11791698"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "eeed160c-e242-4fa7-9a39-c5d23938db54",
@@ -6436,13 +6236,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "eeed160c-e242-4fa7-9a39-c5d23938db54",
+  "carInfo" : {
     "engineMake" : "ISU",
     "customerName" : "Hegmann-Larson",
-    "unitNumber" : "00168784"
+    "number" : "00168784"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d75177d3-f601-4e67-984f-46e33eff42aa",
@@ -6460,7 +6259,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "453e9e9d-6e84-4990-bcd5-1a42d4a9b0a1",
@@ -6478,7 +6277,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d6597162-b4cc-44fa-9198-9fd0316c71a9",
@@ -6496,7 +6295,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "bc627650-87a6-4fe7-804e-3537354f93a2",
@@ -6514,7 +6313,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "11236da2-9886-4f07-a61c-703b59373d27",
@@ -6532,7 +6331,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7af50714-1249-434e-a86f-ace98e81ace4",
@@ -6550,7 +6349,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7805b843-8846-4c5d-9e8b-c51f3f6009ce",
@@ -6568,14 +6367,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7805b843-8846-4c5d-9e8b-c51f3f6009ce",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Halvorson, Bechtelar and Cremin",
-    "unitNumber" : "70386018"
+    "number" : "70386018"
   },
-  "unitFault" : {
-    "vin" : "7805b843-8846-4c5d-9e8b-c51f3f6009ce",
+  "carFault" : {
     "spn" : "424",
     "fmi" : "1"
   },
@@ -6596,7 +6393,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a917f51a-becf-43f6-bdfd-d8b61e6e0e2d",
@@ -6614,7 +6411,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "63ea9f1a-8fb7-4d71-8bc0-adf9405b4fcb",
@@ -6632,7 +6429,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7d2df424-ec14-49a5-9204-f29e269a28b6",
@@ -6650,14 +6447,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7d2df424-ec14-49a5-9204-f29e269a28b6",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Raynor-Harris",
-    "unitNumber" : "87510805"
+    "number" : "87510805"
   },
-  "unitFault" : {
-    "vin" : "7d2df424-ec14-49a5-9204-f29e269a28b6",
+  "carFault" : {
     "spn" : "4334",
     "fmi" : "2"
   },
@@ -6678,14 +6473,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "602bbd02-093a-48c5-9953-b1602844ed9b",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Spinka and Sons",
-    "unitNumber" : "80673018"
+    "number" : "80673018"
   },
-  "unitFault" : {
-    "vin" : "602bbd02-093a-48c5-9953-b1602844ed9b",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6706,13 +6499,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "48cbeb5b-0859-45df-94e0-9e22c8c1e8f6",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Kirlin, Kreiger and Schamberger",
-    "unitNumber" : "32212769"
+    "number" : "32212769"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d10095ce-54e4-4305-a8a4-b9fe4afe4ec8",
@@ -6730,14 +6522,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "d10095ce-54e4-4305-a8a4-b9fe4afe4ec8",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Legros, Wolff and Hilll",
-    "unitNumber" : "60663223"
+    "number" : "60663223"
   },
-  "unitFault" : {
-    "vin" : "d10095ce-54e4-4305-a8a4-b9fe4afe4ec8",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6758,7 +6548,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "44b72849-0dfc-4837-9f75-f314252f4832",
@@ -6776,7 +6566,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ca7b86ad-5757-489f-97b3-f685c87d5ed4",
@@ -6794,14 +6584,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "ca7b86ad-5757-489f-97b3-f685c87d5ed4",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Altenwerth Inc",
-    "unitNumber" : "70092765"
+    "number" : "70092765"
   },
-  "unitFault" : {
-    "vin" : "ca7b86ad-5757-489f-97b3-f685c87d5ed4",
+  "carFault" : {
     "spn" : "3216",
     "fmi" : "16"
   },
@@ -6822,14 +6610,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "9d7c3e17-6a36-45f5-8ee8-c0d84f78e4d9",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Abbott, Grady and Prosacco",
-    "unitNumber" : "76555094"
+    "number" : "76555094"
   },
-  "unitFault" : {
-    "vin" : "9d7c3e17-6a36-45f5-8ee8-c0d84f78e4d9",
+  "carFault" : {
     "spn" : "1761",
     "fmi" : "17"
   },
@@ -6850,7 +6636,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d1c2a5e5-646a-4de6-9710-23fdb90a816a",
@@ -6868,13 +6654,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "d1c2a5e5-646a-4de6-9710-23fdb90a816a",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Dickinson and Sons",
-    "unitNumber" : "85640704"
+    "number" : "85640704"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "321def0e-d1b9-44e6-83a2-f8ad83f5b7fa",
@@ -6892,7 +6677,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7c3e3dad-f807-4fd8-8d3c-8d25a2017821",
@@ -6910,7 +6695,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "db9b103b-f5ee-4fec-8d37-24497fbf60e1",
@@ -6928,7 +6713,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "60131798-96b4-4243-b10a-6b0d91150b2b",
@@ -6946,7 +6731,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3d434f58-82c0-44be-acfb-7f55629818b6",
@@ -6964,14 +6749,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3d434f58-82c0-44be-acfb-7f55629818b6",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "O'Hara, Kuhic and McClure",
-    "unitNumber" : "60205907"
+    "number" : "60205907"
   },
-  "unitFault" : {
-    "vin" : "3d434f58-82c0-44be-acfb-7f55629818b6",
+  "carFault" : {
     "spn" : "96",
     "fmi" : "5"
   },
@@ -6992,7 +6775,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "c24ee8f4-9a26-4ede-8f96-381607036baa",
@@ -7010,7 +6793,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "06836987-079d-4906-876a-f88e4e180d58",
@@ -7028,14 +6811,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "06836987-079d-4906-876a-f88e4e180d58",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Feeney-Gutmann",
-    "unitNumber" : "05247999"
+    "number" : "05247999"
   },
-  "unitFault" : {
-    "vin" : "06836987-079d-4906-876a-f88e4e180d58",
+  "carFault" : {
     "spn" : "81",
     "fmi" : "16"
   },
@@ -7056,13 +6837,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "882e7fbb-8648-4ea1-8eb1-c14b2ee029ae",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Hodkiewicz Group",
-    "unitNumber" : "39864796"
+    "number" : "39864796"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7bff2ac0-df48-4123-8c9c-c51330a3a860",
@@ -7080,14 +6860,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7bff2ac0-df48-4123-8c9c-c51330a3a860",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Sipes-Marquardt",
-    "unitNumber" : "65240506"
+    "number" : "65240506"
   },
-  "unitFault" : {
-    "vin" : "7bff2ac0-df48-4123-8c9c-c51330a3a860",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7108,7 +6886,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ce0c9f24-1692-48d2-938c-cee6554fc72f",
@@ -7126,14 +6904,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "ce0c9f24-1692-48d2-938c-cee6554fc72f",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Reynolds Inc",
-    "unitNumber" : "14201607"
+    "number" : "14201607"
   },
-  "unitFault" : {
-    "vin" : "ce0c9f24-1692-48d2-938c-cee6554fc72f",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "15"
   },
@@ -7164,7 +6940,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "4b768596-a01c-46d6-9b98-51bf031bf027",
@@ -7182,7 +6958,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "510b9f7a-ca59-421f-bf60-412fd7cd4f8f",
@@ -7200,13 +6976,12 @@
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "510b9f7a-ca59-421f-bf60-412fd7cd4f8f",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Stamm-Fahey",
-    "unitNumber" : "94170027"
+    "number" : "94170027"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7e5fa3c6-f784-4251-bd51-d33a26e27f98",
@@ -7224,14 +6999,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "7e5fa3c6-f784-4251-bd51-d33a26e27f98",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Schinner, Kertzmann and O'Reilly",
-    "unitNumber" : "07590470"
+    "number" : "07590470"
   },
-  "unitFault" : {
-    "vin" : "7e5fa3c6-f784-4251-bd51-d33a26e27f98",
+  "carFault" : {
     "spn" : "96",
     "fmi" : "5"
   },
@@ -7252,14 +7025,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "924bee19-1ced-478d-9046-1202799000a9",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Brown, Hauck and Daugherty",
-    "unitNumber" : "13409478"
+    "number" : "13409478"
   },
-  "unitFault" : {
-    "vin" : "924bee19-1ced-478d-9046-1202799000a9",
+  "carFault" : {
     "spn" : "523318",
     "fmi" : "7"
   },
@@ -7280,7 +7051,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "08e46ebb-f9bb-434d-82d8-acd145d8fe3c",
@@ -7298,7 +7069,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "93f132fb-22fd-4b2d-9164-b5f7eb832012",
@@ -7316,14 +7087,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "93f132fb-22fd-4b2d-9164-b5f7eb832012",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Hills, Kilback and Frami",
-    "unitNumber" : "30666031"
+    "number" : "30666031"
   },
-  "unitFault" : {
-    "vin" : "93f132fb-22fd-4b2d-9164-b5f7eb832012",
+  "carFault" : {
     "spn" : "521315",
     "fmi" : "5"
   },
@@ -7344,14 +7113,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "0bf243bd-85d7-467f-9626-f1e58ae1ba9c",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Pagac and Sons",
-    "unitNumber" : "65049225"
+    "number" : "65049225"
   },
-  "unitFault" : {
-    "vin" : "0bf243bd-85d7-467f-9626-f1e58ae1ba9c",
+  "carFault" : {
     "spn" : "3216",
     "fmi" : "3"
   },
@@ -7382,14 +7149,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "bfd12e11-549e-4715-aeb1-288ad55fc733",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Leffler and Sons",
-    "unitNumber" : "25967487"
+    "number" : "25967487"
   },
-  "unitFault" : {
-    "vin" : "bfd12e11-549e-4715-aeb1-288ad55fc733",
+  "carFault" : {
     "spn" : "973",
     "fmi" : "13"
   },
@@ -7420,7 +7185,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "969acd70-811d-4c3e-a2b6-8547e3b6a10e",
@@ -7438,14 +7203,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "969acd70-811d-4c3e-a2b6-8547e3b6a10e",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Ondricka Inc",
-    "unitNumber" : "09243128"
+    "number" : "09243128"
   },
-  "unitFault" : {
-    "vin" : "969acd70-811d-4c3e-a2b6-8547e3b6a10e",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "31"
   },
@@ -7476,7 +7239,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f25f002b-84d7-488b-9fe3-abde8dc55607",
@@ -7494,14 +7257,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "f25f002b-84d7-488b-9fe3-abde8dc55607",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Schultz-Runolfsdottir",
-    "unitNumber" : "48803840"
+    "number" : "48803840"
   },
-  "unitFault" : {
-    "vin" : "f25f002b-84d7-488b-9fe3-abde8dc55607",
+  "carFault" : {
     "spn" : "3662",
     "fmi" : "5"
   },
@@ -7522,7 +7283,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "eb6f0c37-b712-4b2a-93a7-3d3ad730813f",
@@ -7540,7 +7301,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fdb7ba9e-7565-436a-bc45-8c43d2d0ba65",
@@ -7558,7 +7319,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ea6b1167-e262-44e4-928a-56284672dae7",
@@ -7576,13 +7337,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "ea6b1167-e262-44e4-928a-56284672dae7",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Leuschke LLC",
-    "unitNumber" : "91242651"
+    "number" : "91242651"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "33f18c68-67e1-45ab-91d4-5fa2d0e5dc52",
@@ -7600,14 +7360,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "33f18c68-67e1-45ab-91d4-5fa2d0e5dc52",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Gleason Group",
-    "unitNumber" : "94075449"
+    "number" : "94075449"
   },
-  "unitFault" : {
-    "vin" : "33f18c68-67e1-45ab-91d4-5fa2d0e5dc52",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7628,14 +7386,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
-  "unitInfo" : {
-    "unitVin" : "f949fb79-4aaf-4ae3-a9c7-a76db997b0f3",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Mraz Inc",
-    "unitNumber" : "33619277"
+    "number" : "33619277"
   },
-  "unitFault" : {
-    "vin" : "f949fb79-4aaf-4ae3-a9c7-a76db997b0f3",
+  "carFault" : {
     "spn" : "3719",
     "fmi" : "31"
   },
@@ -7666,7 +7422,7 @@
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3f737599-c66a-4556-90a8-30d49f22e48f",
@@ -7684,14 +7440,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3f737599-c66a-4556-90a8-30d49f22e48f",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Rohan, Gulgowski and Kris",
-    "unitNumber" : "86762464"
+    "number" : "86762464"
   },
-  "unitFault" : {
-    "vin" : "3f737599-c66a-4556-90a8-30d49f22e48f",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7712,7 +7466,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a96811c6-42ec-4eda-8e88-4c5cfa9ac5c4",
@@ -7730,7 +7484,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "831c09f9-8d5f-4d6e-9d08-c1f16e3d047a",
@@ -7748,7 +7502,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "df491745-93aa-46e8-9295-be2c26a4e3e9",
@@ -7766,14 +7520,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "df491745-93aa-46e8-9295-be2c26a4e3e9",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Zboncak LLC",
-    "unitNumber" : "67840974"
+    "number" : "67840974"
   },
-  "unitFault" : {
-    "vin" : "df491745-93aa-46e8-9295-be2c26a4e3e9",
+  "carFault" : {
     "spn" : "2653",
     "fmi" : "5"
   },
@@ -7794,7 +7546,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "dfa91ab3-070e-472e-ad9f-21867df7ef1a",
@@ -7812,7 +7564,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "633141a6-0042-4a0b-b2f7-d15010c1dfa1",
@@ -7830,7 +7582,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3bee6db9-9de5-4efa-830a-fea52475785c",
@@ -7848,14 +7600,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3bee6db9-9de5-4efa-830a-fea52475785c",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Lockman, Kuhn and Hermann",
-    "unitNumber" : "61562758"
+    "number" : "61562758"
   },
-  "unitFault" : {
-    "vin" : "3bee6db9-9de5-4efa-830a-fea52475785c",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7876,7 +7626,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "0bc20e8c-a92d-45c3-b5a2-29d7a216acbc",
@@ -7894,14 +7644,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "0bc20e8c-a92d-45c3-b5a2-29d7a216acbc",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Ondricka Inc",
-    "unitNumber" : "40112110"
+    "number" : "40112110"
   },
-  "unitFault" : {
-    "vin" : "0bc20e8c-a92d-45c3-b5a2-29d7a216acbc",
+  "carFault" : {
     "spn" : "522116",
     "fmi" : "2"
   },
@@ -7922,7 +7670,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e484d530-157c-4f22-a991-0a4748c49918",
@@ -7940,13 +7688,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "e484d530-157c-4f22-a991-0a4748c49918",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Welch-Wiegand",
-    "unitNumber" : "15544711"
+    "number" : "15544711"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "951eb325-4e22-4530-be1c-067287da242e",
@@ -7964,14 +7711,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "951eb325-4e22-4530-be1c-067287da242e",
+  "carInfo" : {
     "engineMake" : "IHC",
     "customerName" : "Nolan LLC",
-    "unitNumber" : "54442347"
+    "number" : "54442347"
   },
-  "unitFault" : {
-    "vin" : "951eb325-4e22-4530-be1c-067287da242e",
+  "carFault" : {
     "spn" : "3981",
     "fmi" : "2"
   },
@@ -7992,7 +7737,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "257d6b21-e892-4911-8a6c-36103e6a6812",
@@ -8010,7 +7755,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "e8d99224-4c0b-419b-87f6-d89e86bb7b26",
@@ -8028,14 +7773,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "e8d99224-4c0b-419b-87f6-d89e86bb7b26",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "O'Conner, Reinger and Gutmann",
-    "unitNumber" : "42601664"
+    "number" : "42601664"
   },
-  "unitFault" : {
-    "vin" : "e8d99224-4c0b-419b-87f6-d89e86bb7b26",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -8056,13 +7799,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "dbaf150d-976b-4c8c-8b79-fe388d97db1d",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Ankunding and Sons",
-    "unitNumber" : "02590659"
+    "number" : "02590659"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "d09eeeec-9e2f-4d8f-91fa-5e84d00c851a",
@@ -8080,7 +7822,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "a220434a-d62f-479d-8c12-fb93b3d7011f",
@@ -8098,7 +7840,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "b0926d38-6ee1-458a-aba9-243c331a4b35",
@@ -8116,7 +7858,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ba07dd85-4380-4c4b-9461-6b88564fee2c",
@@ -8134,7 +7876,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f2da2077-93e0-4241-ac9d-ea92185537ee",
@@ -8152,7 +7894,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "f4fb7456-abb1-4603-b081-9dc5d574a6e7",
@@ -8170,7 +7912,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "30d3e3e8-a031-43c9-ba47-8232aee04f8c",
@@ -8188,7 +7930,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "fecd91a5-b6e0-420f-bcba-59e54b88d4d9",
@@ -8206,13 +7948,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitInfo" : {
-    "unitVin" : "fecd91a5-b6e0-420f-bcba-59e54b88d4d9",
+  "carInfo" : {
     "engineMake" : "HIN",
     "customerName" : "Abshire-Swaniawski",
-    "unitNumber" : "37282331"
+    "number" : "37282331"
   },
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "07e2029f-4e6b-4533-962a-eb86e98e0987",
@@ -8230,14 +7971,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "07e2029f-4e6b-4533-962a-eb86e98e0987",
+  "carInfo" : {
     "engineMake" : "VOL",
     "customerName" : "Beahan Group",
-    "unitNumber" : "30642293"
+    "number" : "30642293"
   },
-  "unitFault" : {
-    "vin" : "07e2029f-4e6b-4533-962a-eb86e98e0987",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -8258,14 +7997,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "5bfe5482-fede-47f3-ac83-b4c4533d1e5e",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Hoeger and Sons",
-    "unitNumber" : "98131447"
+    "number" : "98131447"
   },
-  "unitFault" : {
-    "vin" : "5bfe5482-fede-47f3-ac83-b4c4533d1e5e",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -8286,14 +8023,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "b78ab59b-0323-4152-baa7-ad7fbc3a5e42",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "Wuckert LLC",
-    "unitNumber" : "22670125"
+    "number" : "22670125"
   },
-  "unitFault" : {
-    "vin" : "b78ab59b-0323-4152-baa7-ad7fbc3a5e42",
+  "carFault" : {
     "spn" : "0",
     "fmi" : "0"
   },
@@ -8314,7 +8049,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "55e2308d-3056-4c72-b655-6e1efd63e58f",
@@ -8332,14 +8067,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "55e2308d-3056-4c72-b655-6e1efd63e58f",
+  "carInfo" : {
     "engineMake" : "DET",
     "customerName" : "Weber-Barton",
-    "unitNumber" : "16372834"
+    "number" : "16372834"
   },
-  "unitFault" : {
-    "vin" : "55e2308d-3056-4c72-b655-6e1efd63e58f",
+  "carFault" : {
     "spn" : "521905",
     "fmi" : "5"
   },
@@ -8360,7 +8093,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "46cb1abe-2576-4a1c-99bb-0c9bb55e26ac",
@@ -8378,7 +8111,7 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
-  "unitFault" : null,
+  "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "3560aa8c-a78f-4a49-a6e7-1c614aab19d1",
@@ -8396,14 +8129,12 @@
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
-  "unitInfo" : {
-    "unitVin" : "3560aa8c-a78f-4a49-a6e7-1c614aab19d1",
+  "carInfo" : {
     "engineMake" : "CUM",
     "customerName" : "McLaughlin-Barton",
-    "unitNumber" : "15425312"
+    "number" : "15425312"
   },
-  "unitFault" : {
-    "vin" : "3560aa8c-a78f-4a49-a6e7-1c614aab19d1",
+  "carFault" : {
     "spn" : "155",
     "fmi" : "4"
   },

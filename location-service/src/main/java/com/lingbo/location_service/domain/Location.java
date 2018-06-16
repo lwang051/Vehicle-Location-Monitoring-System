@@ -26,7 +26,7 @@ import lombok.Data;
 public class Location {
 	
 	enum GpsStatus {
-		EXCELLENT, OK,UNRELIABLE, BAD, NOFIX, UNKOWN;
+		EXCELLENT, OK,UNRELIABLE, BAD, NOFIX, UNKNOWN;
 	}
 	
 	public enum VehicleMovementType {
