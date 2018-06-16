@@ -1,4 +1,4 @@
-[{
+[ {
   "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
   "latitude" : "38.9093216",
   "longitude" : "-77.0036435",
@@ -15,11 +15,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
     "engineMake" : "DET",
     "customerName" : "Koss and Sons",
     "number" : "22832911"
   },
   "carFault" : {
+    "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
     "spn" : "524287",
     "fmi" : "31"
   },
@@ -77,11 +79,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "2f3c321b-d239-43d6-8fe0-c035ecdff232",
     "engineMake" : "CUM",
     "customerName" : "Toy Inc",
     "number" : "61803809"
   },
   "carFault" : {
+    "vin" : "2f3c321b-d239-43d6-8fe0-c035ecdff232",
     "spn" : "157",
     "fmi" : "18"
   },
@@ -103,11 +107,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "28810a26-25e6-4680-8baf-59bb07c4aee0",
     "engineMake" : "CUM",
     "customerName" : "Goldner-Ryan",
     "number" : "93274485"
   },
   "carFault" : {
+    "vin" : "28810a26-25e6-4680-8baf-59bb07c4aee0",
     "spn" : "424",
     "fmi" : "1"
   },
@@ -129,11 +135,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "fb0b4725-ac25-4812-b425-d43a18c958bb",
     "engineMake" : "CUM",
     "customerName" : "Lockman-Corkery",
     "number" : "83916206"
   },
   "carFault" : {
+    "vin" : "fb0b4725-ac25-4812-b425-d43a18c958bb",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -209,11 +217,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "5f61c0bc-9490-4966-ac48-17bc0c258dc8",
     "engineMake" : "CUM",
     "customerName" : "Hickle-Kessler",
     "number" : "93298974"
   },
   "carFault" : {
+    "vin" : "5f61c0bc-9490-4966-ac48-17bc0c258dc8",
     "spn" : "353",
     "fmi" : "0"
   },
@@ -253,18 +263,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "571614ff-e718-40aa-9906-2faa63c74db0",
     "engineMake" : "DET",
     "customerName" : "Reynolds Inc",
     "number" : "90270954"
   },
   "carFault" : {
+    "vin" : "571614ff-e718-40aa-9906-2faa63c74db0",
     "spn" : "3719",
     "fmi" : "31"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "OHT",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/31",
+    "faultCodeId" : "DET 3719/31",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Overheating Warning",
     "repairInstructions" : "Cool it down with some ice from freezer",
@@ -276,14 +288,14 @@
   "vin" : "34aff078-569a-48f2-a796-6b01ab931d79",
   "latitude" : "38.7922671",
   "longitude" : "-77.1579683",
-  "heading" : "NE",
-  "gpsSpeed" : "0",
+  "heading" : "71.10",
+  "gpsSpeed" : "57",
   "gpsStatus" : "UNKNOWN",
   "odometer" : "34573360",
-  "totalEngineTime" : "0",
-  "totalIdleTime" : "0",
-  "totalFuelUsage" : "0",
-  "address" : "237 Keystone Blvd, Pottsville, PA, 17901, USA",
+  "totalEngineTime" : 0,
+  "totalIdleTime" : 0,
+  "totalFuelUsage" : 0,
+  "address" : "",
   "timestamp" : "Thu, 02 Jul 2015 12:21:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
@@ -325,6 +337,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "58db1dda-77c8-40bc-961d-00e2ddc6a441",
     "engineMake" : "CUM",
     "customerName" : "Ankunding, Kovacek and Lakin",
     "number" : "91140607"
@@ -384,6 +397,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "f6967522-6a93-46f3-a9aa-8dd9b54333b9",
     "engineMake" : "CUM",
     "customerName" : "Kertzmann-Beatty",
     "number" : "77712036"
@@ -425,6 +439,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "3f640067-33fd-4ad0-b132-6e703bd82dc4",
     "engineMake" : "VOL",
     "customerName" : "Thompson, Mann and Trantow",
     "number" : "36569627"
@@ -466,11 +481,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "2ef6f15a-2430-4413-9740-08aa209dc175",
     "engineMake" : "CUM",
     "customerName" : "Lockman, Cole and Gutmann",
     "number" : "20832369"
   },
   "carFault" : {
+    "vin" : "2ef6f15a-2430-4413-9740-08aa209dc175",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -492,18 +509,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "7818d92f-fc64-4112-be3c-2cdcc3887e36",
     "engineMake" : "DET",
     "customerName" : "Beahan, Stanton and Heidenreich",
     "number" : "20735215"
   },
   "carFault" : {
+    "vin" : "7818d92f-fc64-4112-be3c-2cdcc3887e36",
     "spn" : "94",
     "fmi" : "15"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "FMW",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -94/15",
+    "faultCodeId" : "DET  -94/15",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Firmware Upgrade Required",
     "repairInstructions" : "Verify Software update has been completed if available for this engine.",
@@ -564,11 +583,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "011d3885-b1e8-4f1c-828e-4b418fd747d5",
     "engineMake" : "VOL",
     "customerName" : "Schuster-Barton",
     "number" : "50940581"
   },
   "carFault" : {
+    "vin" : "011d3885-b1e8-4f1c-828e-4b418fd747d5",
     "spn" : "98",
     "fmi" : "5"
   },
@@ -662,6 +683,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "71df943d-b375-4dfd-b52f-2ff379e8f67c",
     "engineMake" : null,
     "customerName" : "Stanton Group",
     "number" : "35654051"
@@ -721,18 +743,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "7bc918a3-bdd3-4220-acad-66caabc358b4",
     "engineMake" : "DET",
     "customerName" : "Schmeler, Funk and Hilpert",
     "number" : "32696381"
   },
   "carFault" : {
+    "vin" : "7bc918a3-bdd3-4220-acad-66caabc358b4",
     "spn" : "3719",
     "fmi" : "31"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "MJR",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/31",
+    "faultCodeId" : "DET 3719/31",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Engine Failure",
     "repairInstructions" : "Tow or haul to nearest service station for replacement",
@@ -757,11 +781,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "528a6325-f4bc-40bb-9513-885a1fc3d293",
     "engineMake" : "VOL",
     "customerName" : "Howell Inc",
     "number" : "75091025"
   },
   "carFault" : {
+    "vin" : "528a6325-f4bc-40bb-9513-885a1fc3d293",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -783,11 +809,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3a65e0d1-40a1-426c-8001-4f02a33fc6e9",
     "engineMake" : "CUM",
     "customerName" : "Pouros-Runolfsdottir",
     "number" : "93455690"
   },
   "carFault" : {
+    "vin" : "3a65e0d1-40a1-426c-8001-4f02a33fc6e9",
     "spn" : "6918",
     "fmi" : "7"
   },
@@ -845,6 +873,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "9759aae2-ec01-441e-8b8c-cb487c3d3918",
     "engineMake" : "CUM",
     "customerName" : "Mante, Greenfelder and Paucek",
     "number" : "83588996"
@@ -886,11 +915,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "a85087ee-8b2d-4a9d-8c88-df46e3e167e1",
     "engineMake" : "CUM",
     "customerName" : "Rice-Beier",
     "number" : "39624839"
   },
   "carFault" : {
+    "vin" : "a85087ee-8b2d-4a9d-8c88-df46e3e167e1",
     "spn" : "97",
     "fmi" : "15"
   },
@@ -912,11 +943,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "ba6d29ab-f137-47df-832a-0ba6270cb49f",
     "engineMake" : "CUM",
     "customerName" : "Tillman and Sons",
     "number" : "03810426"
   },
   "carFault" : {
+    "vin" : "ba6d29ab-f137-47df-832a-0ba6270cb49f",
     "spn" : "424",
     "fmi" : "1"
   },
@@ -974,11 +1007,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3358190c-a604-405a-8785-766e2236fcee",
     "engineMake" : "DET",
     "customerName" : "Weber, Simonis and McLaughlin",
     "number" : "16324482"
   },
   "carFault" : {
+    "vin" : "3358190c-a604-405a-8785-766e2236fcee",
     "spn" : "524287",
     "fmi" : "31"
   },
@@ -1000,11 +1035,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "138e98fc-7318-4d94-bbb9-479352d774b1",
     "engineMake" : "DET",
     "customerName" : "Wisoky Group",
     "number" : "24920195"
   },
   "carFault" : {
+    "vin" : "138e98fc-7318-4d94-bbb9-479352d774b1",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -1026,11 +1063,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "c8eb288b-9b86-4705-8177-89591a038b7b",
     "engineMake" : "DET",
     "customerName" : "Lesch Inc",
     "number" : "22295652"
   },
   "carFault" : {
+    "vin" : "c8eb288b-9b86-4705-8177-89591a038b7b",
     "spn" : "523318",
     "fmi" : "6"
   },
@@ -1070,11 +1109,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "9844ea0f-c1f4-441b-b6c3-154172f53f9d",
     "engineMake" : "CUM",
     "customerName" : "Welch-Wiegand",
     "number" : "16588804"
   },
   "carFault" : {
+    "vin" : "9844ea0f-c1f4-441b-b6c3-154172f53f9d",
     "spn" : "4364",
     "fmi" : "18"
   },
@@ -1096,6 +1137,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "e2f39aa2-9863-4cd0-8a56-945b3967c064",
     "engineMake" : "DET",
     "customerName" : "Balistreri-Pfannerstill",
     "number" : "31110232"
@@ -1137,11 +1179,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "99d8b663-8807-47e0-ad86-de31b4c884d3",
     "engineMake" : "CUM",
     "customerName" : "Stracke LLC",
     "number" : "19615159"
   },
   "carFault" : {
+    "vin" : "99d8b663-8807-47e0-ad86-de31b4c884d3",
     "spn" : "6893",
     "fmi" : "4"
   },
@@ -1163,6 +1207,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "c76a3901-9215-4e82-96f3-944e22b11b91",
     "engineMake" : "GMC",
     "customerName" : "Bradtke-Wisoky",
     "number" : "20590037"
@@ -1186,18 +1231,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "e867b142-10fb-4091-b736-820bddf7b445",
     "engineMake" : "DET",
     "customerName" : "Altenwerth Inc",
     "number" : "70585391"
   },
   "carFault" : {
+    "vin" : "e867b142-10fb-4091-b736-820bddf7b445",
     "spn" : "3696",
     "fmi" : "14"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LTP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3696/14",
+    "faultCodeId" : "DET 3696/14",
     "faultCodeClassification" : "ServiceInfo",
     "description" : "Low Tire Pressure Warning",
     "repairInstructions" : "Re-inflate tires as soon as possible",
@@ -1258,11 +1305,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "2f219293-d7ec-4457-85dd-ed001136b5f1",
     "engineMake" : "CUM",
     "customerName" : "Rolfson-VonRueden",
     "number" : "31947924"
   },
   "carFault" : {
+    "vin" : "2f219293-d7ec-4457-85dd-ed001136b5f1",
     "spn" : "424",
     "fmi" : "1"
   },
@@ -1338,18 +1387,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "d2b209fc-0e22-433f-bc67-8ea38070d589",
     "engineMake" : "DET",
     "customerName" : "Kiehn LLC",
     "number" : "01486750"
   },
   "carFault" : {
+    "vin" : "d2b209fc-0e22-433f-bc67-8ea38070d589",
     "spn" : "3719",
     "fmi" : "15"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "OHT",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/15",
+    "faultCodeId" : "DET 3719/15",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Overheating Warning",
     "repairInstructions" : "Cool it down with some ice from freezer",
@@ -1428,18 +1479,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "7c9f762e-e841-45a6-8aea-8d8477af53b8",
     "engineMake" : "DET",
     "customerName" : "Ankunding and Sons",
     "number" : "40128037"
   },
   "carFault" : {
+    "vin" : "7c9f762e-e841-45a6-8aea-8d8477af53b8",
     "spn" : "5443",
     "fmi" : "15"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "FMW",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -5443/15",
+    "faultCodeId" : "DET 5443/15",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Firmware Upgrade Required",
     "repairInstructions" : "Verify Software update has been completed if available for this engine.",
@@ -1500,6 +1553,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "ce8b2b44-f751-4d20-84ae-f7c30bdbad9e",
     "engineMake" : "CUM",
     "customerName" : "Bayer-Towne",
     "number" : "53563912"
@@ -1523,6 +1577,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "e66d0706-9d59-4797-b870-7f8b6712b2c8",
     "engineMake" : "VOL",
     "customerName" : "Sanford Group",
     "number" : "16657563"
@@ -1636,11 +1691,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
     "engineMake" : "CUM",
     "customerName" : "Frami LLC",
     "number" : "72576016"
   },
   "carFault" : {
+    "vin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
     "spn" : "156",
     "fmi" : "0"
   },
@@ -1662,11 +1719,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "c2d4efbe-2ea5-43ae-9399-fec60746c9ad",
     "engineMake" : "DET",
     "customerName" : "Schmitt-Johnston",
     "number" : "91138528"
   },
   "carFault" : {
+    "vin" : "c2d4efbe-2ea5-43ae-9399-fec60746c9ad",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -1688,6 +1747,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "842206e7-b1b5-4395-a64f-d09999b6434c",
     "engineMake" : null,
     "customerName" : "Thiel, Abbott and Homenick",
     "number" : "73186304"
@@ -1711,11 +1771,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "fb5ef8e0-207c-4cef-b6f0-a79282dc195d",
     "engineMake" : "DET",
     "customerName" : "Wolff-Anderson",
     "number" : "31939780"
   },
   "carFault" : {
+    "vin" : "fb5ef8e0-207c-4cef-b6f0-a79282dc195d",
     "spn" : "524287",
     "fmi" : "31"
   },
@@ -1737,11 +1799,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "0c196b19-1d70-4883-865b-191cd525bc90",
     "engineMake" : "CUM",
     "customerName" : "Collier, McCullough and Ritchie",
     "number" : "82569715"
   },
   "carFault" : {
+    "vin" : "0c196b19-1d70-4883-865b-191cd525bc90",
     "spn" : "168",
     "fmi" : "14"
   },
@@ -1817,11 +1881,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7e0b4fd4-2029-4312-8b9a-6f715914397f",
     "engineMake" : "DET",
     "customerName" : "Lind-Stark",
     "number" : "88846477"
   },
   "carFault" : {
+    "vin" : "7e0b4fd4-2029-4312-8b9a-6f715914397f",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -1843,6 +1909,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "a85845df-4467-4ad6-9852-8633a11c9c09",
     "engineMake" : "CUM",
     "customerName" : "Friesen Inc",
     "number" : "62942775"
@@ -1884,6 +1951,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "9d22189b-9c7f-4ad8-b4f9-49aa178000c6",
     "engineMake" : "HIN",
     "customerName" : "Rodriguez Inc",
     "number" : "07261373"
@@ -1907,6 +1975,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "b1712216-0c15-4485-96ae-2e2d059e67fb",
     "engineMake" : "DET",
     "customerName" : "Moore, Steuber and Kunze",
     "number" : "24961176"
@@ -1966,11 +2035,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "dc2b3f2d-27a3-46fc-957d-03984e07c4d6",
     "engineMake" : "DET",
     "customerName" : "Beahan, Stanton and Heidenreich",
     "number" : "33051453"
   },
   "carFault" : {
+    "vin" : "dc2b3f2d-27a3-46fc-957d-03984e07c4d6",
     "spn" : "96381",
     "fmi" : "10"
   },
@@ -1992,11 +2063,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7275d27a-9a20-49b4-acb8-392ebd94f7fa",
     "engineMake" : "VOL",
     "customerName" : "Wolf Inc",
     "number" : "45941650"
   },
   "carFault" : {
+    "vin" : "7275d27a-9a20-49b4-acb8-392ebd94f7fa",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2090,11 +2163,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "a49310de-27ab-4c97-9424-7843e4c9965d",
     "engineMake" : "DET",
     "customerName" : "Reynolds, Considine and Herman",
     "number" : "54056681"
   },
   "carFault" : {
+    "vin" : "a49310de-27ab-4c97-9424-7843e4c9965d",
     "spn" : "524033",
     "fmi" : "31"
   },
@@ -2134,11 +2209,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "088f1dfe-65bf-45df-91d7-4c5f96448661",
     "engineMake" : "DET",
     "customerName" : "Predovic, Block and Paucek",
     "number" : "15454729"
   },
   "carFault" : {
+    "vin" : "088f1dfe-65bf-45df-91d7-4c5f96448661",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2160,11 +2237,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3edda5bd-efc4-410d-8227-2951e7f3f006",
     "engineMake" : "CUM",
     "customerName" : "Little-McGlynn",
     "number" : "03687607"
   },
   "carFault" : {
+    "vin" : "3edda5bd-efc4-410d-8227-2951e7f3f006",
     "spn" : "96",
     "fmi" : "5"
   },
@@ -2204,11 +2283,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "e2816602-ca23-4ac1-bf87-416e5ea1bef9",
     "engineMake" : "DET",
     "customerName" : "Kshlerin-Russel",
     "number" : "76926925"
   },
   "carFault" : {
+    "vin" : "e2816602-ca23-4ac1-bf87-416e5ea1bef9",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2248,6 +2329,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "b54e7127-56df-4073-981b-a922da03f11b",
     "engineMake" : "CUM",
     "customerName" : "Volkman Inc",
     "number" : "39524004"
@@ -2289,6 +2371,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "ca98cccc-f270-4851-8608-5dc80250cb61",
     "engineMake" : "HIN",
     "customerName" : "Denesik, Carroll and Kovacek",
     "number" : "00642138"
@@ -2312,18 +2395,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "5c20f5c9-768b-4eaf-9033-477e5dcdb4b4",
     "engineMake" : "DET",
     "customerName" : "Effertz-Kris",
     "number" : "96955410"
   },
   "carFault" : {
+    "vin" : "5c20f5c9-768b-4eaf-9033-477e5dcdb4b4",
     "spn" : "5443",
     "fmi" : "15"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LOP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -5443/15",
+    "faultCodeId" : "DET 5443/15",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Low oil pressure warning",
     "repairInstructions" : "Refill oil and check for leaks",
@@ -2366,11 +2451,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "a4872b12-218c-4847-bc86-961dc42b10d9",
     "engineMake" : null,
     "customerName" : "Jacobi LLC",
     "number" : "36306783"
   },
   "carFault" : {
+    "vin" : "a4872b12-218c-4847-bc86-961dc42b10d9",
     "spn" : "791",
     "fmi" : "8"
   },
@@ -2392,6 +2479,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "83336903-db8e-4e80-82d0-96c22f4fc45d",
     "engineMake" : "DET",
     "customerName" : "Kuhic, Leuschke and Goodwin",
     "number" : "81736800"
@@ -2415,6 +2503,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "b5d795c5-b811-4c1b-a575-d507ea2e7b8f",
     "engineMake" : "DET",
     "customerName" : "Walker, Schmitt and Luettgen",
     "number" : "70098023"
@@ -2564,6 +2653,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "33082e96-0f1c-4975-aa6a-379bd37892b7",
     "engineMake" : "VOL",
     "customerName" : "Hahn, Lang and Witting",
     "number" : "84103961"
@@ -2587,6 +2677,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "94515e3e-896a-4aca-9d1e-a2996932b0cc",
     "engineMake" : null,
     "customerName" : "Rohan, Witting and Hudson",
     "number" : "10563268"
@@ -2772,11 +2863,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "ff1f302d-f8d6-4626-9beb-bbc077c02ed6",
     "engineMake" : "DET",
     "customerName" : "Raynor Inc",
     "number" : "44739668"
   },
   "carFault" : {
+    "vin" : "ff1f302d-f8d6-4626-9beb-bbc077c02ed6",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -2816,6 +2909,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "23aa8206-d402-49f5-9e95-b1d5819faf3c",
     "engineMake" : "CUM",
     "customerName" : "Moen and Sons",
     "number" : "62302638"
@@ -2839,6 +2933,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "1d4819e0-65a1-4d12-8e1d-820b436a4cd7",
     "engineMake" : "CUM",
     "customerName" : "Dickinson and Sons",
     "number" : "08019510"
@@ -2880,6 +2975,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "fdaef560-bbe2-4e28-ac90-829d49e5f4d9",
     "engineMake" : "CUM",
     "customerName" : "Johns Group",
     "number" : "68589239"
@@ -2903,11 +2999,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "eee6ce14-9e6b-4ae3-9bfc-88c958fe5759",
     "engineMake" : "CUM",
     "customerName" : "Tillman and Sons",
     "number" : "23206277"
   },
   "carFault" : {
+    "vin" : "eee6ce14-9e6b-4ae3-9bfc-88c958fe5759",
     "spn" : "464650",
     "fmi" : "6"
   },
@@ -2929,11 +3027,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "26cfbd31-408c-4e16-8fe9-151b7ab29f57",
     "engineMake" : "CUM",
     "customerName" : "Lockman, Kuhn and Hermann",
     "number" : "11356910"
   },
   "carFault" : {
+    "vin" : "26cfbd31-408c-4e16-8fe9-151b7ab29f57",
     "spn" : "191",
     "fmi" : "19"
   },
@@ -3063,11 +3163,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
     "engineMake" : "CUM",
     "customerName" : "Johnson-Hansen",
     "number" : "41755838"
   },
   "carFault" : {
+    "vin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
     "spn" : "72",
     "fmi" : "0"
   },
@@ -3107,11 +3209,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "b0fd9bc3-9aac-40e5-af70-b41f3d6e1ce3",
     "engineMake" : "CUM",
     "customerName" : "Bradtke and Sons",
     "number" : "98781331"
   },
   "carFault" : {
+    "vin" : "b0fd9bc3-9aac-40e5-af70-b41f3d6e1ce3",
     "spn" : "5018",
     "fmi" : "11"
   },
@@ -3133,6 +3237,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "b32ba575-bd98-4ef8-b7f7-e43d480c2a84",
     "engineMake" : "IHC",
     "customerName" : "Johns Group",
     "number" : "82013320"
@@ -3210,11 +3315,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "28cfff12-3a2f-4578-b00b-36c3bff006d7",
     "engineMake" : "DET",
     "customerName" : "Frami, Hoppe and Lesch",
     "number" : "33211433"
   },
   "carFault" : {
+    "vin" : "28cfff12-3a2f-4578-b00b-36c3bff006d7",
     "spn" : "523318",
     "fmi" : "7"
   },
@@ -3254,6 +3361,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "ecd69d3b-7ff4-460e-8544-547e75745937",
     "engineMake" : "HIN",
     "customerName" : "Cruickshank-Braun",
     "number" : "10509592"
@@ -3367,18 +3475,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "fc1a1f6a-52f0-4433-b112-4507276c5091",
     "engineMake" : "DET",
     "customerName" : "Tillman, Swaniawski and Schmidt",
     "number" : "37058936"
   },
   "carFault" : {
+    "vin" : "fc1a1f6a-52f0-4433-b112-4507276c5091",
     "spn" : "3719",
     "fmi" : "31"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "MJR",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/31",
+    "faultCodeId" : "DET 3719/31",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Engine Failure",
     "repairInstructions" : "Tow or haul to nearest service station for replacement",
@@ -3403,11 +3513,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "ceb3712c-7b05-452d-8dd5-cb7f85f26865",
     "engineMake" : "CUM",
     "customerName" : "Klocko LLC",
     "number" : "93578385"
   },
   "carFault" : {
+    "vin" : "ceb3712c-7b05-452d-8dd5-cb7f85f26865",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3429,11 +3541,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "0da43bdf-ec3c-4538-86d3-c39abc1403e0",
     "engineMake" : "CUM",
     "customerName" : "Braun, Armstrong and Cartwright",
     "number" : "38383707"
   },
   "carFault" : {
+    "vin" : "0da43bdf-ec3c-4538-86d3-c39abc1403e0",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3473,11 +3587,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "bbbab6da-5cf1-4e66-8641-03c812cee29e",
     "engineMake" : "DET",
     "customerName" : "Lesch Inc",
     "number" : "20464169"
   },
   "carFault" : {
+    "vin" : "bbbab6da-5cf1-4e66-8641-03c812cee29e",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3499,11 +3615,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "a4ff2dab-6011-40c6-b16b-6fcff4f9903c",
     "engineMake" : "CUM",
     "customerName" : "O'Hara Group",
     "number" : "92493091"
   },
   "carFault" : {
+    "vin" : "a4ff2dab-6011-40c6-b16b-6fcff4f9903c",
     "spn" : "3216",
     "fmi" : "9"
   },
@@ -3543,11 +3661,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "a14845de-4523-4a6f-8ee0-1ec8d6b40286",
     "engineMake" : "CUM",
     "customerName" : "Schuster, Pollich and Davis",
     "number" : "13598401"
   },
   "carFault" : {
+    "vin" : "a14845de-4523-4a6f-8ee0-1ec8d6b40286",
     "spn" : "367",
     "fmi" : "1"
   },
@@ -3587,11 +3707,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "e3e71ae9-3dfb-4802-9571-f1c7a23a7fb9",
     "engineMake" : "DET",
     "customerName" : "Hamill-Brekke",
     "number" : "16127177"
   },
   "carFault" : {
+    "vin" : "e3e71ae9-3dfb-4802-9571-f1c7a23a7fb9",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3613,11 +3735,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "f4aeda18-a5e2-41ad-bfc8-f800cc59222a",
     "engineMake" : "DET",
     "customerName" : "Ankunding, Haley and Mayert",
     "number" : "49150950"
   },
   "carFault" : {
+    "vin" : "f4aeda18-a5e2-41ad-bfc8-f800cc59222a",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3639,11 +3763,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "b608a04d-a47d-47fc-9b1b-671fed68e2f4",
     "engineMake" : "DET",
     "customerName" : "Jaskolski, Bernier and Schneider",
     "number" : "18181573"
   },
   "carFault" : {
+    "vin" : "b608a04d-a47d-47fc-9b1b-671fed68e2f4",
     "spn" : "424",
     "fmi" : "1"
   },
@@ -3791,6 +3917,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "f0dccb38-954c-477a-a6e4-a2a8202fba7c",
     "engineMake" : "HIN",
     "customerName" : "Kris, Heller and Lubowitz",
     "number" : "15780888"
@@ -3814,11 +3941,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "13912fde-78e8-4455-b1d4-e40fb884c831",
     "engineMake" : "CUM",
     "customerName" : "Muller LLC",
     "number" : "13861293"
   },
   "carFault" : {
+    "vin" : "13912fde-78e8-4455-b1d4-e40fb884c831",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -3948,6 +4077,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "9ec0a635-aaf0-4716-bde5-236e5f106147",
     "engineMake" : "HIN",
     "customerName" : "Carter, Reichel and Hirthe",
     "number" : "49236517"
@@ -3971,18 +4101,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "8e98b96d-3dec-4de2-bf01-e2de97704cf3",
     "engineMake" : "DET",
     "customerName" : "Stanton Group",
     "number" : "48249557"
   },
   "carFault" : {
+    "vin" : "8e98b96d-3dec-4de2-bf01-e2de97704cf3",
     "spn" : "5443",
     "fmi" : "15"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "FMW",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -5443/15",
+    "faultCodeId" : "DET 5443/15",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Firmware Upgrade Required",
     "repairInstructions" : "Verify Software update has been completed if available for this engine.",
@@ -4061,6 +4193,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "c35c2733-e649-42ed-942b-ccfc63ddda32",
     "engineMake" : "VOL",
     "customerName" : "Gleichner and Sons",
     "number" : "00278145"
@@ -4102,11 +4235,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "0f8ad239-5a88-4af0-948b-fe11176ec889",
     "engineMake" : "DET",
     "customerName" : "Heathcote, Schoen and Ferry",
     "number" : "74681755"
   },
   "carFault" : {
+    "vin" : "0f8ad239-5a88-4af0-948b-fe11176ec889",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -4128,6 +4263,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "f7a48499-5f43-4d03-a8d2-6eaae11af479",
     "engineMake" : "HIN",
     "customerName" : "Ankunding, Kovacek and Lakin",
     "number" : "42839234"
@@ -4151,6 +4287,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "11fd699b-a73b-4f14-96f0-658f6c2dbb1d",
     "engineMake" : "CUM",
     "customerName" : "Bradtke and Sons",
     "number" : "76093725"
@@ -4192,6 +4329,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "ea3d1ec3-e00a-49ad-b7fa-7cb55a17351c",
     "engineMake" : "CUM",
     "customerName" : "Murray, Fay and Mann",
     "number" : "55016150"
@@ -4305,18 +4443,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "46aadd07-2ab7-4500-8e86-093be5e97203",
     "engineMake" : "DET",
     "customerName" : "Block-Cartwright",
     "number" : "74213696"
   },
   "carFault" : {
+    "vin" : "46aadd07-2ab7-4500-8e86-093be5e97203",
     "spn" : "111",
     "fmi" : "19"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "MJR",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -111/19",
+    "faultCodeId" : "DET -111/19",
     "faultCodeClassification" : "ServiceInfo",
     "description" : "Engine Failure",
     "repairInstructions" : "Tow or haul to nearest service station for replacement",
@@ -4341,6 +4481,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "b73869de-609c-4d5b-ad16-f519fb40b454",
     "engineMake" : "HIN",
     "customerName" : "Renner, Strosin and Cremin",
     "number" : "16174334"
@@ -4400,11 +4541,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "118c0f0e-0240-4d09-9527-5f43e614dbf9",
     "engineMake" : "IHC",
     "customerName" : "Towne Inc",
     "number" : "64746720"
   },
   "carFault" : {
+    "vin" : "118c0f0e-0240-4d09-9527-5f43e614dbf9",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -4444,11 +4587,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "feee7c98-6898-4854-8847-b752761a102b",
     "engineMake" : "DET",
     "customerName" : "Daugherty Group",
     "number" : "34430389"
   },
   "carFault" : {
+    "vin" : "feee7c98-6898-4854-8847-b752761a102b",
     "spn" : "39166",
     "fmi" : "0"
   },
@@ -4470,6 +4615,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "bf128b8b-2b78-4e2d-8ba4-f87620845aec",
     "engineMake" : "HIN",
     "customerName" : "Ruecker, Dietrich and Bernhard",
     "number" : "87344767"
@@ -4511,11 +4657,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "06afdf3f-de0b-4ba6-9cc9-2d7e6d9a0612",
     "engineMake" : "CUM",
     "customerName" : "O'Connell-Lesch",
     "number" : "30008851"
   },
   "carFault" : {
+    "vin" : "06afdf3f-de0b-4ba6-9cc9-2d7e6d9a0612",
     "spn" : "353",
     "fmi" : "0"
   },
@@ -4537,6 +4685,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "c3e805a5-d7d3-4758-be6d-f5d6f9f0437d",
     "engineMake" : "CUM",
     "customerName" : "Buckridge LLC",
     "number" : "20690782"
@@ -4578,11 +4727,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "661bb401-ff53-4f44-b32e-5ced1e67695d",
     "engineMake" : "IHC",
     "customerName" : "Ritchie LLC",
     "number" : "96432251"
   },
   "carFault" : {
+    "vin" : "661bb401-ff53-4f44-b32e-5ced1e67695d",
     "spn" : "524285",
     "fmi" : "14"
   },
@@ -4658,11 +4809,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "b752242d-6acd-42ec-9d93-2788822cad52",
     "engineMake" : "DET",
     "customerName" : "Harvey-Klocko",
     "number" : "43734646"
   },
   "carFault" : {
+    "vin" : "b752242d-6acd-42ec-9d93-2788822cad52",
     "spn" : "520702",
     "fmi" : "4"
   },
@@ -4720,11 +4873,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "00b86fe9-e704-4bd3-bb56-e583483af343",
     "engineMake" : "CUM",
     "customerName" : "Gulgowski, Marks and Hahn",
     "number" : "06628748"
   },
   "carFault" : {
+    "vin" : "00b86fe9-e704-4bd3-bb56-e583483af343",
     "spn" : "2071",
     "fmi" : "19"
   },
@@ -4854,11 +5009,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "5e58d4b3-4619-4c64-a685-0639213a6bce",
     "engineMake" : "DET",
     "customerName" : "Weber, Ferry and Boyle",
     "number" : "15091210"
   },
   "carFault" : {
+    "vin" : "5e58d4b3-4619-4c64-a685-0639213a6bce",
     "spn" : "517529",
     "fmi" : "13"
   },
@@ -4898,6 +5055,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "2d092e83-b995-4567-9f39-a6e3836b8838",
     "engineMake" : "HIN",
     "customerName" : "Crooks and Sons",
     "number" : "74061845"
@@ -4921,11 +5079,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "d0ea2e32-c7bf-4bd9-992b-0f055dd55c32",
     "engineMake" : "DET",
     "customerName" : "Willms LLC",
     "number" : "24164953"
   },
   "carFault" : {
+    "vin" : "d0ea2e32-c7bf-4bd9-992b-0f055dd55c32",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -4965,11 +5125,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "08d0979f-ef4b-4af9-901e-8acc9c0d884a",
     "engineMake" : "IHC",
     "customerName" : "Braun, Armstrong and Cartwright",
     "number" : "81538758"
   },
   "carFault" : {
+    "vin" : "08d0979f-ef4b-4af9-901e-8acc9c0d884a",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5081,11 +5243,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "39d774e1-5b38-45c1-9dfa-a5c8c0206182",
     "engineMake" : "CUM",
     "customerName" : "Kiehn Group",
     "number" : "78713448"
   },
   "carFault" : {
+    "vin" : "39d774e1-5b38-45c1-9dfa-a5c8c0206182",
     "spn" : "146",
     "fmi" : "7"
   },
@@ -5143,18 +5307,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "a21b1fd3-26ea-40a6-b9f4-0b909448f18d",
     "engineMake" : "DET",
     "customerName" : "Vandervort-West",
     "number" : "02264614"
   },
   "carFault" : {
+    "vin" : "a21b1fd3-26ea-40a6-b9f4-0b909448f18d",
     "spn" : "625",
     "fmi" : "8"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LOP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -625/8",
+    "faultCodeId" : "DET  -625/8",
     "faultCodeClassification" : "ServiceInfo",
     "description" : "Low oil pressure warning",
     "repairInstructions" : "Refill oil and check for leaks",
@@ -5269,11 +5435,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "014132a5-4a22-497b-b8d3-a6a9e1e0052a",
     "engineMake" : "IHC",
     "customerName" : "Hickle, Purdy and Schumm",
     "number" : "99248874"
   },
   "carFault" : {
+    "vin" : "014132a5-4a22-497b-b8d3-a6a9e1e0052a",
     "spn" : "2655",
     "fmi" : "5"
   },
@@ -5313,18 +5481,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceNow",
   "carInfo" : {
+    "vin" : "21bac004-8223-44e4-a1da-d2938c448d13",
     "engineMake" : "DET",
     "customerName" : "Daugherty-Russel",
     "number" : "63754641"
   },
   "carFault" : {
+    "vin" : "21bac004-8223-44e4-a1da-d2938c448d13",
     "spn" : "4364",
     "fmi" : "18"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "MJR",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -4364/18",
+    "faultCodeId" : "DET 4364/18",
     "faultCodeClassification" : "ServiceNow",
     "description" : "Engine Failure",
     "repairInstructions" : "Tow or haul to nearest service station for replacement",
@@ -5421,11 +5591,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "2a2ae4dc-8555-470e-ad5c-c0b9b1758bf8",
     "engineMake" : "CUM",
     "customerName" : "Hills, Kulas and Nikolaus",
     "number" : "45765746"
   },
   "carFault" : {
+    "vin" : "2a2ae4dc-8555-470e-ad5c-c0b9b1758bf8",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5447,6 +5619,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "920573a7-3c20-4f21-8f10-19f95bc457d5",
     "engineMake" : "CAT",
     "customerName" : "Gleichner and Sons",
     "number" : "15395003"
@@ -5470,6 +5643,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "0ff5eda6-e238-4f80-928a-9a367dbaf269",
     "engineMake" : "IHC",
     "customerName" : "Weber, Ferry and Boyle",
     "number" : "24483541"
@@ -5493,11 +5667,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "4ff47af9-1ad8-436b-a772-01a11e14e451",
     "engineMake" : "CUM",
     "customerName" : "Block Group",
     "number" : "45347911"
   },
   "carFault" : {
+    "vin" : "4ff47af9-1ad8-436b-a772-01a11e14e451",
     "spn" : "97",
     "fmi" : "15"
   },
@@ -5537,11 +5713,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "b0dace54-25bf-47fb-ac56-a2513fdbaab6",
     "engineMake" : "CUM",
     "customerName" : "Beahan, Nolan and Boyer",
     "number" : "82936369"
   },
   "carFault" : {
+    "vin" : "b0dace54-25bf-47fb-ac56-a2513fdbaab6",
     "spn" : "2071",
     "fmi" : "19"
   },
@@ -5599,11 +5777,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "9c41915e-a2c9-4df3-bb70-053de8e86946",
     "engineMake" : "CUM",
     "customerName" : "O'Conner, Murphy and Larson",
     "number" : "33643321"
   },
   "carFault" : {
+    "vin" : "9c41915e-a2c9-4df3-bb70-053de8e86946",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5643,18 +5823,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "f551b9e2-30b9-4f20-ada9-0c7ce91fb8ad",
     "engineMake" : "DET",
     "customerName" : "West-Johnston",
     "number" : "88002170"
   },
   "carFault" : {
+    "vin" : "f551b9e2-30b9-4f20-ada9-0c7ce91fb8ad",
     "spn" : "1590",
     "fmi" : "19"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "MJR",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -1590/19",
+    "faultCodeId" : "DET 1590/19",
     "faultCodeClassification" : "ServiceInfo",
     "description" : "Engine Failure",
     "repairInstructions" : "Tow or haul to nearest service station for replacement",
@@ -5679,6 +5861,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "2e42d903-c9a0-4646-b38e-435f3f8eeac1",
     "engineMake" : "VOL",
     "customerName" : "Dicki, Schaefer and Nader",
     "number" : "92923928"
@@ -5720,11 +5903,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "2b07d1f7-3fdf-4fb2-bc54-cb989b9adc4d",
     "engineMake" : "VOL",
     "customerName" : "Gleichner and Sons",
     "number" : "94578392"
   },
   "carFault" : {
+    "vin" : "2b07d1f7-3fdf-4fb2-bc54-cb989b9adc4d",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5872,11 +6057,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "da0c2220-0dee-4952-bc66-4d100d33ccfc",
     "engineMake" : "DET",
     "customerName" : "Hills, Kulas and Nikolaus",
     "number" : "27313379"
   },
   "carFault" : {
+    "vin" : "da0c2220-0dee-4952-bc66-4d100d33ccfc",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5898,6 +6085,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "4cb9032e-b2ff-44fe-906f-877f63659e77",
     "engineMake" : null,
     "customerName" : "Rogahn-Satterfield",
     "number" : "87859562"
@@ -5921,6 +6109,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "e90bfd41-5f25-4832-9c7e-df4603353cb8",
     "engineMake" : "CUM",
     "customerName" : "Miller-Mueller",
     "number" : "81953058"
@@ -5962,11 +6151,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "918dce84-7ad0-4983-ba65-e536c7e74a49",
     "engineMake" : "DET",
     "customerName" : "Von-Roob",
     "number" : "13272090"
   },
   "carFault" : {
+    "vin" : "918dce84-7ad0-4983-ba65-e536c7e74a49",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -5988,18 +6179,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "390c0538-f766-4ccf-8dd3-0c39d3ce121d",
     "engineMake" : "DET",
     "customerName" : "Corwin Inc",
     "number" : "20314852"
   },
   "carFault" : {
+    "vin" : "390c0538-f766-4ccf-8dd3-0c39d3ce121d",
     "spn" : "1231",
     "fmi" : "9"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LTP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -1231/9",
+    "faultCodeId" : "DET -1231/9",
     "faultCodeClassification" : "ServiceInfo",
     "description" : "Low Tire Pressure Warning",
     "repairInstructions" : "Re-inflate tires as soon as possible",
@@ -6078,18 +6271,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "1e1a38a3-8534-49aa-b2a9-15b69e903472",
     "engineMake" : "VOL",
     "customerName" : "Hahn, Lang and Witting",
     "number" : "70269246"
   },
   "carFault" : {
+    "vin" : "1e1a38a3-8534-49aa-b2a9-15b69e903472",
     "spn" : "411",
     "fmi" : "7"
   },
   "faultCode" : {
     "engineMake" : "VOL",
     "faultCode" : "MJR",
-    "faultCodeId" : "VOL                                                                                                                                                                                                     -411/7",
+    "faultCodeId" : "VOL  -411/7",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Engine Failure",
     "repairInstructions" : "Tow or haul to nearest service station for replacement",
@@ -6114,18 +6309,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "3a7d674f-f7e0-4925-bb2b-bd93d62a5309",
     "engineMake" : "DET",
     "customerName" : "Braun-Hilpert",
     "number" : "14558526"
   },
   "carFault" : {
+    "vin" : "3a7d674f-f7e0-4925-bb2b-bd93d62a5309",
     "spn" : "3719",
     "fmi" : "31"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "FMW",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/31",
+    "faultCodeId" : "DET 3719/31",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Firmware Upgrade Required",
     "repairInstructions" : "Verify Software update has been completed if available for this engine.",
@@ -6168,6 +6365,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "446252ca-b086-4044-a6d4-b936a466497b",
     "engineMake" : "VOL",
     "customerName" : "Auer Group",
     "number" : "69612797"
@@ -6191,6 +6389,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "6f94a42c-16a2-4887-aa0c-2862248dde3f",
     "engineMake" : "ISU",
     "customerName" : "Jaskolski Group",
     "number" : "45187754"
@@ -6214,6 +6413,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "b594f86b-9e33-4f51-8caa-7e31bb205178",
     "engineMake" : "HIN",
     "customerName" : "Ankunding and Sons",
     "number" : "11791698"
@@ -6237,6 +6437,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "eeed160c-e242-4fa7-9a39-c5d23938db54",
     "engineMake" : "ISU",
     "customerName" : "Hegmann-Larson",
     "number" : "00168784"
@@ -6368,11 +6569,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7805b843-8846-4c5d-9e8b-c51f3f6009ce",
     "engineMake" : "DET",
     "customerName" : "Halvorson, Bechtelar and Cremin",
     "number" : "70386018"
   },
   "carFault" : {
+    "vin" : "7805b843-8846-4c5d-9e8b-c51f3f6009ce",
     "spn" : "424",
     "fmi" : "1"
   },
@@ -6448,11 +6651,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7d2df424-ec14-49a5-9204-f29e269a28b6",
     "engineMake" : "CUM",
     "customerName" : "Raynor-Harris",
     "number" : "87510805"
   },
   "carFault" : {
+    "vin" : "7d2df424-ec14-49a5-9204-f29e269a28b6",
     "spn" : "4334",
     "fmi" : "2"
   },
@@ -6474,11 +6679,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "602bbd02-093a-48c5-9953-b1602844ed9b",
     "engineMake" : "DET",
     "customerName" : "Spinka and Sons",
     "number" : "80673018"
   },
   "carFault" : {
+    "vin" : "602bbd02-093a-48c5-9953-b1602844ed9b",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6500,6 +6707,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "48cbeb5b-0859-45df-94e0-9e22c8c1e8f6",
     "engineMake" : "DET",
     "customerName" : "Kirlin, Kreiger and Schamberger",
     "number" : "32212769"
@@ -6523,11 +6731,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "d10095ce-54e4-4305-a8a4-b9fe4afe4ec8",
     "engineMake" : "DET",
     "customerName" : "Legros, Wolff and Hilll",
     "number" : "60663223"
   },
   "carFault" : {
+    "vin" : "d10095ce-54e4-4305-a8a4-b9fe4afe4ec8",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6585,11 +6795,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "ca7b86ad-5757-489f-97b3-f685c87d5ed4",
     "engineMake" : "DET",
     "customerName" : "Altenwerth Inc",
     "number" : "70092765"
   },
   "carFault" : {
+    "vin" : "ca7b86ad-5757-489f-97b3-f685c87d5ed4",
     "spn" : "3216",
     "fmi" : "16"
   },
@@ -6611,11 +6823,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "9d7c3e17-6a36-45f5-8ee8-c0d84f78e4d9",
     "engineMake" : "VOL",
     "customerName" : "Abbott, Grady and Prosacco",
     "number" : "76555094"
   },
   "carFault" : {
+    "vin" : "9d7c3e17-6a36-45f5-8ee8-c0d84f78e4d9",
     "spn" : "1761",
     "fmi" : "17"
   },
@@ -6655,6 +6869,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "d1c2a5e5-646a-4de6-9710-23fdb90a816a",
     "engineMake" : "CUM",
     "customerName" : "Dickinson and Sons",
     "number" : "85640704"
@@ -6750,11 +6965,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3d434f58-82c0-44be-acfb-7f55629818b6",
     "engineMake" : "CUM",
     "customerName" : "O'Hara, Kuhic and McClure",
     "number" : "60205907"
   },
   "carFault" : {
+    "vin" : "3d434f58-82c0-44be-acfb-7f55629818b6",
     "spn" : "96",
     "fmi" : "5"
   },
@@ -6812,11 +7029,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "06836987-079d-4906-876a-f88e4e180d58",
     "engineMake" : "CUM",
     "customerName" : "Feeney-Gutmann",
     "number" : "05247999"
   },
   "carFault" : {
+    "vin" : "06836987-079d-4906-876a-f88e4e180d58",
     "spn" : "81",
     "fmi" : "16"
   },
@@ -6838,6 +7057,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "882e7fbb-8648-4ea1-8eb1-c14b2ee029ae",
     "engineMake" : "DET",
     "customerName" : "Hodkiewicz Group",
     "number" : "39864796"
@@ -6861,11 +7081,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7bff2ac0-df48-4123-8c9c-c51330a3a860",
     "engineMake" : "CUM",
     "customerName" : "Sipes-Marquardt",
     "number" : "65240506"
   },
   "carFault" : {
+    "vin" : "7bff2ac0-df48-4123-8c9c-c51330a3a860",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -6905,18 +7127,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "ce0c9f24-1692-48d2-938c-cee6554fc72f",
     "engineMake" : "DET",
     "customerName" : "Reynolds Inc",
     "number" : "14201607"
   },
   "carFault" : {
+    "vin" : "ce0c9f24-1692-48d2-938c-cee6554fc72f",
     "spn" : "3719",
     "fmi" : "15"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LTP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/15",
+    "faultCodeId" : "DET 3719/15",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Low Tire Pressure Warning",
     "repairInstructions" : "Re-inflate tires as soon as possible",
@@ -6977,6 +7201,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "510b9f7a-ca59-421f-bf60-412fd7cd4f8f",
     "engineMake" : "DET",
     "customerName" : "Stamm-Fahey",
     "number" : "94170027"
@@ -7000,11 +7225,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "7e5fa3c6-f784-4251-bd51-d33a26e27f98",
     "engineMake" : "DET",
     "customerName" : "Schinner, Kertzmann and O'Reilly",
     "number" : "07590470"
   },
   "carFault" : {
+    "vin" : "7e5fa3c6-f784-4251-bd51-d33a26e27f98",
     "spn" : "96",
     "fmi" : "5"
   },
@@ -7026,11 +7253,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "924bee19-1ced-478d-9046-1202799000a9",
     "engineMake" : "DET",
     "customerName" : "Brown, Hauck and Daugherty",
     "number" : "13409478"
   },
   "carFault" : {
+    "vin" : "924bee19-1ced-478d-9046-1202799000a9",
     "spn" : "523318",
     "fmi" : "7"
   },
@@ -7088,11 +7317,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "93f132fb-22fd-4b2d-9164-b5f7eb832012",
     "engineMake" : "DET",
     "customerName" : "Hills, Kilback and Frami",
     "number" : "30666031"
   },
   "carFault" : {
+    "vin" : "93f132fb-22fd-4b2d-9164-b5f7eb832012",
     "spn" : "521315",
     "fmi" : "5"
   },
@@ -7114,18 +7345,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "0bf243bd-85d7-467f-9626-f1e58ae1ba9c",
     "engineMake" : "VOL",
     "customerName" : "Pagac and Sons",
     "number" : "65049225"
   },
   "carFault" : {
+    "vin" : "0bf243bd-85d7-467f-9626-f1e58ae1ba9c",
     "spn" : "3216",
     "fmi" : "3"
   },
   "faultCode" : {
     "engineMake" : "VOL",
     "faultCode" : "LTP",
-    "faultCodeId" : "VOL                                                                                                                                                                                                     -3216/3",
+    "faultCodeId" : "VOL -3216/3",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Low Tire Pressure Warning",
     "repairInstructions" : "Re-inflate tires as soon as possible",
@@ -7150,18 +7383,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "bfd12e11-549e-4715-aeb1-288ad55fc733",
     "engineMake" : "DET",
     "customerName" : "Leffler and Sons",
     "number" : "25967487"
   },
   "carFault" : {
+    "vin" : "bfd12e11-549e-4715-aeb1-288ad55fc733",
     "spn" : "973",
     "fmi" : "13"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LOP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -973/13",
+    "faultCodeId" : "DET -973/13",
     "faultCodeClassification" : "ServiceInfo",
     "description" : "Low oil pressure warning",
     "repairInstructions" : "Refill oil and check for leaks",
@@ -7204,18 +7439,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "969acd70-811d-4c3e-a2b6-8547e3b6a10e",
     "engineMake" : "DET",
     "customerName" : "Ondricka Inc",
     "number" : "09243128"
   },
   "carFault" : {
+    "vin" : "969acd70-811d-4c3e-a2b6-8547e3b6a10e",
     "spn" : "3719",
     "fmi" : "31"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LTP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/31",
+    "faultCodeId" : "DET 3719/31",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Low Tire Pressure Warning",
     "repairInstructions" : "Re-inflate tires as soon as possible",
@@ -7258,11 +7495,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "f25f002b-84d7-488b-9fe3-abde8dc55607",
     "engineMake" : "IHC",
     "customerName" : "Schultz-Runolfsdottir",
     "number" : "48803840"
   },
   "carFault" : {
+    "vin" : "f25f002b-84d7-488b-9fe3-abde8dc55607",
     "spn" : "3662",
     "fmi" : "5"
   },
@@ -7338,6 +7577,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "ea6b1167-e262-44e4-928a-56284672dae7",
     "engineMake" : "HIN",
     "customerName" : "Leuschke LLC",
     "number" : "91242651"
@@ -7361,11 +7601,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "33f18c68-67e1-45ab-91d4-5fa2d0e5dc52",
     "engineMake" : "IHC",
     "customerName" : "Gleason Group",
     "number" : "94075449"
   },
   "carFault" : {
+    "vin" : "33f18c68-67e1-45ab-91d4-5fa2d0e5dc52",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7387,18 +7629,20 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceSoon",
   "carInfo" : {
+    "vin" : "f949fb79-4aaf-4ae3-a9c7-a76db997b0f3",
     "engineMake" : "DET",
     "customerName" : "Mraz Inc",
     "number" : "33619277"
   },
   "carFault" : {
+    "vin" : "f949fb79-4aaf-4ae3-a9c7-a76db997b0f3",
     "spn" : "3719",
     "fmi" : "31"
   },
   "faultCode" : {
     "engineMake" : "DET",
     "faultCode" : "LTP",
-    "faultCodeId" : "DET                                                                                                                                                                                                     -3719/31",
+    "faultCodeId" : "DET 3719/31",
     "faultCodeClassification" : "ServiceSoon",
     "description" : "Low Tire Pressure Warning",
     "repairInstructions" : "Re-inflate tires as soon as possible",
@@ -7441,11 +7685,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3f737599-c66a-4556-90a8-30d49f22e48f",
     "engineMake" : "DET",
     "customerName" : "Rohan, Gulgowski and Kris",
     "number" : "86762464"
   },
   "carFault" : {
+    "vin" : "3f737599-c66a-4556-90a8-30d49f22e48f",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7521,11 +7767,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "df491745-93aa-46e8-9295-be2c26a4e3e9",
     "engineMake" : "IHC",
     "customerName" : "Zboncak LLC",
     "number" : "67840974"
   },
   "carFault" : {
+    "vin" : "df491745-93aa-46e8-9295-be2c26a4e3e9",
     "spn" : "2653",
     "fmi" : "5"
   },
@@ -7601,11 +7849,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3bee6db9-9de5-4efa-830a-fea52475785c",
     "engineMake" : "DET",
     "customerName" : "Lockman, Kuhn and Hermann",
     "number" : "61562758"
   },
   "carFault" : {
+    "vin" : "3bee6db9-9de5-4efa-830a-fea52475785c",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7645,11 +7895,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "0bc20e8c-a92d-45c3-b5a2-29d7a216acbc",
     "engineMake" : "DET",
     "customerName" : "Ondricka Inc",
     "number" : "40112110"
   },
   "carFault" : {
+    "vin" : "0bc20e8c-a92d-45c3-b5a2-29d7a216acbc",
     "spn" : "522116",
     "fmi" : "2"
   },
@@ -7689,6 +7941,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "e484d530-157c-4f22-a991-0a4748c49918",
     "engineMake" : "HIN",
     "customerName" : "Welch-Wiegand",
     "number" : "15544711"
@@ -7712,11 +7965,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "951eb325-4e22-4530-be1c-067287da242e",
     "engineMake" : "IHC",
     "customerName" : "Nolan LLC",
     "number" : "54442347"
   },
   "carFault" : {
+    "vin" : "951eb325-4e22-4530-be1c-067287da242e",
     "spn" : "3981",
     "fmi" : "2"
   },
@@ -7774,11 +8029,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "e8d99224-4c0b-419b-87f6-d89e86bb7b26",
     "engineMake" : "DET",
     "customerName" : "O'Conner, Reinger and Gutmann",
     "number" : "42601664"
   },
   "carFault" : {
+    "vin" : "e8d99224-4c0b-419b-87f6-d89e86bb7b26",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7800,6 +8057,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "dbaf150d-976b-4c8c-8b79-fe388d97db1d",
     "engineMake" : "VOL",
     "customerName" : "Ankunding and Sons",
     "number" : "02590659"
@@ -7949,6 +8207,7 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "None",
   "carInfo" : {
+    "vin" : "fecd91a5-b6e0-420f-bcba-59e54b88d4d9",
     "engineMake" : "HIN",
     "customerName" : "Abshire-Swaniawski",
     "number" : "37282331"
@@ -7972,11 +8231,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "07e2029f-4e6b-4533-962a-eb86e98e0987",
     "engineMake" : "VOL",
     "customerName" : "Beahan Group",
     "number" : "30642293"
   },
   "carFault" : {
+    "vin" : "07e2029f-4e6b-4533-962a-eb86e98e0987",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -7998,11 +8259,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "5bfe5482-fede-47f3-ac83-b4c4533d1e5e",
     "engineMake" : "DET",
     "customerName" : "Hoeger and Sons",
     "number" : "98131447"
   },
   "carFault" : {
+    "vin" : "5bfe5482-fede-47f3-ac83-b4c4533d1e5e",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -8024,11 +8287,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "b78ab59b-0323-4152-baa7-ad7fbc3a5e42",
     "engineMake" : "CUM",
     "customerName" : "Wuckert LLC",
     "number" : "22670125"
   },
   "carFault" : {
+    "vin" : "b78ab59b-0323-4152-baa7-ad7fbc3a5e42",
     "spn" : "0",
     "fmi" : "0"
   },
@@ -8068,11 +8333,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "55e2308d-3056-4c72-b655-6e1efd63e58f",
     "engineMake" : "DET",
     "customerName" : "Weber-Barton",
     "number" : "16372834"
   },
   "carFault" : {
+    "vin" : "55e2308d-3056-4c72-b655-6e1efd63e58f",
     "spn" : "521905",
     "fmi" : "5"
   },
@@ -8130,11 +8397,13 @@
   "vehicleMovementType" : "STOPPED",
   "serviceType" : "ServiceInfo",
   "carInfo" : {
+    "vin" : "3560aa8c-a78f-4a49-a6e7-1c614aab19d1",
     "engineMake" : "CUM",
     "customerName" : "McLaughlin-Barton",
     "number" : "15425312"
   },
   "carFault" : {
+    "vin" : "3560aa8c-a78f-4a49-a6e7-1c614aab19d1",
     "spn" : "155",
     "fmi" : "4"
   },

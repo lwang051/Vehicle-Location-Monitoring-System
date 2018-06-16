@@ -14,11 +14,9 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import lombok.Data;
-//import lombok.RequiredArgsConstructor;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
-//@RequiredArgsConstructor
 @Entity
 @Table(name = "LOCATION")
 public class Location {

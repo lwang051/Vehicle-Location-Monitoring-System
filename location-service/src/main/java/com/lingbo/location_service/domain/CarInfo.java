@@ -22,7 +22,7 @@ public class CarInfo {
 	
 	@SuppressWarnings("unused")
 	private CarInfo() {
-		this.vin = "";
+		this.vin = null;
 	}
 	
 }
