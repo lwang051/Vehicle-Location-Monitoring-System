@@ -44,7 +44,9 @@ public class CarBulkUploadRestController {
 			@PathVariable String movementType, 
 			@RequestParam(name = "page") int page, 
 			@RequestParam(name = "size") int size) {
-		return locationService.findByVehicleMovementType(movementType, new PageRequest(page, size));
+		return locationService.findByVehicleMovementType(
+				Location.VehicleMovementType.valueOf(movementType), 
+				new PageRequest(page, size));
 	}
 	
 	@RequestMapping(value = "/find/vin/{vin}", method = RequestMethod.GET)

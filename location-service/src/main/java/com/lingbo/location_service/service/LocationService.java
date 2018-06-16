@@ -11,7 +11,7 @@ public interface LocationService {
 	
 	public List<Location> saveCarLocations(List<Location> carLocations);
 	public void deleteAll();
-	public Page<Location> findByVehicleMovementType(String movementType, Pageable pageable);
+	public Page<Location> findByVehicleMovementType(Location.VehicleMovementType movementType, Pageable pageable);
 	public Page<Location> findByVin(String vin, Pageable pageable);
 	
 }

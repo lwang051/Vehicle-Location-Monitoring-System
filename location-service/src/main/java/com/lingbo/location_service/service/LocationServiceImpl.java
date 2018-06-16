@@ -28,10 +28,8 @@ public class LocationServiceImpl implements LocationService {
 		locationRepository.deleteAll();
 	}
 
-	public Page<Location> findByVehicleMovementType(String movementType, Pageable pageable) {
-		return locationRepository.findByVehicleMovementType(
-				Location.VehicleMovementType.valueOf(movementType), 
-				pageable);
+	public Page<Location> findByVehicleMovementType(Location.VehicleMovementType movementType, Pageable pageable) {
+		return locationRepository.findByVehicleMovementType(movementType, pageable);
 	}
 
 	public Page<Location> findByVin(String vin, Pageable pageable) {
