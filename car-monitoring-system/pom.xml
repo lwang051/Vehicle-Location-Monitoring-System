@@ -59,7 +59,9 @@
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
 		<scope>provided</scope>
+		<optional>true</optional>
 	</dependency>
+	<!-- Use it when the service is super simple. -->
 	<!-- <dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-data-rest</artifactId>
