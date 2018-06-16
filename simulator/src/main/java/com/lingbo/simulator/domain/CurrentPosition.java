@@ -12,6 +12,7 @@ public class CurrentPosition {
 	private Point location;
 	private VehicleStatus vehicleStatus = VehicleStatus.NONE;
 	private Double speed;
+	private Double heading;
 	private FaultCode faultCode;
 	
 }
