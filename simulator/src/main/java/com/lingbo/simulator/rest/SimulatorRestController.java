@@ -44,14 +44,14 @@ public class SimulatorRestController {
     @Autowired
     private AsyncTaskExecutor taskExecutor;
 
-    private Map<Long, SimulatorInstance> taskFutures = new HashMap<>();
+    private Map<Long, SimulatorInstance> taskFutures = new HashMap<Long, SimulatorInstance>();
 
     @RequestMapping("/dc")
     public List<SimulatorInstance> dc(HttpServletRequest request) {
         final SimulatorFixture fixture = this.pathService.loadSimulatorFixture();
 
-        final List<SimulatorInstance> instances = new ArrayList<>();
-        final List<Point> lookAtPoints = new ArrayList<>();
+        final List<SimulatorInstance> instances = new ArrayList<SimulatorInstance>();
+        final List<Point> lookAtPoints = new ArrayList<Point>();
 
         final Set<Long> instanceIds = new HashSet<Long>(taskFutures.keySet());
 

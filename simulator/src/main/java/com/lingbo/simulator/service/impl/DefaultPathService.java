@@ -111,7 +111,7 @@ public class DefaultPathService implements PathService{
             throw new IllegalStateException(e);
         }
 
-        final List<ServiceLocation> serviceLocations = new ArrayList<>();
+        final List<ServiceLocation> serviceLocations = new ArrayList<ServiceLocation>();
         final GeoApiContext context = new GeoApiContext()
                 .setApiKey(environment.getRequiredProperty("gpsSimmulator.googleApiKey"));
 
@@ -185,7 +185,7 @@ public class DefaultPathService implements PathService{
             throw new IllegalStateException(e);
         }
 
-        final List<Point> points = new ArrayList<>(latlongList.size());
+        final List<Point> points = new ArrayList<Point>(latlongList.size());
 
         for (LatLng latLng : latlongList) {
             points.add(new Point(latLng.lat, latLng.lng));
