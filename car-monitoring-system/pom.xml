@@ -16,7 +16,7 @@
 
   <modules>
   	<module>../location-service</module>
-  	<module>../simulator</module>
+  	<module>../simulation-service</module>
   </modules>
   
   <dependencyManagement>
