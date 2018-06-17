@@ -1,4 +1,5 @@
-package com.lingbo.simulation_service.domain;
+package com.lingbo.simulation_service.model;
+
 
 
 
@@ -6,14 +7,13 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
-
 import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ServiceLocation {
-	
-	private String id;
+
+    private String id;
     private String address1;
     private String address2;
     private String city;
@@ -33,5 +33,5 @@ public class ServiceLocation {
     public ServiceLocation(@JsonProperty("latitude") double latitude, @JsonProperty("longitude") double longitude) {
         this.point = new Point(latitude, longitude);
     }
-	
+
 }

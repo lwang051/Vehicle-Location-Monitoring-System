@@ -5,22 +5,22 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.lingbo.simulation_service.domain.CurrentPosition;
-import com.lingbo.simulation_service.domain.FaultCode;
-import com.lingbo.simulation_service.domain.Leg;
-import com.lingbo.simulation_service.domain.Point;
-import com.lingbo.simulation_service.domain.PositionInfo;
-import com.lingbo.simulation_service.domain.SimulatorRequest;
-import com.lingbo.simulation_service.domain.VehicleStatus;
+import com.lingbo.simulation_service.model.CurrentPosition;
+import com.lingbo.simulation_service.model.FaultCode;
+import com.lingbo.simulation_service.model.GpsSimulatorRequest;
+import com.lingbo.simulation_service.model.Leg;
+import com.lingbo.simulation_service.model.Point;
+import com.lingbo.simulation_service.model.PositionInfo;
+import com.lingbo.simulation_service.model.VehicleStatus;
 import com.lingbo.simulation_service.service.PositionService;
 import com.lingbo.simulation_service.support.NavUtils;
 
-/*
- * Simulates a vehicle moving along a path defined in a kml file
+/**
+ * Simulates a vehicle moving along a path defined in a kml file.
  */
-public class Simulator implements Runnable {
-	
-	private long id;
+public class GpsSimulator implements Runnable {
+
+    private long id;
 
     private PositionService positionInfoService;
 
@@ -42,17 +42,17 @@ public class Simulator implements Runnable {
     private Date executionStartTime;
     private FaultCode faultCode;
 
-    public Simulator(SimulatorRequest simulatorRequest) {
-        this.shouldMove = simulatorRequest.isMove();
-        this.exportPositionsToKml = simulatorRequest.isExportPositionsToKml();
-        this.exportPositionsToMessaging = simulatorRequest.isExportPositionsToMessaging();
-        this.setSpeedInKph(simulatorRequest.getSpeedInKph());
-        this.reportInterval = simulatorRequest.getReportInterval();
+    public GpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
+        this.shouldMove = gpsSimulatorRequest.isMove();
+        this.exportPositionsToKml = gpsSimulatorRequest.isExportPositionsToKml();
+        this.exportPositionsToMessaging = gpsSimulatorRequest.isExportPositionsToMessaging();
+        this.setSpeedInKph(gpsSimulatorRequest.getSpeedInKph());
+        this.reportInterval = gpsSimulatorRequest.getReportInterval();
 
-        this.secondsToError = simulatorRequest.getSecondsToError();
-        this.vin = simulatorRequest.getVin();
-        this.vehicleStatus = simulatorRequest.getVehicleStatus();
-        this.faultCode = simulatorRequest.getFaultCode();
+        this.secondsToError = gpsSimulatorRequest.getSecondsToError();
+        this.vin = gpsSimulatorRequest.getVin();
+        this.vehicleStatus = gpsSimulatorRequest.getVehicleStatus();
+        this.faultCode = gpsSimulatorRequest.getFaultCode();
     }
 
     @Override
@@ -152,7 +152,7 @@ public class Simulator implements Runnable {
                 // this means new position falls within current leg
                 positionInfo.setDistanceFromStart(distanceFromStart);
                 positionInfo.setLeg(currentLeg);
-                Point newPosition = NavUtils.getPosition(currentLeg.getStart(), distanceFromStart,
+                Point newPosition = NavUtils.getPosition(currentLeg.getStartPosition(), distanceFromStart,
                         currentLeg.getHeading());
                 positionInfo.setPosition(newPosition);
                 return;
@@ -173,7 +173,7 @@ public class Simulator implements Runnable {
         positionInfo.setVin(this.vin);
         Leg leg = legs.get(0);
         positionInfo.setLeg(leg);
-        positionInfo.setPosition(leg.getStart());
+        positionInfo.setPosition(leg.getStartPosition());
         positionInfo.setDistanceFromStart(0.0);
     }
 
@@ -276,5 +276,5 @@ public class Simulator implements Runnable {
                 + exportPositionsToMessaging + ", reportInterval=" + reportInterval + ", currentPosition="
                 + positionInfo + "]";
     }
-	
+
 }

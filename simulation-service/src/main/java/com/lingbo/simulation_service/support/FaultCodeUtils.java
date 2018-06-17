@@ -1,19 +1,18 @@
 package com.lingbo.simulation_service.support;
 
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-import com.lingbo.simulation_service.domain.FaultCode;
+import com.lingbo.simulation_service.model.FaultCode;
 
 /**
  * Utility to provide random {@link FaultCode}s.
  */
 public class FaultCodeUtils {
-	
-	/**
+
+    /**
      * Private Constructor.
      * Suppress default constructor for non-instantiability
      */
@@ -21,7 +20,7 @@ public class FaultCodeUtils {
         throw new AssertionError();
     }
 
-    public static final List<FaultCode> faultCodes = new ArrayList<FaultCode>(5);
+    public static final List<FaultCode> faultCodes = new ArrayList<>(5);
 
     static {
         final FaultCode faultCode1 = new FaultCode();
@@ -92,5 +91,5 @@ public class FaultCodeUtils {
     public static FaultCode getRandomFaultCode() {
         return faultCodes.get(ThreadLocalRandom.current().nextInt(faultCodes.size()));
     }
-	
+
 }

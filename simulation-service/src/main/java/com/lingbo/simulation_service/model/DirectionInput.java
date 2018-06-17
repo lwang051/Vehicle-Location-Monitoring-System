@@ -1,4 +1,4 @@
-package com.lingbo.simulation_service.domain;
+package com.lingbo.simulation_service.model;
 
 
 
@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
-public class Direction {
-	
-	private String from;
-	private String to;
-	
+public class DirectionInput {
+
+    private String from;
+    private String to;
+
 }

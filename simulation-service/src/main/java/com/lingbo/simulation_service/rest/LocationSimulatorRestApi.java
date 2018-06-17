@@ -1,24 +1,21 @@
 package com.lingbo.simulation_service.rest;
 
-
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lingbo.simulation_service.domain.Direction;
-import com.lingbo.simulation_service.domain.Point;
-import com.lingbo.simulation_service.domain.ServiceLocation;
-import com.lingbo.simulation_service.domain.SimulatorFixture;
-import com.lingbo.simulation_service.domain.SimulatorRequest;
-import com.lingbo.simulation_service.domain.VehicleStatus;
+import com.lingbo.simulation_service.model.DirectionInput;
+import com.lingbo.simulation_service.model.GpsSimulatorRequest;
+import com.lingbo.simulation_service.model.Point;
+import com.lingbo.simulation_service.model.ServiceLocation;
+import com.lingbo.simulation_service.model.SimulatorFixture;
+import com.lingbo.simulation_service.model.VehicleStatus;
+import com.lingbo.simulation_service.service.GpsSimulatorFactory;
 import com.lingbo.simulation_service.service.PathService;
-import com.lingbo.simulation_service.service.SimulatorFactory;
 import com.lingbo.simulation_service.support.FaultCodeUtils;
-import com.lingbo.simulation_service.task.Simulator;
-import com.lingbo.simulation_service.task.SimulatorInstance;
+import com.lingbo.simulation_service.task.GpsSimulator;
+import com.lingbo.simulation_service.task.GpsSimulatorInstance;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -30,42 +27,43 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Future;
 
+
 @RestController
-@RequestMapping("/simulator")
-public class SimulationServiceRestController {
-	
-	@Autowired
+@RequestMapping("/api")
+public class LocationSimulatorRestApi {
+
+    @Autowired
     private PathService pathService;
 
 //    @Autowired
 //    private KmlService kmlService;
 
     @Autowired
-    private SimulatorFactory simulatorFactory;
+    private GpsSimulatorFactory gpsSimulatorFactory;
 
     @Autowired
     private AsyncTaskExecutor taskExecutor;
 
-    private Map<Long, SimulatorInstance> taskFutures = new HashMap<Long, SimulatorInstance>();
+    private Map<Long, GpsSimulatorInstance> taskFutures = new HashMap<>();
 
     @RequestMapping("/dc")
-    public List<SimulatorInstance> dc(HttpServletRequest request) {
+    public List<GpsSimulatorInstance> dc(HttpServletRequest request) {
         final SimulatorFixture fixture = this.pathService.loadSimulatorFixture();
 
-        final List<SimulatorInstance> instances = new ArrayList<SimulatorInstance>();
-        final List<Point> lookAtPoints = new ArrayList<Point>();
+        final List<GpsSimulatorInstance> instances = new ArrayList<>();
+        final List<Point> lookAtPoints = new ArrayList<>();
 
-        final Set<Long> instanceIds = new HashSet<Long>(taskFutures.keySet());
+        final Set<Long> instanceIds = new HashSet<>(taskFutures.keySet());
 
-        for (SimulatorRequest simulatorRequest : fixture.getSimulatorRequests()) {
+        for (GpsSimulatorRequest gpsSimulatorRequest : fixture.getGpsSimulatorRequests()) {
 
-            final Simulator simulator = simulatorFactory.prepareGpsSimulator(simulatorRequest);
-            lookAtPoints.add(simulator.getStartPoint());
-            instanceIds.add(simulator.getId());
+            final GpsSimulator gpsSimulator = gpsSimulatorFactory.prepareGpsSimulator(gpsSimulatorRequest);
+            lookAtPoints.add(gpsSimulator.getStartPoint());
+            instanceIds.add(gpsSimulator.getId());
 
-            final Future<?> future = taskExecutor.submit(simulator);
-            final SimulatorInstance instance = new SimulatorInstance(simulator.getId(), simulator, future);
-            taskFutures.put(simulator.getId(), instance);
+            final Future<?> future = taskExecutor.submit(gpsSimulator);
+            final GpsSimulatorInstance instance = new GpsSimulatorInstance(gpsSimulator.getId(), gpsSimulator, future);
+            taskFutures.put(gpsSimulator.getId(), instance);
             instances.add(instance);
         }
 
@@ -77,17 +75,17 @@ public class SimulationServiceRestController {
     }
 
     @RequestMapping("/status")
-    public Collection<SimulatorInstance> status() {
+    public Collection<GpsSimulatorInstance> status() {
         return taskFutures.values();
     }
 
     @RequestMapping("/cancel")
     public int cancel() {
         int numberOfCancelledTasks = 0;
-        for (Map.Entry<Long, SimulatorInstance> entry : taskFutures.entrySet()) {
-            SimulatorInstance instance = entry.getValue();
-            instance.getSimulator().cancel();
-            boolean wasCancelled = instance.getSimulatorTask().cancel(true);
+        for (Map.Entry<Long, GpsSimulatorInstance> entry : taskFutures.entrySet()) {
+            GpsSimulatorInstance instance = entry.getValue();
+            instance.getGpsSimulator().cancel();
+            boolean wasCancelled = instance.getGpsSimulatorTask().cancel(true);
             if (wasCancelled) {
                 numberOfCancelledTasks++;
             }
@@ -98,8 +96,8 @@ public class SimulationServiceRestController {
     }
 
     @RequestMapping("/directions")
-    public List<Direction> directions() {
-        return pathService.loadDirection();
+    public List<DirectionInput> directions() {
+        return pathService.loadDirectionInput();
     }
 
     @RequestMapping("/service-locations")
@@ -110,12 +108,12 @@ public class SimulationServiceRestController {
     @RequestMapping("/fixture")
     public SimulatorFixture fixture() {
 
-        final List<Direction> directions = this.pathService.loadDirection();
+        final List<DirectionInput> directions = this.pathService.loadDirectionInput();
         final SimulatorFixture fixture = new SimulatorFixture();
 
-        for (Direction directionInput : directions) {
+        for (DirectionInput directionInput : directions) {
 
-            final SimulatorRequest gpsSimulatorRequest = new SimulatorRequest();
+            final GpsSimulatorRequest gpsSimulatorRequest = new GpsSimulatorRequest();
             gpsSimulatorRequest.setExportPositionsToKml(true);
             gpsSimulatorRequest.setExportPositionsToMessaging(true);
             gpsSimulatorRequest.setMove(true);
@@ -128,7 +126,7 @@ public class SimulationServiceRestController {
             gpsSimulatorRequest.setSecondsToError(60);
             gpsSimulatorRequest.setVehicleStatus(VehicleStatus.NONE);
             gpsSimulatorRequest.setFaultCode(FaultCodeUtils.getRandomFaultCode());
-            fixture.getSimulatorRequests().add(gpsSimulatorRequest);
+            fixture.getGpsSimulatorRequests().add(gpsSimulatorRequest);
         }
 
         return fixture;
@@ -143,9 +141,7 @@ public class SimulationServiceRestController {
 //    public byte[] getKmlBootstrapKml() {
 //        return kmlService.getKmlBootstrap();
 //    }
-    
-    
-    @SuppressWarnings("unused")
+
     private String getKmlUrl(HttpServletRequest request) {
 
         final String scheme = request.getScheme();
@@ -163,5 +159,4 @@ public class SimulationServiceRestController {
         url.append(contextPath).append("/api/kml/");
         return url.toString();
     }
-	
 }

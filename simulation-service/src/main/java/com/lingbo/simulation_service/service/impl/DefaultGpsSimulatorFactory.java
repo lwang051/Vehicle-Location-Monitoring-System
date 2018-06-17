@@ -1,28 +1,30 @@
 package com.lingbo.simulation_service.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.lingbo.simulation_service.model.GpsSimulatorRequest;
+import com.lingbo.simulation_service.model.Leg;
+import com.lingbo.simulation_service.model.Point;
+import com.lingbo.simulation_service.service.GpsSimulatorFactory;
+import com.lingbo.simulation_service.service.PathService;
+import com.lingbo.simulation_service.service.PositionService;
+import com.lingbo.simulation_service.support.NavUtils;
+import com.lingbo.simulation_service.task.GpsSimulator;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.lingbo.simulation_service.domain.Leg;
-import com.lingbo.simulation_service.domain.Point;
-import com.lingbo.simulation_service.domain.SimulatorRequest;
-import com.lingbo.simulation_service.service.PathService;
-import com.lingbo.simulation_service.service.PositionService;
-import com.lingbo.simulation_service.service.SimulatorFactory;
-import com.lingbo.simulation_service.support.NavUtils;
-import com.lingbo.simulation_service.task.Simulator;
-
+/**
+ *
+ *
+ */
 @Service
-public class DefaultSimulatorFactory implements SimulatorFactory {
-	
-	@Autowired
+public class DefaultGpsSimulatorFactory implements GpsSimulatorFactory {
+
+    @Autowired
     private PathService pathService;
 
     @Autowired
@@ -31,36 +33,36 @@ public class DefaultSimulatorFactory implements SimulatorFactory {
     private final AtomicLong instanceCounter = new AtomicLong();
 
     @Override
-    public Simulator prepareGpsSimulator(SimulatorRequest simulatorRequest) {
+    public GpsSimulator prepareGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
 
-        final Simulator simulator = new Simulator(simulatorRequest);
+        final GpsSimulator gpsSimulator = new GpsSimulator(gpsSimulatorRequest);
 
-        simulator.setPositionInfoService(positionService);
-        simulator.setId(this.instanceCounter.incrementAndGet());
+        gpsSimulator.setPositionInfoService(positionService);
+        gpsSimulator.setId(this.instanceCounter.incrementAndGet());
 
-        final List<Point> points = NavUtils.decodePolyline(simulatorRequest.getPolyline());
-        simulator.setStartPoint(points.iterator().next());
+        final List<Point> points = NavUtils.decodePolyline(gpsSimulatorRequest.getPolyline());
+        gpsSimulator.setStartPoint(points.iterator().next());
 
-        return prepareGpsSimulator(simulator, points);
+        return prepareGpsSimulator(gpsSimulator, points);
     }
 
     @Override
-    public Simulator prepareGpsSimulator(Simulator simulator, File kmlFile) {
+    public GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, File kmlFile) {
 
         final List<Point> points;
 
         if (kmlFile == null) {
-            points = this.pathService.getCoordinatesFromGoogle(this.pathService.loadDirection().get(0));
+            points = this.pathService.getCoordinatesFromGoogle(this.pathService.loadDirectionInput().get(0));
         } else {
 //            points = this.pathService.getCoordinatesFromKmlFile(kmlFile);
-            points = new ArrayList<Point>();
+            points = new ArrayList<>();
         }
 
-        return prepareGpsSimulator(simulator, points);
+        return prepareGpsSimulator(gpsSimulator, points);
     }
 
     @Override
-    public Simulator prepareGpsSimulator(Simulator gpsSimulator, List<Point> points) {
+    public GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, List<Point> points) {
         gpsSimulator.setCurrentPosition(null);
 
         final List<Leg> legs = createLegsList(points);
@@ -79,8 +81,8 @@ public class DefaultSimulatorFactory implements SimulatorFactory {
         for (int i = 0; i < (points.size() - 1); i++) {
             Leg leg = new Leg();
             leg.setId(i);
-            leg.setStart(points.get(i));
-            leg.setEnd(points.get(i + 1));
+            leg.setStartPosition(points.get(i));
+            leg.setEndPosition(points.get(i + 1));
             Double length = NavUtils.getDistance(points.get(i), points.get(i + 1));
             leg.setLength(length);
             Double heading = NavUtils.getBearing(points.get(i), points.get(i + 1));
@@ -89,5 +91,6 @@ public class DefaultSimulatorFactory implements SimulatorFactory {
         }
         return legs;
     }
-	
+
+
 }

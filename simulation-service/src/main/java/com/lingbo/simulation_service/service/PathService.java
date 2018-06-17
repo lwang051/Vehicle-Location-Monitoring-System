@@ -1,34 +1,36 @@
 package com.lingbo.simulation_service.service;
 
-
-
 import java.util.List;
 
-import com.lingbo.simulation_service.domain.Direction;
-import com.lingbo.simulation_service.domain.Point;
-import com.lingbo.simulation_service.domain.ServiceLocation;
-import com.lingbo.simulation_service.domain.SimulatorFixture;
+import com.lingbo.simulation_service.model.DirectionInput;
+import com.lingbo.simulation_service.model.Point;
+import com.lingbo.simulation_service.model.ServiceLocation;
+import com.lingbo.simulation_service.model.SimulatorFixture;
 
+/**
+ *
+ *
+ *
+ */
 public interface PathService {
-	
-	/**
+
+    /**
      * @return
      */
-    List<Direction> loadDirection();
+    List<DirectionInput> loadDirectionInput();
 
     SimulatorFixture loadSimulatorFixture();
 
     /**
-     * @param direction
+     * @param directionInput
      * @return
      */
-    List<Point> getCoordinatesFromGoogle(Direction direction);
+    List<Point> getCoordinatesFromGoogle(DirectionInput directionInput);
 
-    String getCoordinatesFromGoogleAsPolyline(Direction direction);
+    String getCoordinatesFromGoogleAsPolyline(DirectionInput directionInput);
 
 
 //    List<Point> getCoordinatesFromKmlFile(File kmlFile);
 
     List<ServiceLocation> getServiceStations();
-	
 }

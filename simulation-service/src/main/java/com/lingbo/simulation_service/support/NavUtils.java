@@ -1,10 +1,9 @@
 package com.lingbo.simulation_service.support;
 
 
-
 import com.google.maps.internal.PolylineEncoding;
 import com.google.maps.model.LatLng;
-import com.lingbo.simulation_service.domain.Point;
+import com.lingbo.simulation_service.model.Point;
 import com.spatial4j.core.context.SpatialContext;
 import com.spatial4j.core.distance.DistanceUtils;
 import org.springframework.util.Assert;

@@ -2,16 +2,6 @@ package com.lingbo.simulation_service.service.impl;
 
 
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
-import org.springframework.stereotype.Service;
-import org.springframework.util.Assert;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.maps.DirectionsApi;
@@ -24,21 +14,30 @@ import com.google.maps.model.AddressComponentType;
 import com.google.maps.model.DirectionsRoute;
 import com.google.maps.model.GeocodingResult;
 import com.google.maps.model.LatLng;
-import com.lingbo.simulation_service.domain.Direction;
-import com.lingbo.simulation_service.domain.Point;
-import com.lingbo.simulation_service.domain.ServiceLocation;
-import com.lingbo.simulation_service.domain.SimulatorFixture;
+import com.lingbo.simulation_service.model.DirectionInput;
+import com.lingbo.simulation_service.model.Point;
+import com.lingbo.simulation_service.model.ServiceLocation;
+import com.lingbo.simulation_service.model.SimulatorFixture;
 import com.lingbo.simulation_service.service.PathService;
 
 import net.sf.sprockets.Sprockets;
-import net.sf.sprockets.google.Places.Params;
 import net.sf.sprockets.google.Place;
 import net.sf.sprockets.google.Places;
+import net.sf.sprockets.google.Places.Params;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Service;
+import org.springframework.util.Assert;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
-public class DefaultPathService implements PathService{
-	
-	@Autowired
+public class DefaultPathService implements PathService {
+
+    @Autowired
     private ObjectMapper objectMapper;
 
     @Autowired
@@ -55,11 +54,11 @@ public class DefaultPathService implements PathService{
      * @see frk.gpssimulator.service.impl.PathServiceInterface#loadDirections()
      */
     @Override
-    public List<Direction> loadDirection() {
+    public List<DirectionInput> loadDirectionInput() {
         final InputStream is = this.getClass().getResourceAsStream("/directions.json");
 
         try {
-            return objectMapper.readValue(is, new TypeReference<List<Direction>>() {
+            return objectMapper.readValue(is, new TypeReference<List<DirectionInput>>() {
                 //Just make Jackson happy
             });
         } catch (IOException e) {
@@ -82,7 +81,7 @@ public class DefaultPathService implements PathService{
     }
 
     @Override
-    public String getCoordinatesFromGoogleAsPolyline(Direction directionInput) {
+    public String getCoordinatesFromGoogleAsPolyline(DirectionInput directionInput) {
         final GeoApiContext context = new GeoApiContext()
                 .setApiKey(environment.getRequiredProperty("gpsSimmulator.googleApiKey"));
         final DirectionsApiRequest request = DirectionsApi.getDirections(
@@ -113,7 +112,7 @@ public class DefaultPathService implements PathService{
             throw new IllegalStateException(e);
         }
 
-        final List<ServiceLocation> serviceLocations = new ArrayList<ServiceLocation>();
+        final List<ServiceLocation> serviceLocations = new ArrayList<>();
         final GeoApiContext context = new GeoApiContext()
                 .setApiKey(environment.getRequiredProperty("gpsSimmulator.googleApiKey"));
 
@@ -167,7 +166,7 @@ public class DefaultPathService implements PathService{
      * @see frk.gpssimulator.service.impl.PathServiceInterface#getCoordinatesFromGoogle(frk.gpssimulator.model.DirectionInput)
      */
     @Override
-    public List<Point> getCoordinatesFromGoogle(Direction directionInput) {
+    public List<Point> getCoordinatesFromGoogle(DirectionInput directionInput) {
 
         final GeoApiContext context = new GeoApiContext()
                 .setApiKey(environment.getRequiredProperty("gpsSimmulator.googleApiKey"));
@@ -187,7 +186,7 @@ public class DefaultPathService implements PathService{
             throw new IllegalStateException(e);
         }
 
-        final List<Point> points = new ArrayList<Point>(latlongList.size());
+        final List<Point> points = new ArrayList<>(latlongList.size());
 
         for (LatLng latLng : latlongList) {
             points.add(new Point(latLng.lat, latLng.lng));
@@ -242,5 +241,5 @@ public class DefaultPathService implements PathService{
         Assert.hasText(googleApiKey, "The googleApiKey must not be empty.");
 
     }
-	
+
 }

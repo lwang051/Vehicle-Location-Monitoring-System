@@ -1,5 +1,4 @@
-package com.lingbo.simulation_service.domain;
-
+package com.lingbo.simulation_service.model;
 
 
 import lombok.AccessLevel;
@@ -12,8 +11,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 public class PositionInfo {
-	
-	private String vin;
+
+    private String vin;
     private Point position;
     private VehicleStatus vehicleStatus = VehicleStatus.NONE;
 
@@ -32,5 +31,5 @@ public class PositionInfo {
      * The speed in m/s
      */
     private Double speed;
-	
+
 }
