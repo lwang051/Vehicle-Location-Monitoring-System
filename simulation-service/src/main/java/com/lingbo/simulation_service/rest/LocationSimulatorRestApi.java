@@ -141,7 +141,8 @@ public class LocationSimulatorRestApi {
 //    public byte[] getKmlBootstrapKml() {
 //        return kmlService.getKmlBootstrap();
 //    }
-
+    
+    @SuppressWarnings("unused")
     private String getKmlUrl(HttpServletRequest request) {
 
         final String scheme = request.getScheme();
