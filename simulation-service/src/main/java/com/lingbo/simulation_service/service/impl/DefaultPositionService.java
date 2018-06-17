@@ -18,13 +18,12 @@ public class DefaultPositionService implements PositionService {
 
 //    @Autowired
 //    private KmlService kmlService;
-
-    //    @Autowired
-//    @LoadBalanced
+    
+    // For the use of inter-calls between services(servers)
     private RestTemplate restTemplate = new RestTemplate();
 
-    @Value("${com.ross.fleet.location.ingest}")
-    private String fleetLocationIngest;
+    @Value("${com.lingbo.car.location.ingest}")
+    private String carLocationIngest;
 
     public DefaultPositionService() {
         super();
@@ -40,7 +39,7 @@ public class DefaultPositionService implements PositionService {
 //        }
 
         if (sendPositionsToIngestionService) {
-            this.restTemplate.postForLocation(fleetLocationIngest + "/api/locations", currentPosition);
+            this.restTemplate.postForLocation(carLocationIngest + "/api/locations", currentPosition);
         }
 
     }

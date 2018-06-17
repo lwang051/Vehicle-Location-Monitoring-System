@@ -7,8 +7,8 @@ gpsSimmulator:
   googleApiKey: AIzaSyDvdz2cb4zfp8NQVFu4kdzXFoIcHG744I4
 
 com:
-  ross:
-    fleet:
+  lingbo:
+    car:
       location:
         ingest: http://localhost:9006
 ---
@@ -17,6 +17,6 @@ spring:
 ribbon:
   eureka:
     enabled: false
-fleet-location-ingest:
+car-location-ingest:
   ribbon:
     listOfServers: localhost:9006
