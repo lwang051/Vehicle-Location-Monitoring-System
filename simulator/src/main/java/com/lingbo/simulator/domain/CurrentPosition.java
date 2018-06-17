@@ -8,15 +8,13 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
-public class CurrentState {
+public class CurrentPosition {
 	
 	private String vin;
-	private Point point;
-	private ServiceType serviceType = ServiceType.NONE;
+	private Point location;
+	private VehicleStatus vehicleStatus = VehicleStatus.NONE;
 	private Double speed;
 	private Double heading;
-	private Leg Leg;
-	private Double metersFromStartLeg;
 	private FaultCode faultCode; // TODO, seems that it has nothing to do with current position
 	
 }
