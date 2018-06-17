@@ -12,7 +12,7 @@ public class SimulatorRequest {
     private boolean exportPositionsToMessaging = true;
     private Integer reportInterval = 500;
     private int secondsToError = 0;
-    private VehicleStatus serviceType = VehicleStatus.NONE;
+    private VehicleStatus vehicleStatus = VehicleStatus.NONE;
     private String polyline;
     private FaultCode faultCode;
 	
