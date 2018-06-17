@@ -3,10 +3,7 @@ package com.lingbo.simulation_service.task;
 
 import java.util.concurrent.Future;
 
-/**
- *
- *
- */
+
 public class GpsSimulatorInstance {
 
     private long instanceId;
