@@ -32,7 +32,7 @@ import java.util.concurrent.Future;
 
 @RestController
 @RequestMapping("/simulator")
-public class SimulatorRestController {
+public class SimulationServiceRestController {
 	
 	@Autowired
     private PathService pathService;
