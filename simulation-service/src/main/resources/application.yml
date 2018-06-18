@@ -2,7 +2,7 @@ server:
   port: 9005
 spring:
   application:
-    name: fleet-location-simulator
+    name: simulation-service
 gpsSimmulator:
   googleApiKey: AIzaSyDvdz2cb4zfp8NQVFu4kdzXFoIcHG744I4
 
