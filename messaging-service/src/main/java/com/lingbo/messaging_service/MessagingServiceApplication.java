@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 //@EnableDiscoveryClient
-public class FleetLocationIngestApplication {
+public class MessagingServiceApplication {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(FleetLocationIngestApplication.class);
+        SpringApplication.run(MessagingServiceApplication.class);
     }
 
 }
