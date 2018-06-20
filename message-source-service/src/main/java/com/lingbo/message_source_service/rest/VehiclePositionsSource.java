@@ -1,4 +1,6 @@
-package com.lingbo.messaging_service.rest;
+package com.lingbo.message_source_service.rest;
+
+
 
 
 import org.springframework.beans.factory.annotation.Autowired;

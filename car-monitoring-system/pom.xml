@@ -17,7 +17,7 @@
   <modules>
   	<module>../location-service</module>
   	<module>../simulation-service</module>
-  	<!-- <module>../messaging-service</module> -->
+  	<!-- <module>../message-source-service</module> -->
   </modules>
   
   <dependencyManagement>
