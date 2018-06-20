@@ -21,11 +21,6 @@
   </parent>
   
   <dependencies>
-        <!--<dependency>-->
-        <!--<groupId>org.demo</groupId>-->
-        <!--<artifactId>config-bootstrap</artifactId>-->
-        <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -74,7 +69,7 @@
         </dependency>
     </dependencies>
     
-    <!-- <repositories>
+    <repositories>
         <repository>
             <id>spring-snapshots</id>
             <name>Spring Snapshots</name>
@@ -109,6 +104,6 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
-    </pluginRepositories> -->
+    </pluginRepositories>
   
 </project>
