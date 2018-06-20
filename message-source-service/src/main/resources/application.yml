@@ -2,7 +2,7 @@ server:
   port: 9006
 spring:
   application:
-    name: messaging-service
+    name: message-source-service
   cloud:
     stream:
       bindings:
