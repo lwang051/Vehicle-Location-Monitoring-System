@@ -53,6 +53,10 @@ public class Location {
 	})
 	private CarFault carFault;
 	
+	@Embedded
+	private FaultCode faultCode;
+	
+	private final String vin;
 	private double latitude;
 	private double longitude;
 	private String heading;
@@ -70,6 +74,7 @@ public class Location {
 	
 //	@SuppressWarnings("unused")
 	private Location() {
+		this.vin = null;
 		this.carInfo = null;
 	}
 	
