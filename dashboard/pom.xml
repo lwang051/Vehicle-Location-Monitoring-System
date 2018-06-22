@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>dashboard</artifactId>
+  <packaging>jar</packaging>
+
+  <name>dashboard</name>
+  <url>http://maven.apache.org</url>
+  
+  <parent>
+  	<groupId>com.lingbo</groupId>
+  	<artifactId>car-monitoring-system</artifactId>
+  	<version>1.0.0.BUILD-SNAPSHOT</version>
+  	<relativePath>../car-monitoring-system/pom.xml</relativePath>
+  </parent>
+
+  <dependencies>
+    <dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-zuul</artifactId>
+        </dependency>
+	<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>leaflet</artifactId>
+		<version>0.7.5</version>
+	</dependency>
+	<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>jquery-popup-overlay</artifactId>
+		<version>1.7.4</version>
+	</dependency>
+  </dependencies>
+    
+</project>

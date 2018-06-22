@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: dashboard
+stomp:
+  url: localhost:9007/stomp
+
+zuul:
+  routes:
+    location-service:
+      path: /location-service/**
+      url: http://localhost:9000

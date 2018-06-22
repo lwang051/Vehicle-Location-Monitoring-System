@@ -19,6 +19,7 @@
   	<module>../simulation-service</module>
   	<module>../message-source-service</module>
   	<module>../message-sink-service</module>
+  	<module>../dashboard</module>
   </modules>
   
   <dependencyManagement>
