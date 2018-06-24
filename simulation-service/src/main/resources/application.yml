@@ -6,17 +6,16 @@ spring:
 gpsSimmulator:
   googleApiKey: AIzaSyDvdz2cb4zfp8NQVFu4kdzXFoIcHG744I4
 
-com:
-  lingbo:
-    car:
-      location:
-        ingest: http://localhost:9006
+next:
+  service:
+    url: http://message-source-service/api/locations
+
 ---
 spring:
   profiles: test
 ribbon:
   eureka:
     enabled: false
-car-location-ingest:
+message-source-service:
   ribbon:
     listOfServers: localhost:9006

@@ -1,4 +1,4 @@
-package com.lingbo.car_monitoring_system;
+package com.lingbo.eureka;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
