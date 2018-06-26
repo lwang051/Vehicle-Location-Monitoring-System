@@ -19,12 +19,12 @@ import com.lingbo.location_service.service.LocationService;
 
 
 @RestController
-public class CarBulkUploadRestController {
+public class LocationServiceRestController {
 	
 	private LocationService locationService;
 	
 	@Autowired
-	public CarBulkUploadRestController(LocationService locationService) {
+	public LocationServiceRestController(LocationService locationService) {
 		this.locationService = locationService;
 	}
 	
