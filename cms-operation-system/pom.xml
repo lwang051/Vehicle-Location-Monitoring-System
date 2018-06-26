@@ -16,6 +16,7 @@
   
   <modules>
   	<module>../eureka-service</module>
+  	<module>../hystrix-service</module>
   </modules>
   
   <dependencyManagement>

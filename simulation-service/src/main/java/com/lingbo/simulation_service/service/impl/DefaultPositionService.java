@@ -8,6 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.lingbo.simulation_service.model.CurrentPosition;
 import com.lingbo.simulation_service.service.PositionService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,7 +32,7 @@ public class DefaultPositionService implements PositionService {
         super();
     }
 
-    //    @HystrixCommand(fallbackMethod = "processPositionInfoFallback")
+    @HystrixCommand(fallbackMethod = "processPositionInfoFallback")
     @Override
     public void processPositionInfo(long id, 
     		CurrentPosition currentPosition, 
@@ -52,7 +53,7 @@ public class DefaultPositionService implements PositionService {
     		CurrentPosition currentPosition, 
     		boolean exportPositionsToKml, 
     		boolean sendPositionsToIngestionService) {
-    	log.error("Hystrix Fallback Method. Unable to send message for ingestion.");
+    	log.error("Hystrix Fallback Method. Unable to send messages to message-sink-service.");
     }
 
 }
