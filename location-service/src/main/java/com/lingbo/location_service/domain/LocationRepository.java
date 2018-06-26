@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 public interface LocationRepository extends JpaRepository<Location, Long> {
 	
-	Page<Location> findByVehicleMovementType(@Param("movementType") Location.VehicleMovementType movementType, Pageable pageable);
+	Page<Location> findByVehicleMovementType(@Param("movementType") VehicleMovementType movementType, Pageable pageable);
 	Page<Location> findByCarInfoVin(@Param("vin") String vin, Pageable pageable);
 	
 }

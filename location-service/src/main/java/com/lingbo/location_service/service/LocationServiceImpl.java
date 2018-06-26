@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.lingbo.location_service.domain.Location;
 import com.lingbo.location_service.domain.LocationRepository;
+import com.lingbo.location_service.domain.VehicleMovementType;
 
 @Service
 public class LocationServiceImpl implements LocationService {
@@ -28,7 +29,7 @@ public class LocationServiceImpl implements LocationService {
 		locationRepository.deleteAll();
 	}
 
-	public Page<Location> findByVehicleMovementType(Location.VehicleMovementType movementType, Pageable pageable) {
+	public Page<Location> findByVehicleMovementType(VehicleMovementType movementType, Pageable pageable) {
 		return locationRepository.findByVehicleMovementType(movementType, pageable);
 	}
 
