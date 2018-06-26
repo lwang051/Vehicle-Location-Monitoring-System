@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.lingbo.location_service.domain.Location;
-import com.lingbo.location_service.domain.VehicleMovementType;
+import com.lingbo.location_service.model.Location;
+import com.lingbo.location_service.model.VehicleMovementType;
 
 public interface LocationService {
 	

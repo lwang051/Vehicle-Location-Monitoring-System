@@ -1,4 +1,6 @@
-package com.lingbo.location_service.domain;
+package com.lingbo.location_service.model;
+
+
 
 import javax.persistence.Embeddable;
 

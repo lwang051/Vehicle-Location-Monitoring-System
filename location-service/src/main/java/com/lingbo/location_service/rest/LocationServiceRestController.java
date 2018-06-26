@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lingbo.location_service.domain.Location;
-import com.lingbo.location_service.domain.VehicleMovementType;
+import com.lingbo.location_service.model.Location;
+import com.lingbo.location_service.model.VehicleMovementType;
 import com.lingbo.location_service.service.LocationService;
 
 

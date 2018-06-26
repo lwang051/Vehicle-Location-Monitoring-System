@@ -7,9 +7,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.lingbo.location_service.domain.Location;
-import com.lingbo.location_service.domain.LocationRepository;
-import com.lingbo.location_service.domain.VehicleMovementType;
+import com.lingbo.location_service.model.Location;
+import com.lingbo.location_service.model.LocationRepository;
+import com.lingbo.location_service.model.VehicleMovementType;
+
 
 @Service
 public class LocationServiceImpl implements LocationService {

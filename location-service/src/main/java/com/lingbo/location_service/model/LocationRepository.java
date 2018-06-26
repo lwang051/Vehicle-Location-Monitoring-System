@@ -1,4 +1,6 @@
-package com.lingbo.location_service.domain;
+package com.lingbo.location_service.model;
+
+
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
