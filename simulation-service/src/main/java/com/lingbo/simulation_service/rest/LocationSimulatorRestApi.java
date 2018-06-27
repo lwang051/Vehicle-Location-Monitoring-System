@@ -34,36 +34,27 @@ public class LocationSimulatorRestApi {
 
     @Autowired
     private PathService pathService;
-
     @Autowired
     private GpsSimulatorGenerationService gpsSimulatorGenerationService;
-
     @Autowired
     private AsyncTaskExecutor taskExecutor;
-
     private Map<Long, GpsSimulatorInstance> taskFutures = new HashMap<>();
 
     @RequestMapping("/dc")
     public List<GpsSimulatorInstance> dc(HttpServletRequest request) {
         final SimulatorFixture fixture = this.pathService.loadSimulatorFixture();
-
         final List<GpsSimulatorInstance> instances = new ArrayList<>();
         final List<Point> lookAtPoints = new ArrayList<>();
-
         final Set<Long> instanceIds = new HashSet<>(taskFutures.keySet());
-
         for (GpsSimulatorRequest gpsSimulatorRequest : fixture.getGpsSimulatorRequests()) {
-
             final GpsSimulator gpsSimulator = gpsSimulatorGenerationService.prepareGpsSimulator(gpsSimulatorRequest);
             lookAtPoints.add(gpsSimulator.getStartPoint());
             instanceIds.add(gpsSimulator.getId());
-
             final Future<?> future = taskExecutor.submit(gpsSimulator);
             final GpsSimulatorInstance instance = new GpsSimulatorInstance(gpsSimulator.getId(), gpsSimulator, future);
             taskFutures.put(gpsSimulator.getId(), instance);
             instances.add(instance);
         }
-
         return instances;
     }
 
@@ -99,17 +90,13 @@ public class LocationSimulatorRestApi {
 
     @RequestMapping("/fixture")
     public SimulatorFixture fixture() {
-
         final List<DirectionInput> directions = this.pathService.loadDirectionInput();
         final SimulatorFixture fixture = new SimulatorFixture();
-
         for (DirectionInput directionInput : directions) {
-
             final GpsSimulatorRequest gpsSimulatorRequest = new GpsSimulatorRequest();
             gpsSimulatorRequest.setExportPositionsToKml(true);
             gpsSimulatorRequest.setExportPositionsToMessaging(true);
             gpsSimulatorRequest.setMove(true);
-
             String polyline = this.pathService.getCoordinatesFromGoogleAsPolyline(directionInput);
             gpsSimulatorRequest.setPolyline(polyline);
             gpsSimulatorRequest.setReportInterval(1000);
@@ -120,7 +107,6 @@ public class LocationSimulatorRestApi {
             gpsSimulatorRequest.setFaultCode(FaultCodeUtils.getRandomFaultCode());
             fixture.getGpsSimulatorRequests().add(gpsSimulatorRequest);
         }
-
         return fixture;
     }
     
