@@ -8,7 +8,7 @@ import com.lingbo.simulation_service.model.GpsSimulatorRequest;
 import com.lingbo.simulation_service.model.Point;
 import com.lingbo.simulation_service.task.GpsSimulator;
 
-public interface GpsSimulatorFactory {
+public interface GpsSimulatorGenerationService {
 
     GpsSimulator prepareGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest);
 

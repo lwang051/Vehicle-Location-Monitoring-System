@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import com.lingbo.simulation_service.model.GpsSimulatorRequest;
 import com.lingbo.simulation_service.model.Leg;
 import com.lingbo.simulation_service.model.Point;
-import com.lingbo.simulation_service.service.GpsSimulatorFactory;
+import com.lingbo.simulation_service.service.GpsSimulatorGenerationService;
 import com.lingbo.simulation_service.service.PathService;
 import com.lingbo.simulation_service.service.PositionService;
 import com.lingbo.simulation_service.support.NavUtils;
@@ -22,7 +22,7 @@ import java.util.concurrent.atomic.AtomicLong;
  *
  */
 @Service
-public class DefaultGpsSimulatorFactory implements GpsSimulatorFactory {
+public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerationService {
 
     @Autowired
     private PathService pathService;

@@ -11,7 +11,7 @@ import com.lingbo.simulation_service.model.Point;
 import com.lingbo.simulation_service.model.ServiceLocation;
 import com.lingbo.simulation_service.model.SimulatorFixture;
 import com.lingbo.simulation_service.model.VehicleStatus;
-import com.lingbo.simulation_service.service.GpsSimulatorFactory;
+import com.lingbo.simulation_service.service.GpsSimulatorGenerationService;
 import com.lingbo.simulation_service.service.PathService;
 import com.lingbo.simulation_service.support.FaultCodeUtils;
 import com.lingbo.simulation_service.task.GpsSimulator;
@@ -36,7 +36,7 @@ public class LocationSimulatorRestApi {
     private PathService pathService;
 
     @Autowired
-    private GpsSimulatorFactory gpsSimulatorFactory;
+    private GpsSimulatorGenerationService gpsSimulatorGenerationService;
 
     @Autowired
     private AsyncTaskExecutor taskExecutor;
@@ -54,7 +54,7 @@ public class LocationSimulatorRestApi {
 
         for (GpsSimulatorRequest gpsSimulatorRequest : fixture.getGpsSimulatorRequests()) {
 
-            final GpsSimulator gpsSimulator = gpsSimulatorFactory.prepareGpsSimulator(gpsSimulatorRequest);
+            final GpsSimulator gpsSimulator = gpsSimulatorGenerationService.prepareGpsSimulator(gpsSimulatorRequest);
             lookAtPoints.add(gpsSimulator.getStartPoint());
             instanceIds.add(gpsSimulator.getId());
 
