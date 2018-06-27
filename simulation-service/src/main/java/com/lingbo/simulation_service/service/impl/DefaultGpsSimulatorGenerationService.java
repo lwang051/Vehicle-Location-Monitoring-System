@@ -33,7 +33,7 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
     private final AtomicLong instanceCounter = new AtomicLong();
 
     @Override
-    public GpsSimulator prepareGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
+    public GpsSimulator createGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
 
         final GpsSimulator gpsSimulator = new GpsSimulator(gpsSimulatorRequest);
 
@@ -43,11 +43,11 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
         final List<Point> points = NavUtils.decodePolyline(gpsSimulatorRequest.getPolyline());
         gpsSimulator.setStartPoint(points.iterator().next());
 
-        return prepareGpsSimulator(gpsSimulator, points);
+        return createGpsSimulator(gpsSimulator, points);
     }
 
     @Override
-    public GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, File kmlFile) {
+    public GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, File kmlFile) {
 
         final List<Point> points;
 
@@ -58,11 +58,11 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
             points = new ArrayList<>();
         }
 
-        return prepareGpsSimulator(gpsSimulator, points);
+        return createGpsSimulator(gpsSimulator, points);
     }
 
     @Override
-    public GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, List<Point> points) {
+    public GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, List<Point> points) {
         gpsSimulator.setCurrentPosition(null);
 
         final List<Leg> legs = createLegsList(points);

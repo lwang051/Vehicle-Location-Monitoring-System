@@ -47,7 +47,7 @@ public class LocationSimulatorRestApi {
         final List<Point> lookAtPoints = new ArrayList<>();
         final Set<Long> instanceIds = new HashSet<>(taskFutures.keySet());
         for (GpsSimulatorRequest gpsSimulatorRequest : fixture.getGpsSimulatorRequests()) {
-            final GpsSimulator gpsSimulator = gpsSimulatorGenerationService.prepareGpsSimulator(gpsSimulatorRequest);
+            final GpsSimulator gpsSimulator = gpsSimulatorGenerationService.createGpsSimulator(gpsSimulatorRequest);
             lookAtPoints.add(gpsSimulator.getStartPoint());
             instanceIds.add(gpsSimulator.getId());
             final Future<?> future = taskExecutor.submit(gpsSimulator);

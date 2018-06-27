@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+
 import com.lingbo.simulation_service.model.CurrentPosition;
 import com.lingbo.simulation_service.model.FaultCode;
 import com.lingbo.simulation_service.model.GpsSimulatorRequest;
@@ -21,22 +22,17 @@ import com.lingbo.simulation_service.support.NavUtils;
 public class GpsSimulator implements Runnable {
 
     private long id;
-
     private PositionService positionInfoService;
-
     private AtomicBoolean cancel = new AtomicBoolean();
-
     private Double speedInMps; // In meters/sec
     private boolean shouldMove;
     private boolean exportPositionsToKml = false;
     private boolean exportPositionsToMessaging = true;
-
     private Integer reportInterval = 500; // millisecs at which to send position reports
     private PositionInfo positionInfo = null;
     private List<Leg> legs;
     private VehicleStatus vehicleStatus = VehicleStatus.NONE;
     private String vin;
-
     private Integer secondsToError = 45;
     private Point startPoint;
     private Date executionStartTime;
@@ -48,7 +44,6 @@ public class GpsSimulator implements Runnable {
         this.exportPositionsToMessaging = gpsSimulatorRequest.isExportPositionsToMessaging();
         this.setSpeedInKph(gpsSimulatorRequest.getSpeedInKph());
         this.reportInterval = gpsSimulatorRequest.getReportInterval();
-
         this.secondsToError = gpsSimulatorRequest.getSecondsToError();
         this.vin = gpsSimulatorRequest.getVin();
         this.vehicleStatus = gpsSimulatorRequest.getVehicleStatus();

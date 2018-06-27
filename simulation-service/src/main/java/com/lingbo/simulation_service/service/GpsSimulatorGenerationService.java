@@ -10,10 +10,10 @@ import com.lingbo.simulation_service.task.GpsSimulator;
 
 public interface GpsSimulatorGenerationService {
 
-    GpsSimulator prepareGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest);
+    GpsSimulator createGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest);
 
-    GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, File kmlFile);
+    GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, File kmlFile);
 
-    GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, List<Point> points);
+    GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, List<Point> points);
 
 }
