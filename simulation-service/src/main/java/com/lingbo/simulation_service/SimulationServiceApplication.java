@@ -12,10 +12,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-public class GpsSimulatorApplication {
+public class SimulationServiceApplication {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(GpsSimulatorApplication.class, args);
+        SpringApplication.run(SimulationServiceApplication.class, args);
     }
     
 }

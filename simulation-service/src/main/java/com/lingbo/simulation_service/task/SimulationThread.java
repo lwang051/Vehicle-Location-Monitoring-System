@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import com.lingbo.simulation_service.model.CurrentPosition;
 import com.lingbo.simulation_service.model.FaultCode;
-import com.lingbo.simulation_service.model.GpsSimulatorRequest;
+import com.lingbo.simulation_service.model.SimulationThreadRequest;
 import com.lingbo.simulation_service.model.Leg;
 import com.lingbo.simulation_service.model.Point;
 import com.lingbo.simulation_service.model.PositionInfo;
@@ -19,7 +19,7 @@ import com.lingbo.simulation_service.support.NavUtils;
 /**
  * Simulates a vehicle moving along a path defined in a kml file.
  */
-public class GpsSimulator implements Runnable {
+public class SimulationThread implements Runnable {
     
     private long id;
     private NotificationService notificationService;
@@ -38,16 +38,16 @@ public class GpsSimulator implements Runnable {
     private Date executionStartTime;
     private FaultCode faultCode;
 
-    public GpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
-        this.shouldMove = gpsSimulatorRequest.isMove();
-        this.exportPositionsToKml = gpsSimulatorRequest.isExportPositionsToKml();
-        this.exportPositionsToMessaging = gpsSimulatorRequest.isExportPositionsToMessaging();
-        this.setSpeedInKph(gpsSimulatorRequest.getSpeedInKph());
-        this.reportInterval = gpsSimulatorRequest.getReportInterval();
-        this.secondsToError = gpsSimulatorRequest.getSecondsToError();
-        this.vin = gpsSimulatorRequest.getVin();
-        this.vehicleStatus = gpsSimulatorRequest.getVehicleStatus();
-        this.faultCode = gpsSimulatorRequest.getFaultCode();
+    public SimulationThread(SimulationThreadRequest simulationThreadRequest) {
+        this.shouldMove = simulationThreadRequest.isMove();
+        this.exportPositionsToKml = simulationThreadRequest.isExportPositionsToKml();
+        this.exportPositionsToMessaging = simulationThreadRequest.isExportPositionsToMessaging();
+        this.setSpeedInKph(simulationThreadRequest.getSpeedInKph());
+        this.reportInterval = simulationThreadRequest.getReportInterval();
+        this.secondsToError = simulationThreadRequest.getSecondsToError();
+        this.vin = simulationThreadRequest.getVin();
+        this.vehicleStatus = simulationThreadRequest.getVehicleStatus();
+        this.faultCode = simulationThreadRequest.getFaultCode();
     }
 
     @Override
@@ -258,7 +258,7 @@ public class GpsSimulator implements Runnable {
 
     @Override
     public String toString() {
-        return "GpsSimulator [id=" + id + ", speedInMps=" + speedInMps + ", shouldMove=" + shouldMove
+        return "SimulationThread [id=" + id + ", speedInMps=" + speedInMps + ", shouldMove=" + shouldMove
                 + ", exportPositionsToKml=" + exportPositionsToKml + ", exportPositionsToMessaging="
                 + exportPositionsToMessaging + ", reportInterval=" + reportInterval + ", currentPosition="
                 + positionInfo + "]";
