@@ -5,15 +5,11 @@ import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lingbo.simulation_service.model.DirectionInput;
 import com.lingbo.simulation_service.model.GpsSimulatorRequest;
 import com.lingbo.simulation_service.model.Point;
-import com.lingbo.simulation_service.model.ServiceLocation;
 import com.lingbo.simulation_service.model.SimulatorFixture;
-import com.lingbo.simulation_service.model.VehicleStatus;
 import com.lingbo.simulation_service.service.GpsSimulatorGenerationService;
 import com.lingbo.simulation_service.service.PathService;
-import com.lingbo.simulation_service.support.FaultCodeUtils;
 import com.lingbo.simulation_service.task.GpsSimulator;
 import com.lingbo.simulation_service.task.GpsSimulatorInstance;
 
@@ -76,38 +72,6 @@ public class LocationSimulatorRestApi {
         }
         taskFutures.clear();
         return numberOfCancelledTasks;
-    }
-
-    @RequestMapping("/directions")
-    public List<DirectionInput> directions() {
-        return pathService.loadDirectionInput();
-    }
-
-    @RequestMapping("/service-locations")
-    public List<ServiceLocation> serviceLocations() {
-        return pathService.getServiceStations();
-    }
-
-    @RequestMapping("/fixture")
-    public SimulatorFixture fixture() {
-        final List<DirectionInput> directions = this.pathService.loadDirectionInput();
-        final SimulatorFixture fixture = new SimulatorFixture();
-        for (DirectionInput directionInput : directions) {
-            final GpsSimulatorRequest gpsSimulatorRequest = new GpsSimulatorRequest();
-            gpsSimulatorRequest.setExportPositionsToKml(true);
-            gpsSimulatorRequest.setExportPositionsToMessaging(true);
-            gpsSimulatorRequest.setMove(true);
-            String polyline = this.pathService.getCoordinatesFromGoogleAsPolyline(directionInput);
-            gpsSimulatorRequest.setPolyline(polyline);
-            gpsSimulatorRequest.setReportInterval(1000);
-            gpsSimulatorRequest.setSpeedInKph(50d);
-            gpsSimulatorRequest.setExportPositionsToMessaging(true);
-            gpsSimulatorRequest.setSecondsToError(60);
-            gpsSimulatorRequest.setVehicleStatus(VehicleStatus.NONE);
-            gpsSimulatorRequest.setFaultCode(FaultCodeUtils.getRandomFaultCode());
-            fixture.getGpsSimulatorRequests().add(gpsSimulatorRequest);
-        }
-        return fixture;
     }
     
 }

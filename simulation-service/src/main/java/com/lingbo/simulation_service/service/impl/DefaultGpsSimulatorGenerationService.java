@@ -8,7 +8,7 @@ import com.lingbo.simulation_service.model.Leg;
 import com.lingbo.simulation_service.model.Point;
 import com.lingbo.simulation_service.service.GpsSimulatorGenerationService;
 import com.lingbo.simulation_service.service.PathService;
-import com.lingbo.simulation_service.service.PositionService;
+import com.lingbo.simulation_service.service.NotificationService;
 import com.lingbo.simulation_service.support.NavUtils;
 import com.lingbo.simulation_service.task.GpsSimulator;
 
@@ -28,7 +28,7 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
     private PathService pathService;
 
     @Autowired
-    private PositionService positionService;
+    private NotificationService notificationService;
 
     private final AtomicLong instanceCounter = new AtomicLong();
 
@@ -37,7 +37,7 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
 
         final GpsSimulator gpsSimulator = new GpsSimulator(gpsSimulatorRequest);
 
-        gpsSimulator.setPositionInfoService(positionService);
+        gpsSimulator.setPositionInfoService(notificationService);
         gpsSimulator.setId(this.instanceCounter.incrementAndGet());
 
         final List<Point> points = NavUtils.decodePolyline(gpsSimulatorRequest.getPolyline());

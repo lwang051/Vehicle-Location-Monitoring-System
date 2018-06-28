@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.lingbo.simulation_service.model.CurrentPosition;
-import com.lingbo.simulation_service.service.PositionService;
+import com.lingbo.simulation_service.service.NotificationService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 import lombok.extern.slf4j.Slf4j;
@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class DefaultPositionService implements PositionService {
+public class DefaultNotificationService implements NotificationService {
 
 //    @Autowired
 //    private KmlService kmlService;
@@ -28,31 +28,25 @@ public class DefaultPositionService implements PositionService {
     @Value("${next.service.url}")
     private String nextServiceUrl;
 
-    public DefaultPositionService() {
+    public DefaultNotificationService() {
         super();
     }
 
-    @HystrixCommand(fallbackMethod = "processPositionInfoFallback")
+    @HystrixCommand(fallbackMethod = "pushFallback")
     @Override
-    public void processPositionInfo(long id, 
+    public void send(long id, 
     		CurrentPosition currentPosition, 
     		boolean exportPositionsToKml, 
-    		boolean sendPositionsToIngestionService) {
-
-//        if (exportPositionsToKml) {
-//            this.kmlService.updatePosition(id, currentPosition);
-//        }
-
-        if (sendPositionsToIngestionService) {
+    		boolean exportPositionsToMessaging) {
+        if (exportPositionsToMessaging) {
             this.restTemplate.postForLocation(nextServiceUrl, currentPosition);
         }
-
     }
 
-    public void processPositionInfoFallback(long id, 
+    public void pushFallback(long id, 
     		CurrentPosition currentPosition, 
     		boolean exportPositionsToKml, 
-    		boolean sendPositionsToIngestionService) {
+    		boolean exportPositionsToMessaging) {
     	log.error("Hystrix Fallback Method. Unable to send messages to message-sink-service.");
     }
 
