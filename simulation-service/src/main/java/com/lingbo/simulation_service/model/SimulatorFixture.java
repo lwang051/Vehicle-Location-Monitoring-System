@@ -1,7 +1,7 @@
 package com.lingbo.simulation_service.model;
 
 
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+//import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +14,6 @@ import java.util.List;
 @Data
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
-@JsonPropertyOrder({"numberOfGpsSimulatorRequests", "gpsSimulatorRequests"})
 public class SimulatorFixture {
 
     private List<GpsSimulatorRequest> gpsSimulatorRequests = new ArrayList<>(0);

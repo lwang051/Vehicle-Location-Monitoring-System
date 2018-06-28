@@ -1,4 +1,6 @@
-package com.lingbo.location_service.domain;
+package com.lingbo.location_service.model;
+
+
 
 import java.util.Date;
 
@@ -20,17 +22,6 @@ import lombok.Data;
 @Entity
 @Table(name = "LOCATION")
 public class Location {
-	
-	enum GpsStatus {
-		EXCELLENT, OK, UNRELIABLE, BAD, NOFIX, UNKNOWN;
-	}
-	
-	public enum VehicleMovementType {
-		STOPPED, IN_MOTION;
-		public boolean isMoving() {
-			return this != STOPPED;
-		}
-	}
 	
 	@Id
 	@GeneratedValue
@@ -69,17 +60,12 @@ public class Location {
 	private String address;
 	private Date timestamp = new Date();
 	private String tspProvider;
-	private VehicleMovementType  vehicleMovementType = VehicleMovementType.STOPPED;
+	private VehicleMovementType vehicleMovementType = VehicleMovementType.STOPPED;
 	private String serviceType;
 	
-//	@SuppressWarnings("unused")
 	private Location() {
 		this.vin = null;
 		this.carInfo = null;
 	}
-	
-//	public String getVin() {
-//		return this.carInfo == null ?  null : this.carInfo.getVin();
-//	}
 	
 }

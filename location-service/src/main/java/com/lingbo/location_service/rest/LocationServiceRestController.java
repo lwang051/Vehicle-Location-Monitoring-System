@@ -14,17 +14,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lingbo.location_service.domain.Location;
+import com.lingbo.location_service.model.Location;
+import com.lingbo.location_service.model.VehicleMovementType;
 import com.lingbo.location_service.service.LocationService;
 
 
 @RestController
-public class CarBulkUploadRestController {
+public class LocationServiceRestController {
 	
 	private LocationService locationService;
 	
 	@Autowired
-	public CarBulkUploadRestController(LocationService locationService) {
+	public LocationServiceRestController(LocationService locationService) {
 		this.locationService = locationService;
 	}
 	
@@ -45,7 +46,7 @@ public class CarBulkUploadRestController {
 			@RequestParam(name = "page") int page, 
 			@RequestParam(name = "size") int size) {
 		return locationService.findByVehicleMovementType(
-				Location.VehicleMovementType.valueOf(movementType), 
+				VehicleMovementType.valueOf(movementType), 
 				new PageRequest(page, size));
 	}
 	

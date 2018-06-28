@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+
 import com.lingbo.simulation_service.model.CurrentPosition;
 import com.lingbo.simulation_service.model.FaultCode;
 import com.lingbo.simulation_service.model.GpsSimulatorRequest;
@@ -12,31 +13,26 @@ import com.lingbo.simulation_service.model.Leg;
 import com.lingbo.simulation_service.model.Point;
 import com.lingbo.simulation_service.model.PositionInfo;
 import com.lingbo.simulation_service.model.VehicleStatus;
-import com.lingbo.simulation_service.service.PositionService;
+import com.lingbo.simulation_service.service.NotificationService;
 import com.lingbo.simulation_service.support.NavUtils;
 
 /**
  * Simulates a vehicle moving along a path defined in a kml file.
  */
 public class GpsSimulator implements Runnable {
-
+    
     private long id;
-
-    private PositionService positionInfoService;
-
+    private NotificationService notificationService;
     private AtomicBoolean cancel = new AtomicBoolean();
-
     private Double speedInMps; // In meters/sec
     private boolean shouldMove;
     private boolean exportPositionsToKml = false;
     private boolean exportPositionsToMessaging = true;
-
     private Integer reportInterval = 500; // millisecs at which to send position reports
     private PositionInfo positionInfo = null;
     private List<Leg> legs;
     private VehicleStatus vehicleStatus = VehicleStatus.NONE;
     private String vin;
-
     private Integer secondsToError = 45;
     private Point startPoint;
     private Date executionStartTime;
@@ -48,7 +44,6 @@ public class GpsSimulator implements Runnable {
         this.exportPositionsToMessaging = gpsSimulatorRequest.isExportPositionsToMessaging();
         this.setSpeedInKph(gpsSimulatorRequest.getSpeedInKph());
         this.reportInterval = gpsSimulatorRequest.getReportInterval();
-
         this.secondsToError = gpsSimulatorRequest.getSecondsToError();
         this.vin = gpsSimulatorRequest.getVin();
         this.vehicleStatus = gpsSimulatorRequest.getVehicleStatus();
@@ -65,22 +60,19 @@ public class GpsSimulator implements Runnable {
             }
             while (!Thread.interrupted()) {
                 long startTime = new Date().getTime();
-                if (positionInfo != null) {
+                if (positionInfo != null) { // has next position info
                     if (shouldMove) {
-                        moveVehicle();
+                    	updatePositionInfo();
                         positionInfo.setSpeed(speedInMps);
                     } else {
                         positionInfo.setSpeed(0d);
                     }
-
-                    if (this.secondsToError > 0 && startTime - executionStartTime.getTime() >= this.secondsToError * 1000) {
+                    if (this.secondsToError > 0 && 
+                    		startTime - executionStartTime.getTime() >= this.secondsToError * 1000) {
                         this.vehicleStatus = VehicleStatus.SERVICE_NOW;
                     }
-
                     positionInfo.setVehicleStatus(this.vehicleStatus);
-
                     final FaultCode faultCodeToUse;
-
                     switch (this.vehicleStatus) {
                         case SERVICE_INFO:
                         case SERVICE_SOON:
@@ -91,26 +83,24 @@ public class GpsSimulator implements Runnable {
                             faultCodeToUse = null;
                             break;
                     }
-
-                    final CurrentPosition currentPosition = new CurrentPosition(
-                            positionInfo.getVin(),
-                            new Point(positionInfo.getPosition().getLatitude(), positionInfo.getPosition().getLongitude()),
+                    notificationService.send(id, 
+                        new CurrentPosition(positionInfo.getVin(), 
+                            new Point(positionInfo.getPosition().getLatitude(), 
+                                positionInfo.getPosition().getLongitude()),
                             positionInfo.getVehicleStatus(),
-                            positionInfo.getSpeed(),
-                            positionInfo.getLeg().getHeading(),
-                            faultCodeToUse);
-                    positionInfoService.processPositionInfo(id, currentPosition, this.exportPositionsToKml, this.exportPositionsToMessaging);
-
+                    		positionInfo.getSpeed(),
+                    		positionInfo.getLeg().getHeading(),
+                    		faultCodeToUse), 
+                    	this.exportPositionsToKml, 
+                    	this.exportPositionsToMessaging);
                 }
-
                 // wait till next position report is due
-                sleep(startTime);
+                sleepForTheRestTime(startTime);
             }
         } catch (InterruptedException ie) {
             destroy();
             return;
         }
-
         destroy();
     }
 
@@ -128,9 +118,8 @@ public class GpsSimulator implements Runnable {
      * @param startTime
      * @throws InterruptedException
      */
-    private void sleep(long startTime) throws InterruptedException {
-        long endTime = new Date().getTime();
-        long elapsedTime = endTime - startTime;
+    private void sleepForTheRestTime(long startTime) throws InterruptedException {
+        long elapsedTime = new Date().getTime() - startTime;
         long sleepTime = reportInterval - elapsedTime > 0 ? reportInterval - elapsedTime : 0;
         Thread.sleep(sleepTime);
     }
@@ -138,18 +127,16 @@ public class GpsSimulator implements Runnable {
     /**
      * Set new position of vehicle based on current position and vehicle speed.
      */
-    void moveVehicle() {
+    void updatePositionInfo() {
         Double distance = speedInMps * reportInterval / 1000.0;
         Double distanceFromStart = positionInfo.getDistanceFromStart() + distance;
         Double excess = 0.0; // amount by which next postion will exceed end
-        // point of present leg
 
         for (int i = positionInfo.getLeg().getId(); i < legs.size(); i++) {
             Leg currentLeg = legs.get(i);
             excess = distanceFromStart > currentLeg.getLength() ? distanceFromStart - currentLeg.getLength() : 0.0;
 
-            if (Double.doubleToRawLongBits(excess) == 0) {
-                // this means new position falls within current leg
+            if (Double.doubleToRawLongBits(excess) == 0) { // position falls within current leg
                 positionInfo.setDistanceFromStart(distanceFromStart);
                 positionInfo.setLeg(currentLeg);
                 Point newPosition = NavUtils.getPosition(currentLeg.getStartPosition(), distanceFromStart,
@@ -265,8 +252,8 @@ public class GpsSimulator implements Runnable {
         this.secondsToError = secondsToError;
     }
 
-    public void setPositionInfoService(PositionService positionInfoService) {
-        this.positionInfoService = positionInfoService;
+    public void setPositionInfoService(NotificationService notificationService) {
+        this.notificationService = notificationService;
     }
 
     @Override

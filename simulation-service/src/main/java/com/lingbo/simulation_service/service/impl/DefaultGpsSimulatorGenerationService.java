@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 import com.lingbo.simulation_service.model.GpsSimulatorRequest;
 import com.lingbo.simulation_service.model.Leg;
 import com.lingbo.simulation_service.model.Point;
-import com.lingbo.simulation_service.service.GpsSimulatorFactory;
+import com.lingbo.simulation_service.service.GpsSimulatorGenerationService;
 import com.lingbo.simulation_service.service.PathService;
-import com.lingbo.simulation_service.service.PositionService;
+import com.lingbo.simulation_service.service.NotificationService;
 import com.lingbo.simulation_service.support.NavUtils;
 import com.lingbo.simulation_service.task.GpsSimulator;
 
@@ -22,32 +22,32 @@ import java.util.concurrent.atomic.AtomicLong;
  *
  */
 @Service
-public class DefaultGpsSimulatorFactory implements GpsSimulatorFactory {
+public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerationService {
 
     @Autowired
     private PathService pathService;
 
     @Autowired
-    private PositionService positionService;
+    private NotificationService notificationService;
 
     private final AtomicLong instanceCounter = new AtomicLong();
 
     @Override
-    public GpsSimulator prepareGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
+    public GpsSimulator createGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
 
         final GpsSimulator gpsSimulator = new GpsSimulator(gpsSimulatorRequest);
 
-        gpsSimulator.setPositionInfoService(positionService);
+        gpsSimulator.setPositionInfoService(notificationService);
         gpsSimulator.setId(this.instanceCounter.incrementAndGet());
 
         final List<Point> points = NavUtils.decodePolyline(gpsSimulatorRequest.getPolyline());
         gpsSimulator.setStartPoint(points.iterator().next());
 
-        return prepareGpsSimulator(gpsSimulator, points);
+        return createGpsSimulator(gpsSimulator, points);
     }
 
     @Override
-    public GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, File kmlFile) {
+    public GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, File kmlFile) {
 
         final List<Point> points;
 
@@ -58,11 +58,11 @@ public class DefaultGpsSimulatorFactory implements GpsSimulatorFactory {
             points = new ArrayList<>();
         }
 
-        return prepareGpsSimulator(gpsSimulator, points);
+        return createGpsSimulator(gpsSimulator, points);
     }
 
     @Override
-    public GpsSimulator prepareGpsSimulator(GpsSimulator gpsSimulator, List<Point> points) {
+    public GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, List<Point> points) {
         gpsSimulator.setCurrentPosition(null);
 
         final List<Leg> legs = createLegsList(points);
