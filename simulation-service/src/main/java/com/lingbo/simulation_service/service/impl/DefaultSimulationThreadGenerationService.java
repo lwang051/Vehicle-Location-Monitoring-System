@@ -3,14 +3,14 @@ package com.lingbo.simulation_service.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lingbo.simulation_service.model.GpsSimulatorRequest;
+import com.lingbo.simulation_service.model.SimulationThreadRequest;
 import com.lingbo.simulation_service.model.Leg;
 import com.lingbo.simulation_service.model.Point;
-import com.lingbo.simulation_service.service.GpsSimulatorGenerationService;
+import com.lingbo.simulation_service.service.SimulationThreadGenerationService;
 import com.lingbo.simulation_service.service.PathService;
 import com.lingbo.simulation_service.service.NotificationService;
 import com.lingbo.simulation_service.support.NavUtils;
-import com.lingbo.simulation_service.task.GpsSimulator;
+import com.lingbo.simulation_service.task.SimulationThread;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ import java.util.concurrent.atomic.AtomicLong;
  *
  */
 @Service
-public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerationService {
+public class DefaultSimulationThreadGenerationService implements SimulationThreadGenerationService {
 
     @Autowired
     private PathService pathService;
@@ -33,21 +33,21 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
     private final AtomicLong instanceCounter = new AtomicLong();
 
     @Override
-    public GpsSimulator createGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
+    public SimulationThread create(SimulationThreadRequest simulationThreadRequest) {
 
-        final GpsSimulator gpsSimulator = new GpsSimulator(gpsSimulatorRequest);
+        final SimulationThread simulationThread = new SimulationThread(simulationThreadRequest);
 
-        gpsSimulator.setPositionInfoService(notificationService);
-        gpsSimulator.setId(this.instanceCounter.incrementAndGet());
+        simulationThread.setPositionInfoService(notificationService);
+        simulationThread.setId(this.instanceCounter.incrementAndGet());
 
-        final List<Point> points = NavUtils.decodePolyline(gpsSimulatorRequest.getPolyline());
-        gpsSimulator.setStartPoint(points.iterator().next());
+        final List<Point> points = NavUtils.decodePolyline(simulationThreadRequest.getPolyline());
+        simulationThread.setStartPoint(points.iterator().next());
 
-        return createGpsSimulator(gpsSimulator, points);
+        return create(simulationThread, points);
     }
 
     @Override
-    public GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, File kmlFile) {
+    public SimulationThread create(SimulationThread simulationThread, File kmlFile) {
 
         final List<Point> points;
 
@@ -58,17 +58,17 @@ public class DefaultGpsSimulatorGenerationService implements GpsSimulatorGenerat
             points = new ArrayList<>();
         }
 
-        return createGpsSimulator(gpsSimulator, points);
+        return create(simulationThread, points);
     }
 
     @Override
-    public GpsSimulator createGpsSimulator(GpsSimulator gpsSimulator, List<Point> points) {
-        gpsSimulator.setCurrentPosition(null);
+    public SimulationThread create(SimulationThread simulationThread, List<Point> points) {
+    	simulationThread.setCurrentPosition(null);
 
         final List<Leg> legs = createLegsList(points);
-        gpsSimulator.setLegs(legs);
-        gpsSimulator.setStartPosition();
-        return gpsSimulator;
+        simulationThread.setLegs(legs);
+        simulationThread.setStartPosition();
+        return simulationThread;
     }
 
     /**

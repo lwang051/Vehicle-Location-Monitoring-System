@@ -1,7 +1,7 @@
 package com.lingbo.simulation_service.model;
 
 
-public class GpsSimulatorRequest {
+public class SimulationThreadRequest {
 
     private String vin;
     private Double speedInKph;
@@ -88,7 +88,7 @@ public class GpsSimulatorRequest {
 
     @Override
     public String toString() {
-        return "GpsSimulatorRequest [vin=" + vin + ", speedInKph=" + speedInKph + ", move=" + move + ", exportPositionsToKml="
+        return "SimulationThreadRequest [vin=" + vin + ", speedInKph=" + speedInKph + ", move=" + move + ", exportPositionsToKml="
                 + exportPositionsToKml + ", exportPositionsToMessaging=" + exportPositionsToMessaging
                 + ", reportInterval=" + reportInterval + "]";
     }

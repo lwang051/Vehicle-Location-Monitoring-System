@@ -1,5 +1,5 @@
 {
-  "gpsSimulatorRequests": [
+  "simulationThreadRequests": [
     {
       "vin": "7c08973d-bed4-4cbd-9c28-9282a02a6032",
       "speedInKph": 50,
