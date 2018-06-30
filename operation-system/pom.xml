@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.lingbo</groupId>
-  <artifactId>cms-operation-system</artifactId>
+  <artifactId>operation-system</artifactId>
   <version>1.0.0.BUILD-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>cms-operation-system</name>
+  <name>operation-system</name>
   <url>http://maven.apache.org</url>
 
   <properties>

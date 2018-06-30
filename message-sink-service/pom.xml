@@ -15,9 +15,9 @@
   
   <parent>
   	<groupId>com.lingbo</groupId>
-  	<artifactId>car-monitoring-system</artifactId>
+  	<artifactId>monitoring-system</artifactId>
   	<version>1.0.0.BUILD-SNAPSHOT</version>
-  	<relativePath>../car-monitoring-system/pom.xml</relativePath>
+  	<relativePath>../monitoring-system/pom.xml</relativePath>
   </parent>
   
   <dependencies>

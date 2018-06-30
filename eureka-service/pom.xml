@@ -15,9 +15,9 @@
 
   <parent>
 	<groupId>com.lingbo</groupId>
-	<artifactId>cms-operation-system</artifactId>
+	<artifactId>operation-system</artifactId>
 	<version>1.0.0.BUILD-SNAPSHOT</version>
-	<relativePath>../cms-operation-system/pom.xml</relativePath>
+	<relativePath>../operation-system/pom.xml</relativePath>
   </parent>
   
   <dependencies>

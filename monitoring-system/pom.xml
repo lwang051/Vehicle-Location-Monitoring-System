@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.lingbo</groupId>
-  <artifactId>car-monitoring-system</artifactId>
+  <artifactId>monitoring-system</artifactId>
   <version>1.0.0.BUILD-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>car-monitoring-system</name>
+  <name>monitoring-system</name>
   <url>http://maven.apache.org</url>
 
   <properties>
