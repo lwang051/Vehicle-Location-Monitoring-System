@@ -12,7 +12,7 @@ next:
 
 paths:
   json:
-    url: /fixture.json
+    url: /paths.json
 
 directions:
   json:
