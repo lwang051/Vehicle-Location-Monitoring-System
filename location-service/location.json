@@ -1,7 +1,7 @@
 [ {
   "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
-  "latitude" : "38.9093216",
-  "longitude" : "-77.0036435",
+  "latitude" : "38.94287",
+  "longitude" : "-76.99244",
   "heading" : "E",
   "gpsSpeed" : "0",
   "gpsStatus" : "OK",
@@ -13,7 +13,7 @@
   "timestamp" : "2015-07-02T15:49:35Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "ServiceSoon",
   "carInfo" : {
     "vin" : "7c08973d-bed4-4cbd-9c28-9282a02a6032",
     "engineMake" : "DET",
@@ -41,7 +41,7 @@
   "timestamp" : "2015-07-01T05:55:12Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -59,7 +59,7 @@
   "timestamp" : "2015-06-25T15:48:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -77,7 +77,7 @@
   "timestamp" : "2015-07-02T16:05:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2f3c321b-d239-43d6-8fe0-c035ecdff232",
     "engineMake" : "CUM",
@@ -105,7 +105,7 @@
   "timestamp" : "2015-07-01T20:59:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "28810a26-25e6-4680-8baf-59bb07c4aee0",
     "engineMake" : "CUM",
@@ -133,7 +133,7 @@
   "timestamp" : "2015-07-02T16:09:21Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "fb0b4725-ac25-4812-b425-d43a18c958bb",
     "engineMake" : "CUM",
@@ -161,7 +161,7 @@
   "timestamp" : "2015-06-27T22:27:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -179,7 +179,7 @@
   "timestamp" : "2015-06-27T20:43:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -197,7 +197,7 @@
   "timestamp" : "2015-05-02T15:41:56Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -215,7 +215,7 @@
   "timestamp" : "2015-07-01T19:03:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "5f61c0bc-9490-4966-ac48-17bc0c258dc8",
     "engineMake" : "CUM",
@@ -243,7 +243,7 @@
   "timestamp" : "2015-06-11T06:28:32Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -261,7 +261,7 @@
   "timestamp" : "2015-07-01T18:56:29Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "571614ff-e718-40aa-9906-2faa63c74db0",
     "engineMake" : "DET",
@@ -299,7 +299,7 @@
   "timestamp" : "Thu, 02 Jul 2015 12:21:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -317,7 +317,7 @@
   "timestamp" : "2015-07-02T14:22:10Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -335,7 +335,7 @@
   "timestamp" : "2015-07-02T16:02:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "58db1dda-77c8-40bc-961d-00e2ddc6a441",
     "engineMake" : "CUM",
@@ -359,7 +359,7 @@
   "timestamp" : "2015-07-01T22:45:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -377,7 +377,7 @@
   "timestamp" : "2015-07-02T16:03:12Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -395,7 +395,7 @@
   "timestamp" : "2015-07-02T16:17:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f6967522-6a93-46f3-a9aa-8dd9b54333b9",
     "engineMake" : "CUM",
@@ -419,7 +419,7 @@
   "timestamp" : "2015-05-02T16:14:59Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -437,7 +437,7 @@
   "timestamp" : "2015-07-01T00:10:55Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3f640067-33fd-4ad0-b132-6e703bd82dc4",
     "engineMake" : "VOL",
@@ -461,7 +461,7 @@
   "timestamp" : "2015-06-29T18:12:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -479,7 +479,7 @@
   "timestamp" : "2015-07-02T16:06:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2ef6f15a-2430-4413-9740-08aa209dc175",
     "engineMake" : "CUM",
@@ -507,7 +507,7 @@
   "timestamp" : "2015-06-30T08:29:00Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7818d92f-fc64-4112-be3c-2cdcc3887e36",
     "engineMake" : "DET",
@@ -545,7 +545,7 @@
   "timestamp" : "Thu, 02 Jul 2015 12:02:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -563,7 +563,7 @@
   "timestamp" : "2015-07-02T15:48:14Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -581,7 +581,7 @@
   "timestamp" : "2015-07-02T11:20:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "011d3885-b1e8-4f1c-828e-4b418fd747d5",
     "engineMake" : "VOL",
@@ -609,7 +609,7 @@
   "timestamp" : "2015-06-29T15:58:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -627,7 +627,7 @@
   "timestamp" : "2015-06-25T14:21:32Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -645,7 +645,7 @@
   "timestamp" : "2015-06-29T18:13:04Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -663,7 +663,7 @@
   "timestamp" : "2014-12-30T03:32:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -681,7 +681,7 @@
   "timestamp" : "2015-07-01T00:09:04Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "71df943d-b375-4dfd-b52f-2ff379e8f67c",
     "engineMake" : null,
@@ -705,7 +705,7 @@
   "timestamp" : "2015-07-02T05:54:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -723,7 +723,7 @@
   "timestamp" : "2015-06-29T13:32:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -741,7 +741,7 @@
   "timestamp" : "2015-07-02T16:19:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7bc918a3-bdd3-4220-acad-66caabc358b4",
     "engineMake" : "DET",
@@ -779,7 +779,7 @@
   "timestamp" : "2015-07-02T16:20:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "528a6325-f4bc-40bb-9513-885a1fc3d293",
     "engineMake" : "VOL",
@@ -807,7 +807,7 @@
   "timestamp" : "2015-07-01T15:44:07Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3a65e0d1-40a1-426c-8001-4f02a33fc6e9",
     "engineMake" : "CUM",
@@ -835,7 +835,7 @@
   "timestamp" : "2015-04-29T01:05:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -853,7 +853,7 @@
   "timestamp" : "2015-07-02T14:10:26Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -871,7 +871,7 @@
   "timestamp" : "2015-07-02T12:06:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "9759aae2-ec01-441e-8b8c-cb487c3d3918",
     "engineMake" : "CUM",
@@ -895,7 +895,7 @@
   "timestamp" : "2015-06-11T13:28:43Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -913,7 +913,7 @@
   "timestamp" : "2015-07-02T16:13:45Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a85087ee-8b2d-4a9d-8c88-df46e3e167e1",
     "engineMake" : "CUM",
@@ -928,8 +928,8 @@
   "faultCode" : null
 }, {
   "vin" : "ba6d29ab-f137-47df-832a-0ba6270cb49f",
-  "latitude" : "38.884498",
-  "longitude" : "-76.845544",
+  "latitude" : "38.89790",
+  "longitude" : "-77.03364",
   "heading" : "S",
   "gpsSpeed" : "0",
   "gpsStatus" : null,
@@ -941,7 +941,7 @@
   "timestamp" : "2015-07-02T13:33:40Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "ServiceSoon",
   "carInfo" : {
     "vin" : "ba6d29ab-f137-47df-832a-0ba6270cb49f",
     "engineMake" : "CUM",
@@ -969,7 +969,7 @@
   "timestamp" : "2015-06-26T22:32:38Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -987,7 +987,7 @@
   "timestamp" : "2015-07-01T15:48:30Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1005,7 +1005,7 @@
   "timestamp" : "2015-07-02T15:40:56Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3358190c-a604-405a-8785-766e2236fcee",
     "engineMake" : "DET",
@@ -1033,7 +1033,7 @@
   "timestamp" : "2015-07-02T14:47:02Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "138e98fc-7318-4d94-bbb9-479352d774b1",
     "engineMake" : "DET",
@@ -1061,7 +1061,7 @@
   "timestamp" : "2015-07-01T23:00:45Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "c8eb288b-9b86-4705-8177-89591a038b7b",
     "engineMake" : "DET",
@@ -1089,7 +1089,7 @@
   "timestamp" : "2015-06-25T09:15:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1107,7 +1107,7 @@
   "timestamp" : "2015-07-02T16:23:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "9844ea0f-c1f4-441b-b6c3-154172f53f9d",
     "engineMake" : "CUM",
@@ -1135,7 +1135,7 @@
   "timestamp" : "2015-07-02T15:40:00Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e2f39aa2-9863-4cd0-8a56-945b3967c064",
     "engineMake" : "DET",
@@ -1159,7 +1159,7 @@
   "timestamp" : "2015-07-02T03:26:47Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1177,7 +1177,7 @@
   "timestamp" : "2015-07-02T16:17:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "99d8b663-8807-47e0-ad86-de31b4c884d3",
     "engineMake" : "CUM",
@@ -1205,7 +1205,7 @@
   "timestamp" : "2015-07-02T12:54:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "c76a3901-9215-4e82-96f3-944e22b11b91",
     "engineMake" : "GMC",
@@ -1229,7 +1229,7 @@
   "timestamp" : "2015-07-02T15:23:14Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e867b142-10fb-4091-b736-820bddf7b445",
     "engineMake" : "DET",
@@ -1267,7 +1267,7 @@
   "timestamp" : "2015-07-02T08:43:26Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1285,7 +1285,7 @@
   "timestamp" : "2015-07-02T16:10:05Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1303,7 +1303,7 @@
   "timestamp" : "2015-07-02T14:31:14Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2f219293-d7ec-4457-85dd-ed001136b5f1",
     "engineMake" : "CUM",
@@ -1331,7 +1331,7 @@
   "timestamp" : "2015-06-23T09:48:21Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1349,7 +1349,7 @@
   "timestamp" : "2015-06-12T12:05:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1367,7 +1367,7 @@
   "timestamp" : "2015-06-18T19:13:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1385,7 +1385,7 @@
   "timestamp" : "2015-07-02T00:20:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "d2b209fc-0e22-433f-bc67-8ea38070d589",
     "engineMake" : "DET",
@@ -1423,7 +1423,7 @@
   "timestamp" : "2015-07-02T06:26:30Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1441,7 +1441,7 @@
   "timestamp" : "2015-07-01T19:02:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1459,7 +1459,7 @@
   "timestamp" : "2015-02-26T10:55:26Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1477,7 +1477,7 @@
   "timestamp" : "2015-06-30T14:52:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7c9f762e-e841-45a6-8aea-8d8477af53b8",
     "engineMake" : "DET",
@@ -1515,7 +1515,7 @@
   "timestamp" : "2015-06-30T14:54:34Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1533,7 +1533,7 @@
   "timestamp" : "2015-05-18T19:41:27Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1551,7 +1551,7 @@
   "timestamp" : "2015-06-25T22:36:20Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ce8b2b44-f751-4d20-84ae-f7c30bdbad9e",
     "engineMake" : "CUM",
@@ -1575,7 +1575,7 @@
   "timestamp" : "2015-06-30T23:49:44Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e66d0706-9d59-4797-b870-7f8b6712b2c8",
     "engineMake" : "VOL",
@@ -1586,8 +1586,8 @@
   "faultCode" : null
 }, {
   "vin" : "4c3476fb-c60e-4970-8c3d-cb788c49f766",
-  "latitude" : "39.04589",
-  "longitude" : "-77.176998",
+  "latitude" : "38.94308",
+  "longitude" : "-77.05424",
   "heading" : "S",
   "gpsSpeed" : "0",
   "gpsStatus" : null,
@@ -1617,7 +1617,7 @@
   "timestamp" : "2015-04-16T12:39:03Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1635,7 +1635,7 @@
   "timestamp" : "2015-07-02T16:15:13Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1653,7 +1653,7 @@
   "timestamp" : "2015-04-16T14:55:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1671,13 +1671,13 @@
   "timestamp" : "2015-06-24T14:28:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
-  "latitude" : "38.884362",
-  "longitude" : "-76.846421",
+  "latitude" : "38.88325",
+  "longitude" : "-76.95066",
   "heading" : "W",
   "gpsSpeed" : "0",
   "gpsStatus" : null,
@@ -1689,7 +1689,7 @@
   "timestamp" : "2015-06-30T08:59:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "None",
   "carInfo" : {
     "vin" : "ccbb4295-c88b-4e3d-9b5a-07b204b9c7d9",
     "engineMake" : "CUM",
@@ -1717,7 +1717,7 @@
   "timestamp" : "2015-07-02T13:39:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "c2d4efbe-2ea5-43ae-9399-fec60746c9ad",
     "engineMake" : "DET",
@@ -1745,7 +1745,7 @@
   "timestamp" : "2015-07-01T00:23:59Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "842206e7-b1b5-4395-a64f-d09999b6434c",
     "engineMake" : null,
@@ -1769,7 +1769,7 @@
   "timestamp" : "2014-12-14T23:37:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "fb5ef8e0-207c-4cef-b6f0-a79282dc195d",
     "engineMake" : "DET",
@@ -1797,7 +1797,7 @@
   "timestamp" : "2015-07-02T16:06:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "0c196b19-1d70-4883-865b-191cd525bc90",
     "engineMake" : "CUM",
@@ -1825,7 +1825,7 @@
   "timestamp" : "2015-04-17T20:01:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1843,7 +1843,7 @@
   "timestamp" : "2015-06-16T17:28:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1861,7 +1861,7 @@
   "timestamp" : "2015-07-02T05:13:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -1879,7 +1879,7 @@
   "timestamp" : "2015-07-02T16:23:07Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7e0b4fd4-2029-4312-8b9a-6f715914397f",
     "engineMake" : "DET",
@@ -1907,7 +1907,7 @@
   "timestamp" : "2015-07-02T16:15:15Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a85845df-4467-4ad6-9852-8633a11c9c09",
     "engineMake" : "CUM",
@@ -1931,13 +1931,13 @@
   "timestamp" : "2015-05-01T19:39:20Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "9d22189b-9c7f-4ad8-b4f9-49aa178000c6",
-  "latitude" : "38.884516",
-  "longitude" : "-76.845547",
+  "latitude" : "38.84586",
+  "longitude" : "-77.01501",
   "heading" : "SW",
   "gpsSpeed" : "0",
   "gpsStatus" : null,
@@ -1973,7 +1973,7 @@
   "timestamp" : "Thu, 02 Jul 2015 12:21:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b1712216-0c15-4485-96ae-2e2d059e67fb",
     "engineMake" : "DET",
@@ -1997,7 +1997,7 @@
   "timestamp" : "2015-06-30T19:24:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2015,7 +2015,7 @@
   "timestamp" : "2015-07-02T03:41:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2033,7 +2033,7 @@
   "timestamp" : "2015-07-02T16:18:21Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "dc2b3f2d-27a3-46fc-957d-03984e07c4d6",
     "engineMake" : "DET",
@@ -2061,7 +2061,7 @@
   "timestamp" : "2015-06-26T12:22:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7275d27a-9a20-49b4-acb8-392ebd94f7fa",
     "engineMake" : "VOL",
@@ -2089,7 +2089,7 @@
   "timestamp" : "2015-07-01T07:18:12Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2107,7 +2107,7 @@
   "timestamp" : "Thu, 02 Jul 2015 11:08:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2125,7 +2125,7 @@
   "timestamp" : "2015-07-02T15:59:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2143,7 +2143,7 @@
   "timestamp" : "2015-06-25T23:38:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2161,7 +2161,7 @@
   "timestamp" : "2015-07-02T15:30:42Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a49310de-27ab-4c97-9424-7843e4c9965d",
     "engineMake" : "DET",
@@ -2189,7 +2189,7 @@
   "timestamp" : "2015-07-02T16:08:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2207,7 +2207,7 @@
   "timestamp" : "2015-07-02T09:29:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "088f1dfe-65bf-45df-91d7-4c5f96448661",
     "engineMake" : "DET",
@@ -2235,7 +2235,7 @@
   "timestamp" : "2015-07-02T16:16:06Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3edda5bd-efc4-410d-8227-2951e7f3f006",
     "engineMake" : "CUM",
@@ -2263,7 +2263,7 @@
   "timestamp" : "2015-07-01T19:28:32Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2281,7 +2281,7 @@
   "timestamp" : "2015-07-01T23:44:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e2816602-ca23-4ac1-bf87-416e5ea1bef9",
     "engineMake" : "DET",
@@ -2309,7 +2309,7 @@
   "timestamp" : "2015-07-02T11:07:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2327,7 +2327,7 @@
   "timestamp" : "2015-07-01T16:54:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b54e7127-56df-4073-981b-a922da03f11b",
     "engineMake" : "CUM",
@@ -2351,7 +2351,7 @@
   "timestamp" : "2015-05-08T07:35:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2369,7 +2369,7 @@
   "timestamp" : "2015-07-02T16:11:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ca98cccc-f270-4851-8608-5dc80250cb61",
     "engineMake" : "HIN",
@@ -2393,7 +2393,7 @@
   "timestamp" : "2015-07-01T17:32:29Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "5c20f5c9-768b-4eaf-9033-477e5dcdb4b4",
     "engineMake" : "DET",
@@ -2431,7 +2431,7 @@
   "timestamp" : "2015-07-02T16:11:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2449,7 +2449,7 @@
   "timestamp" : "2015-07-02T16:02:40Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a4872b12-218c-4847-bc86-961dc42b10d9",
     "engineMake" : null,
@@ -2477,7 +2477,7 @@
   "timestamp" : "2015-07-01T18:07:15Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "83336903-db8e-4e80-82d0-96c22f4fc45d",
     "engineMake" : "DET",
@@ -2501,7 +2501,7 @@
   "timestamp" : "2015-07-02T15:52:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b5d795c5-b811-4c1b-a575-d507ea2e7b8f",
     "engineMake" : "DET",
@@ -2525,7 +2525,7 @@
   "timestamp" : "2015-06-22T09:23:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2543,7 +2543,7 @@
   "timestamp" : "2015-07-02T15:33:23Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2561,7 +2561,7 @@
   "timestamp" : "2015-06-26T19:41:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2579,7 +2579,7 @@
   "timestamp" : "2015-06-27T13:44:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2597,7 +2597,7 @@
   "timestamp" : "2015-06-30T09:16:48Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2615,7 +2615,7 @@
   "timestamp" : "2015-05-02T17:06:09Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2633,7 +2633,7 @@
   "timestamp" : "2015-06-20T14:18:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2651,7 +2651,7 @@
   "timestamp" : "2015-04-21T15:36:48Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "33082e96-0f1c-4975-aa6a-379bd37892b7",
     "engineMake" : "VOL",
@@ -2675,7 +2675,7 @@
   "timestamp" : "2015-04-13T14:01:59Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "94515e3e-896a-4aca-9d1e-a2996932b0cc",
     "engineMake" : null,
@@ -2699,7 +2699,7 @@
   "timestamp" : "2015-06-09T22:30:02Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2717,7 +2717,7 @@
   "timestamp" : "2015-06-12T12:37:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2735,7 +2735,7 @@
   "timestamp" : "2015-06-09T13:35:39Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2753,7 +2753,7 @@
   "timestamp" : "2015-06-30T11:44:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2771,7 +2771,7 @@
   "timestamp" : "2015-06-22T11:16:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2789,7 +2789,7 @@
   "timestamp" : "2015-07-02T05:43:15Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2807,7 +2807,7 @@
   "timestamp" : "2015-06-25T12:32:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2825,7 +2825,7 @@
   "timestamp" : "2015-07-01T18:55:08Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2843,7 +2843,7 @@
   "timestamp" : "2015-05-28T14:21:07Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2861,7 +2861,7 @@
   "timestamp" : "2015-07-02T02:34:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ff1f302d-f8d6-4626-9beb-bbc077c02ed6",
     "engineMake" : "DET",
@@ -2889,7 +2889,7 @@
   "timestamp" : "2015-04-17T19:21:27Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2907,7 +2907,7 @@
   "timestamp" : "2015-07-02T16:14:31Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "23aa8206-d402-49f5-9e95-b1d5819faf3c",
     "engineMake" : "CUM",
@@ -2931,7 +2931,7 @@
   "timestamp" : "2015-06-15T06:36:32Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "1d4819e0-65a1-4d12-8e1d-820b436a4cd7",
     "engineMake" : "CUM",
@@ -2955,7 +2955,7 @@
   "timestamp" : "2015-06-26T17:45:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -2973,7 +2973,7 @@
   "timestamp" : "2015-07-02T00:52:06Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "fdaef560-bbe2-4e28-ac90-829d49e5f4d9",
     "engineMake" : "CUM",
@@ -2997,7 +2997,7 @@
   "timestamp" : "2015-07-02T10:19:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "eee6ce14-9e6b-4ae3-9bfc-88c958fe5759",
     "engineMake" : "CUM",
@@ -3025,7 +3025,7 @@
   "timestamp" : "2015-07-02T16:10:35Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "26cfbd31-408c-4e16-8fe9-151b7ab29f57",
     "engineMake" : "CUM",
@@ -3053,7 +3053,7 @@
   "timestamp" : "2015-06-26T22:55:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3071,7 +3071,7 @@
   "timestamp" : "2015-07-02T14:35:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3089,7 +3089,7 @@
   "timestamp" : "2015-06-08T13:45:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3107,7 +3107,7 @@
   "timestamp" : "2015-05-28T12:01:42Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3125,7 +3125,7 @@
   "timestamp" : "2015-07-02T03:21:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3143,13 +3143,13 @@
   "timestamp" : "2015-04-20T16:13:23Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
-  "latitude" : "38.910081",
-  "longitude" : "-76.893471",
+  "latitude" : "38.88006",
+  "longitude" : "-77.05213",
   "heading" : "SE",
   "gpsSpeed" : "0",
   "gpsStatus" : null,
@@ -3161,7 +3161,7 @@
   "timestamp" : "2015-07-02T14:50:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "None",
   "carInfo" : {
     "vin" : "15dbf5c3-c0c9-4c59-8469-c2f2f0d6b7e4",
     "engineMake" : "CUM",
@@ -3189,7 +3189,7 @@
   "timestamp" : "2015-06-30T10:15:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3207,7 +3207,7 @@
   "timestamp" : "2015-07-02T16:20:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b0fd9bc3-9aac-40e5-af70-b41f3d6e1ce3",
     "engineMake" : "CUM",
@@ -3235,7 +3235,7 @@
   "timestamp" : "2015-04-20T15:22:35Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b32ba575-bd98-4ef8-b7f7-e43d480c2a84",
     "engineMake" : "IHC",
@@ -3259,7 +3259,7 @@
   "timestamp" : "2015-05-02T15:37:08Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3277,7 +3277,7 @@
   "timestamp" : "2015-07-01T17:41:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3295,7 +3295,7 @@
   "timestamp" : "2015-07-02T15:59:23Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3313,7 +3313,7 @@
   "timestamp" : "2015-07-01T19:14:06Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "28cfff12-3a2f-4578-b00b-36c3bff006d7",
     "engineMake" : "DET",
@@ -3341,7 +3341,7 @@
   "timestamp" : "2015-07-02T16:13:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3359,7 +3359,7 @@
   "timestamp" : "2015-07-02T13:44:25Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ecd69d3b-7ff4-460e-8544-547e75745937",
     "engineMake" : "HIN",
@@ -3383,7 +3383,7 @@
   "timestamp" : "2015-07-02T14:57:38Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3401,7 +3401,7 @@
   "timestamp" : "2015-07-01T20:35:58Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3419,7 +3419,7 @@
   "timestamp" : "2015-07-02T06:35:26Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3437,7 +3437,7 @@
   "timestamp" : "2015-07-02T15:21:11Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3455,7 +3455,7 @@
   "timestamp" : "2015-04-30T03:22:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3473,7 +3473,7 @@
   "timestamp" : "2015-07-02T15:24:31Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "fc1a1f6a-52f0-4433-b112-4507276c5091",
     "engineMake" : "DET",
@@ -3511,7 +3511,7 @@
   "timestamp" : "2015-07-01T19:06:48Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ceb3712c-7b05-452d-8dd5-cb7f85f26865",
     "engineMake" : "CUM",
@@ -3539,7 +3539,7 @@
   "timestamp" : "2015-07-02T15:57:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "0da43bdf-ec3c-4538-86d3-c39abc1403e0",
     "engineMake" : "CUM",
@@ -3567,7 +3567,7 @@
   "timestamp" : "2015-07-02T09:57:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3585,7 +3585,7 @@
   "timestamp" : "2015-07-02T15:56:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "bbbab6da-5cf1-4e66-8641-03c812cee29e",
     "engineMake" : "DET",
@@ -3613,7 +3613,7 @@
   "timestamp" : "2015-07-02T16:23:35Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a4ff2dab-6011-40c6-b16b-6fcff4f9903c",
     "engineMake" : "CUM",
@@ -3641,7 +3641,7 @@
   "timestamp" : "2015-06-02T11:09:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3659,7 +3659,7 @@
   "timestamp" : "2015-07-02T15:59:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a14845de-4523-4a6f-8ee0-1ec8d6b40286",
     "engineMake" : "CUM",
@@ -3687,7 +3687,7 @@
   "timestamp" : "2015-07-02T03:27:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3705,7 +3705,7 @@
   "timestamp" : "2015-07-02T12:27:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e3e71ae9-3dfb-4802-9571-f1c7a23a7fb9",
     "engineMake" : "DET",
@@ -3733,7 +3733,7 @@
   "timestamp" : "2015-07-02T16:19:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f4aeda18-a5e2-41ad-bfc8-f800cc59222a",
     "engineMake" : "DET",
@@ -3761,7 +3761,7 @@
   "timestamp" : "2015-07-02T16:22:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b608a04d-a47d-47fc-9b1b-671fed68e2f4",
     "engineMake" : "DET",
@@ -3789,7 +3789,7 @@
   "timestamp" : "2015-06-23T16:12:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3807,7 +3807,7 @@
   "timestamp" : "2015-06-10T15:11:30Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3825,7 +3825,7 @@
   "timestamp" : "2015-06-20T17:19:31Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3843,7 +3843,7 @@
   "timestamp" : "2015-06-22T22:47:23Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3861,7 +3861,7 @@
   "timestamp" : "2015-07-02T16:07:56Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3879,7 +3879,7 @@
   "timestamp" : "2015-07-01T10:23:59Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3897,7 +3897,7 @@
   "timestamp" : "2015-06-17T15:23:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3915,7 +3915,7 @@
   "timestamp" : "2015-07-02T13:56:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f0dccb38-954c-477a-a6e4-a2a8202fba7c",
     "engineMake" : "HIN",
@@ -3939,7 +3939,7 @@
   "timestamp" : "2015-06-22T19:16:13Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "13912fde-78e8-4455-b1d4-e40fb884c831",
     "engineMake" : "CUM",
@@ -3967,7 +3967,7 @@
   "timestamp" : "2015-06-02T17:06:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -3985,7 +3985,7 @@
   "timestamp" : "2015-07-02T16:19:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4003,7 +4003,7 @@
   "timestamp" : "2015-05-14T18:34:29Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4021,7 +4021,7 @@
   "timestamp" : "2015-06-26T12:32:23Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4039,7 +4039,7 @@
   "timestamp" : "2015-05-11T05:42:14Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4057,7 +4057,7 @@
   "timestamp" : "2015-07-01T15:29:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4075,7 +4075,7 @@
   "timestamp" : "2015-07-02T16:19:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "9ec0a635-aaf0-4716-bde5-236e5f106147",
     "engineMake" : "HIN",
@@ -4099,7 +4099,7 @@
   "timestamp" : "2015-07-02T04:05:03Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "8e98b96d-3dec-4de2-bf01-e2de97704cf3",
     "engineMake" : "DET",
@@ -4137,7 +4137,7 @@
   "timestamp" : "2015-07-02T16:21:38Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4155,13 +4155,13 @@
   "timestamp" : "2015-07-01T10:27:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
   "vin" : "7ca3ec62-6a22-4291-af95-d2a7d795ca7c",
-  "latitude" : "38.9148768",
-  "longitude" : "-76.9835171",
+  "latitude" : "38.90295",
+  "longitude" : "-77.02301",
   "heading" : "NE",
   "gpsSpeed" : "0",
   "gpsStatus" : "OK",
@@ -4191,7 +4191,7 @@
   "timestamp" : "2015-07-01T00:16:48Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "c35c2733-e649-42ed-942b-ccfc63ddda32",
     "engineMake" : "VOL",
@@ -4215,7 +4215,7 @@
   "timestamp" : "2015-07-02T16:24:04Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4233,7 +4233,7 @@
   "timestamp" : "2015-07-02T15:51:12Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "0f8ad239-5a88-4af0-948b-fe11176ec889",
     "engineMake" : "DET",
@@ -4261,7 +4261,7 @@
   "timestamp" : "2015-06-30T18:40:38Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f7a48499-5f43-4d03-a8d2-6eaae11af479",
     "engineMake" : "HIN",
@@ -4285,7 +4285,7 @@
   "timestamp" : "2015-07-02T16:22:15Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "11fd699b-a73b-4f14-96f0-658f6c2dbb1d",
     "engineMake" : "CUM",
@@ -4309,7 +4309,7 @@
   "timestamp" : "2015-04-16T13:28:30Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4327,7 +4327,7 @@
   "timestamp" : "2015-07-02T12:18:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ea3d1ec3-e00a-49ad-b7fa-7cb55a17351c",
     "engineMake" : "CUM",
@@ -4351,7 +4351,7 @@
   "timestamp" : "Thu, 02 Jul 2015 11:49:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4369,7 +4369,7 @@
   "timestamp" : "2015-07-02T15:55:06Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4387,7 +4387,7 @@
   "timestamp" : "2015-07-02T16:24:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4405,7 +4405,7 @@
   "timestamp" : "2015-05-23T13:13:31Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4423,7 +4423,7 @@
   "timestamp" : "2015-07-02T12:36:34Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4441,7 +4441,7 @@
   "timestamp" : "2015-06-26T20:14:47Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "46aadd07-2ab7-4500-8e86-093be5e97203",
     "engineMake" : "DET",
@@ -4479,7 +4479,7 @@
   "timestamp" : "2015-07-02T14:34:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b73869de-609c-4d5b-ad16-f519fb40b454",
     "engineMake" : "HIN",
@@ -4503,7 +4503,7 @@
   "timestamp" : "2015-06-11T21:17:07Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4521,7 +4521,7 @@
   "timestamp" : "2015-07-01T18:54:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4539,7 +4539,7 @@
   "timestamp" : "2015-07-02T16:12:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "118c0f0e-0240-4d09-9527-5f43e614dbf9",
     "engineMake" : "IHC",
@@ -4567,7 +4567,7 @@
   "timestamp" : "2015-07-02T14:42:42Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4585,7 +4585,7 @@
   "timestamp" : "2015-07-02T16:13:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "feee7c98-6898-4854-8847-b752761a102b",
     "engineMake" : "DET",
@@ -4613,7 +4613,7 @@
   "timestamp" : "2015-07-02T16:20:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "bf128b8b-2b78-4e2d-8ba4-f87620845aec",
     "engineMake" : "HIN",
@@ -4637,7 +4637,7 @@
   "timestamp" : "2015-05-11T14:14:48Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4655,7 +4655,7 @@
   "timestamp" : "2015-07-02T13:43:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "06afdf3f-de0b-4ba6-9cc9-2d7e6d9a0612",
     "engineMake" : "CUM",
@@ -4683,7 +4683,7 @@
   "timestamp" : "2015-07-01T17:30:14Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "c3e805a5-d7d3-4758-be6d-f5d6f9f0437d",
     "engineMake" : "CUM",
@@ -4707,7 +4707,7 @@
   "timestamp" : "2015-07-02T16:13:38Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4725,7 +4725,7 @@
   "timestamp" : "2015-07-02T16:18:36Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "661bb401-ff53-4f44-b32e-5ced1e67695d",
     "engineMake" : "IHC",
@@ -4753,7 +4753,7 @@
   "timestamp" : "2015-07-02T03:24:45Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4771,7 +4771,7 @@
   "timestamp" : "2015-04-22T19:23:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4789,7 +4789,7 @@
   "timestamp" : "2015-06-06T11:56:39Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4807,7 +4807,7 @@
   "timestamp" : "2015-05-27T10:20:43Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b752242d-6acd-42ec-9d93-2788822cad52",
     "engineMake" : "DET",
@@ -4835,7 +4835,7 @@
   "timestamp" : "2015-04-29T15:13:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4853,7 +4853,7 @@
   "timestamp" : "2015-07-01T14:51:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4871,7 +4871,7 @@
   "timestamp" : "2015-07-02T16:12:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "00b86fe9-e704-4bd3-bb56-e583483af343",
     "engineMake" : "CUM",
@@ -4899,7 +4899,7 @@
   "timestamp" : "2015-06-26T16:12:32Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4917,7 +4917,7 @@
   "timestamp" : "2015-06-28T16:35:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4935,7 +4935,7 @@
   "timestamp" : "2015-07-01T14:51:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4953,7 +4953,7 @@
   "timestamp" : "2015-06-30T03:02:12Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4971,7 +4971,7 @@
   "timestamp" : "2015-07-02T11:19:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -4989,7 +4989,7 @@
   "timestamp" : "2015-07-02T16:23:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5007,7 +5007,7 @@
   "timestamp" : "2015-07-02T13:55:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "5e58d4b3-4619-4c64-a685-0639213a6bce",
     "engineMake" : "DET",
@@ -5035,7 +5035,7 @@
   "timestamp" : "2015-07-01T14:40:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5053,7 +5053,7 @@
   "timestamp" : "2015-07-02T16:23:33Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2d092e83-b995-4567-9f39-a6e3836b8838",
     "engineMake" : "HIN",
@@ -5077,7 +5077,7 @@
   "timestamp" : "2015-07-02T16:20:03Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "d0ea2e32-c7bf-4bd9-992b-0f055dd55c32",
     "engineMake" : "DET",
@@ -5105,7 +5105,7 @@
   "timestamp" : "2015-07-01T14:50:15Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5123,7 +5123,7 @@
   "timestamp" : "2015-07-02T13:21:43Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "08d0979f-ef4b-4af9-901e-8acc9c0d884a",
     "engineMake" : "IHC",
@@ -5151,7 +5151,7 @@
   "timestamp" : "2015-07-01T14:59:36Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5169,7 +5169,7 @@
   "timestamp" : "2015-06-29T16:45:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5187,7 +5187,7 @@
   "timestamp" : "2015-06-12T23:20:07Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5205,7 +5205,7 @@
   "timestamp" : "2015-06-25T17:24:08Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5223,7 +5223,7 @@
   "timestamp" : "2015-07-02T15:10:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5241,7 +5241,7 @@
   "timestamp" : "2015-07-02T16:16:38Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "39d774e1-5b38-45c1-9dfa-a5c8c0206182",
     "engineMake" : "CUM",
@@ -5269,7 +5269,7 @@
   "timestamp" : "2015-06-19T10:50:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5287,7 +5287,7 @@
   "timestamp" : "2015-06-26T14:37:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5305,7 +5305,7 @@
   "timestamp" : "2015-07-01T17:35:40Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "a21b1fd3-26ea-40a6-b9f4-0b909448f18d",
     "engineMake" : "DET",
@@ -5343,7 +5343,7 @@
   "timestamp" : "2015-06-29T11:48:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5361,7 +5361,7 @@
   "timestamp" : "2015-06-29T16:00:59Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5379,7 +5379,7 @@
   "timestamp" : "2015-06-22T11:14:48Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5397,7 +5397,7 @@
   "timestamp" : "2015-06-29T18:06:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5415,7 +5415,7 @@
   "timestamp" : "2015-07-02T15:27:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5433,7 +5433,7 @@
   "timestamp" : "2015-07-02T16:14:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "014132a5-4a22-497b-b8d3-a6a9e1e0052a",
     "engineMake" : "IHC",
@@ -5461,7 +5461,7 @@
   "timestamp" : "2015-06-17T18:44:43Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5517,7 +5517,7 @@
   "timestamp" : "2015-06-19T14:15:27Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5535,7 +5535,7 @@
   "timestamp" : "2015-07-02T15:58:36Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5553,7 +5553,7 @@
   "timestamp" : "2015-07-02T05:52:02Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5571,7 +5571,7 @@
   "timestamp" : "2015-05-29T17:46:45Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5589,7 +5589,7 @@
   "timestamp" : "2015-07-02T16:10:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2a2ae4dc-8555-470e-ad5c-c0b9b1758bf8",
     "engineMake" : "CUM",
@@ -5617,7 +5617,7 @@
   "timestamp" : "2015-06-20T12:47:03Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "920573a7-3c20-4f21-8f10-19f95bc457d5",
     "engineMake" : "CAT",
@@ -5641,7 +5641,7 @@
   "timestamp" : "2015-06-30T19:28:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "0ff5eda6-e238-4f80-928a-9a367dbaf269",
     "engineMake" : "IHC",
@@ -5665,7 +5665,7 @@
   "timestamp" : "2015-07-02T16:16:37Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "4ff47af9-1ad8-436b-a772-01a11e14e451",
     "engineMake" : "CUM",
@@ -5693,7 +5693,7 @@
   "timestamp" : "2015-07-01T20:09:00Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5711,7 +5711,7 @@
   "timestamp" : "2015-06-30T11:54:00Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b0dace54-25bf-47fb-ac56-a2513fdbaab6",
     "engineMake" : "CUM",
@@ -5739,7 +5739,7 @@
   "timestamp" : "2015-04-28T18:09:26Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5757,7 +5757,7 @@
   "timestamp" : "2015-07-02T16:00:10Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5775,7 +5775,7 @@
   "timestamp" : "2015-07-01T19:01:43Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "9c41915e-a2c9-4df3-bb70-053de8e86946",
     "engineMake" : "CUM",
@@ -5803,7 +5803,7 @@
   "timestamp" : "2015-07-02T15:47:20Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5821,7 +5821,7 @@
   "timestamp" : "2015-07-02T15:42:23Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f551b9e2-30b9-4f20-ada9-0c7ce91fb8ad",
     "engineMake" : "DET",
@@ -5859,7 +5859,7 @@
   "timestamp" : "2015-04-30T18:32:25Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2e42d903-c9a0-4646-b38e-435f3f8eeac1",
     "engineMake" : "VOL",
@@ -5883,7 +5883,7 @@
   "timestamp" : "2015-07-01T17:37:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5901,7 +5901,7 @@
   "timestamp" : "2015-07-02T09:13:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "2b07d1f7-3fdf-4fb2-bc54-cb989b9adc4d",
     "engineMake" : "VOL",
@@ -5929,7 +5929,7 @@
   "timestamp" : "2015-04-28T01:49:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5947,7 +5947,7 @@
   "timestamp" : "2015-07-01T12:09:10Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5965,7 +5965,7 @@
   "timestamp" : "2015-07-02T16:18:10Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -5983,7 +5983,7 @@
   "timestamp" : "2015-06-19T15:58:13Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6001,7 +6001,7 @@
   "timestamp" : "2015-07-02T14:18:02Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6019,7 +6019,7 @@
   "timestamp" : "2015-07-02T16:12:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6037,7 +6037,7 @@
   "timestamp" : "2015-07-02T16:05:23Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6055,7 +6055,7 @@
   "timestamp" : "2015-07-02T16:20:12Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "da0c2220-0dee-4952-bc66-4d100d33ccfc",
     "engineMake" : "DET",
@@ -6083,7 +6083,7 @@
   "timestamp" : "2015-07-02T15:43:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "4cb9032e-b2ff-44fe-906f-877f63659e77",
     "engineMake" : null,
@@ -6107,7 +6107,7 @@
   "timestamp" : "2015-07-01T00:44:02Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e90bfd41-5f25-4832-9c7e-df4603353cb8",
     "engineMake" : "CUM",
@@ -6131,7 +6131,7 @@
   "timestamp" : "2015-06-29T17:39:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6149,7 +6149,7 @@
   "timestamp" : "2015-07-02T16:07:48Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "918dce84-7ad0-4983-ba65-e536c7e74a49",
     "engineMake" : "DET",
@@ -6177,7 +6177,7 @@
   "timestamp" : "2015-07-02T12:55:59Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "390c0538-f766-4ccf-8dd3-0c39d3ce121d",
     "engineMake" : "DET",
@@ -6215,7 +6215,7 @@
   "timestamp" : "2015-07-02T10:53:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6233,7 +6233,7 @@
   "timestamp" : "2015-07-01T11:43:41Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6251,7 +6251,7 @@
   "timestamp" : "2015-06-29T12:51:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6269,7 +6269,7 @@
   "timestamp" : "2015-07-02T16:21:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "1e1a38a3-8534-49aa-b2a9-15b69e903472",
     "engineMake" : "VOL",
@@ -6307,7 +6307,7 @@
   "timestamp" : "2015-07-02T16:18:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3a7d674f-f7e0-4925-bb2b-bd93d62a5309",
     "engineMake" : "DET",
@@ -6345,7 +6345,7 @@
   "timestamp" : "2015-07-02T16:13:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6363,7 +6363,7 @@
   "timestamp" : "2015-06-30T08:59:07Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "446252ca-b086-4044-a6d4-b936a466497b",
     "engineMake" : "VOL",
@@ -6387,7 +6387,7 @@
   "timestamp" : "2015-07-02T15:42:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "6f94a42c-16a2-4887-aa0c-2862248dde3f",
     "engineMake" : "ISU",
@@ -6398,8 +6398,8 @@
   "faultCode" : null
 }, {
   "vin" : "b594f86b-9e33-4f51-8caa-7e31bb205178",
-  "latitude" : "38.906055",
-  "longitude" : "-77.000569",
+  "latitude" : "38.87927",
+  "longitude" : "-76.99497",
   "heading" : "N",
   "gpsSpeed" : "0",
   "gpsStatus" : null,
@@ -6435,7 +6435,7 @@
   "timestamp" : "2015-07-02T12:16:58Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "eeed160c-e242-4fa7-9a39-c5d23938db54",
     "engineMake" : "ISU",
@@ -6459,7 +6459,7 @@
   "timestamp" : "2015-05-18T05:47:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6477,7 +6477,7 @@
   "timestamp" : "2015-04-30T11:00:05Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6495,7 +6495,7 @@
   "timestamp" : "2015-06-06T11:24:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6513,7 +6513,7 @@
   "timestamp" : "2015-07-02T16:21:20Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6531,7 +6531,7 @@
   "timestamp" : "2015-06-26T17:53:04Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6549,7 +6549,7 @@
   "timestamp" : "2015-06-28T21:57:58Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6567,7 +6567,7 @@
   "timestamp" : "2015-07-02T15:37:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7805b843-8846-4c5d-9e8b-c51f3f6009ce",
     "engineMake" : "DET",
@@ -6595,7 +6595,7 @@
   "timestamp" : "2015-02-25T18:11:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6613,7 +6613,7 @@
   "timestamp" : "2015-06-11T09:34:42Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6631,7 +6631,7 @@
   "timestamp" : "2015-07-01T19:21:58Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6649,7 +6649,7 @@
   "timestamp" : "2015-07-01T19:06:42Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7d2df424-ec14-49a5-9204-f29e269a28b6",
     "engineMake" : "CUM",
@@ -6677,7 +6677,7 @@
   "timestamp" : "2015-07-02T16:13:58Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "602bbd02-093a-48c5-9953-b1602844ed9b",
     "engineMake" : "DET",
@@ -6705,7 +6705,7 @@
   "timestamp" : "2015-07-02T16:14:14Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "48cbeb5b-0859-45df-94e0-9e22c8c1e8f6",
     "engineMake" : "DET",
@@ -6729,7 +6729,7 @@
   "timestamp" : "2015-06-28T17:51:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "d10095ce-54e4-4305-a8a4-b9fe4afe4ec8",
     "engineMake" : "DET",
@@ -6757,7 +6757,7 @@
   "timestamp" : "2015-07-02T15:37:56Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6775,7 +6775,7 @@
   "timestamp" : "2015-05-29T04:18:51Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6793,7 +6793,7 @@
   "timestamp" : "2015-07-01T18:22:22Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ca7b86ad-5757-489f-97b3-f685c87d5ed4",
     "engineMake" : "DET",
@@ -6821,7 +6821,7 @@
   "timestamp" : "2015-07-02T13:04:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "9d7c3e17-6a36-45f5-8ee8-c0d84f78e4d9",
     "engineMake" : "VOL",
@@ -6849,7 +6849,7 @@
   "timestamp" : "2015-04-21T15:33:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6867,7 +6867,7 @@
   "timestamp" : "2015-07-02T16:17:59Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "d1c2a5e5-646a-4de6-9710-23fdb90a816a",
     "engineMake" : "CUM",
@@ -6891,7 +6891,7 @@
   "timestamp" : "2015-05-30T12:29:06Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6909,7 +6909,7 @@
   "timestamp" : "2015-06-29T18:05:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6927,7 +6927,7 @@
   "timestamp" : "2015-06-17T16:51:07Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6945,7 +6945,7 @@
   "timestamp" : "2015-07-02T09:35:24Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -6963,7 +6963,7 @@
   "timestamp" : "2015-07-02T16:19:20Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3d434f58-82c0-44be-acfb-7f55629818b6",
     "engineMake" : "CUM",
@@ -6991,7 +6991,7 @@
   "timestamp" : "2015-04-23T14:52:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7009,7 +7009,7 @@
   "timestamp" : "2015-07-02T16:13:34Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7027,7 +7027,7 @@
   "timestamp" : "2015-07-02T16:16:46Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "06836987-079d-4906-876a-f88e4e180d58",
     "engineMake" : "CUM",
@@ -7055,7 +7055,7 @@
   "timestamp" : "2015-07-02T16:05:40Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "882e7fbb-8648-4ea1-8eb1-c14b2ee029ae",
     "engineMake" : "DET",
@@ -7079,7 +7079,7 @@
   "timestamp" : "2015-07-02T16:18:00Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7bff2ac0-df48-4123-8c9c-c51330a3a860",
     "engineMake" : "CUM",
@@ -7107,7 +7107,7 @@
   "timestamp" : "2015-07-02T14:45:56Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7125,7 +7125,7 @@
   "timestamp" : "2015-07-01T19:11:39Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ce0c9f24-1692-48d2-938c-cee6554fc72f",
     "engineMake" : "DET",
@@ -7163,7 +7163,7 @@
   "timestamp" : "2015-07-02T11:24:23Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7181,7 +7181,7 @@
   "timestamp" : "2015-06-23T13:20:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7199,7 +7199,7 @@
   "timestamp" : "Thu, 02 Jul 2015 08:43:00 EDT",
   "tspProvider" : "zonar",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "510b9f7a-ca59-421f-bf60-412fd7cd4f8f",
     "engineMake" : "DET",
@@ -7223,7 +7223,7 @@
   "timestamp" : "2015-07-02T13:34:09Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "7e5fa3c6-f784-4251-bd51-d33a26e27f98",
     "engineMake" : "DET",
@@ -7251,7 +7251,7 @@
   "timestamp" : "2015-07-01T01:38:35Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "924bee19-1ced-478d-9046-1202799000a9",
     "engineMake" : "DET",
@@ -7279,7 +7279,7 @@
   "timestamp" : "2015-05-02T15:21:52Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7297,7 +7297,7 @@
   "timestamp" : "2015-06-29T21:35:04Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7315,7 +7315,7 @@
   "timestamp" : "2015-07-02T16:24:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "93f132fb-22fd-4b2d-9164-b5f7eb832012",
     "engineMake" : "DET",
@@ -7343,7 +7343,7 @@
   "timestamp" : "2015-07-02T06:28:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "0bf243bd-85d7-467f-9626-f1e58ae1ba9c",
     "engineMake" : "VOL",
@@ -7381,7 +7381,7 @@
   "timestamp" : "2015-06-30T00:19:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "bfd12e11-549e-4715-aeb1-288ad55fc733",
     "engineMake" : "DET",
@@ -7419,7 +7419,7 @@
   "timestamp" : "2015-06-19T22:27:46Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7437,7 +7437,7 @@
   "timestamp" : "2015-07-02T16:22:33Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "969acd70-811d-4c3e-a2b6-8547e3b6a10e",
     "engineMake" : "DET",
@@ -7475,7 +7475,7 @@
   "timestamp" : "2015-06-30T12:13:15Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7493,7 +7493,7 @@
   "timestamp" : "2015-07-02T16:20:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f25f002b-84d7-488b-9fe3-abde8dc55607",
     "engineMake" : "IHC",
@@ -7521,7 +7521,7 @@
   "timestamp" : "2015-07-02T14:25:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7539,7 +7539,7 @@
   "timestamp" : "2015-07-02T16:20:10Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7557,7 +7557,7 @@
   "timestamp" : "2015-07-01T09:17:17Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7575,7 +7575,7 @@
   "timestamp" : "2015-07-02T14:54:01Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "ea6b1167-e262-44e4-928a-56284672dae7",
     "engineMake" : "HIN",
@@ -7599,7 +7599,7 @@
   "timestamp" : "2015-07-01T17:23:31Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "33f18c68-67e1-45ab-91d4-5fa2d0e5dc52",
     "engineMake" : "IHC",
@@ -7627,7 +7627,7 @@
   "timestamp" : "2015-07-01T19:01:13Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceSoon",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "f949fb79-4aaf-4ae3-a9c7-a76db997b0f3",
     "engineMake" : "DET",
@@ -7665,7 +7665,7 @@
   "timestamp" : "2015-07-02T04:59:14Z",
   "tspProvider" : "telogis",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7683,7 +7683,7 @@
   "timestamp" : "2015-07-02T16:20:59Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3f737599-c66a-4556-90a8-30d49f22e48f",
     "engineMake" : "DET",
@@ -7711,7 +7711,7 @@
   "timestamp" : "2015-06-30T16:44:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7729,7 +7729,7 @@
   "timestamp" : "2015-07-02T12:21:55Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7747,7 +7747,7 @@
   "timestamp" : "2015-07-02T01:56:43Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7765,7 +7765,7 @@
   "timestamp" : "2015-07-02T16:21:06Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "df491745-93aa-46e8-9295-be2c26a4e3e9",
     "engineMake" : "IHC",
@@ -7793,7 +7793,7 @@
   "timestamp" : "2015-07-01T17:53:49Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7811,7 +7811,7 @@
   "timestamp" : "2015-07-02T10:09:33Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7829,7 +7829,7 @@
   "timestamp" : "2015-07-02T14:33:27Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7847,7 +7847,7 @@
   "timestamp" : "2015-06-25T12:36:16Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3bee6db9-9de5-4efa-830a-fea52475785c",
     "engineMake" : "DET",
@@ -7875,7 +7875,7 @@
   "timestamp" : "2015-07-01T02:52:00Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7893,7 +7893,7 @@
   "timestamp" : "2015-07-02T16:19:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "0bc20e8c-a92d-45c3-b5a2-29d7a216acbc",
     "engineMake" : "DET",
@@ -7921,7 +7921,7 @@
   "timestamp" : "2014-12-03T12:45:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -7939,7 +7939,7 @@
   "timestamp" : "2015-07-02T16:02:08Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e484d530-157c-4f22-a991-0a4748c49918",
     "engineMake" : "HIN",
@@ -7963,7 +7963,7 @@
   "timestamp" : "2015-07-02T16:22:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "951eb325-4e22-4530-be1c-067287da242e",
     "engineMake" : "IHC",
@@ -7991,7 +7991,7 @@
   "timestamp" : "2015-07-02T16:20:11Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8009,7 +8009,7 @@
   "timestamp" : "2015-07-02T16:02:20Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8027,7 +8027,7 @@
   "timestamp" : "2015-07-02T00:26:52Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "e8d99224-4c0b-419b-87f6-d89e86bb7b26",
     "engineMake" : "DET",
@@ -8055,7 +8055,7 @@
   "timestamp" : "2015-04-24T07:39:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "dbaf150d-976b-4c8c-8b79-fe388d97db1d",
     "engineMake" : "VOL",
@@ -8079,7 +8079,7 @@
   "timestamp" : "2015-04-30T13:30:54Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8097,7 +8097,7 @@
   "timestamp" : "2015-06-23T11:32:02Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8115,7 +8115,7 @@
   "timestamp" : "2015-05-05T12:19:19Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8133,7 +8133,7 @@
   "timestamp" : "2015-07-01T16:55:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8151,7 +8151,7 @@
   "timestamp" : "2015-06-04T13:44:30Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8169,7 +8169,7 @@
   "timestamp" : "2015-07-02T10:22:57Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8187,7 +8187,7 @@
   "timestamp" : "2015-07-02T07:55:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8205,7 +8205,7 @@
   "timestamp" : "2015-07-02T13:16:40Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "fecd91a5-b6e0-420f-bcba-59e54b88d4d9",
     "engineMake" : "HIN",
@@ -8229,7 +8229,7 @@
   "timestamp" : "2015-07-02T16:16:28Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "07e2029f-4e6b-4533-962a-eb86e98e0987",
     "engineMake" : "VOL",
@@ -8257,7 +8257,7 @@
   "timestamp" : "2015-07-02T13:30:18Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "5bfe5482-fede-47f3-ac83-b4c4533d1e5e",
     "engineMake" : "DET",
@@ -8285,7 +8285,7 @@
   "timestamp" : "2015-06-02T20:05:30Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "b78ab59b-0323-4152-baa7-ad7fbc3a5e42",
     "engineMake" : "CUM",
@@ -8313,7 +8313,7 @@
   "timestamp" : "2015-07-02T16:12:50Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8331,7 +8331,7 @@
   "timestamp" : "2015-07-02T16:23:53Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "55e2308d-3056-4c72-b655-6e1efd63e58f",
     "engineMake" : "DET",
@@ -8359,7 +8359,7 @@
   "timestamp" : "2015-06-23T14:52:47Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8377,7 +8377,7 @@
   "timestamp" : "2015-07-02T16:13:35Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "None",
+  "serviceType" : "StopTruck",
   "carFault" : null,
   "faultCode" : null
 }, {
@@ -8395,7 +8395,7 @@
   "timestamp" : "2015-07-02T16:17:44Z",
   "tspProvider" : "cyntrx",
   "vehicleMovementType" : "STOPPED",
-  "serviceType" : "ServiceInfo",
+  "serviceType" : "StopTruck",
   "carInfo" : {
     "vin" : "3560aa8c-a78f-4a49-a6e7-1c614aab19d1",
     "engineMake" : "CUM",

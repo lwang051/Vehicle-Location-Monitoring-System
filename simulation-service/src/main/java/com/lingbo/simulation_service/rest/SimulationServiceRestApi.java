@@ -42,7 +42,6 @@ public class SimulationServiceRestApi {
         final List<SimulationThreadTask> instances = new ArrayList<>();
         final List<Point> lookAtPoints = new ArrayList<>();
         final Set<Long> instanceIds = new HashSet<>(taskFutures.keySet());
-        System.out.println("fixture size: " + fixture.getNumberOfSimulationThreadRequests());
         for (SimulationThreadRequest simulationThreadRequest : fixture.getSimulationThreadRequests()) {
             final SimulationThread simulationThread = simulationThreadGenerationService.create(simulationThreadRequest);
             lookAtPoints.add(simulationThread.getStartPoint());
