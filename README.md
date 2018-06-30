@@ -15,6 +15,7 @@ The business logic is simple, yet the whole system is built in microservice arch
 6. Docker
 7. Postman
 ### Commands
+#### Pre-steps:
 1. Run Docker.
 2. Run Postman.
 3. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
