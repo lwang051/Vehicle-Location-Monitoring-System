@@ -34,7 +34,7 @@ Please follow the instructions below to try out this project and see the outcome
     docker-compose up
     
 #### Start each service:
-Change directory to "sh". Type in each command below in a new Terminal tab.
+Change directory to "sh". Type in EACH command below in a NEW Terminal tab.
 
     sh eureka-service-start.sh
     sh hystrix-service-start.sh
