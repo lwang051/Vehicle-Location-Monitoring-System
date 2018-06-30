@@ -14,8 +14,12 @@ The business logic is simple, yet the whole system is built in microservice arch
 5. Maven
 6. Docker
 7. Postman
-### Command
-Run Docker. Run Postman. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
+### Commands
+Please follow the instructions below to try out this project and see the outcome :)
+#### Pre-steps:
+1. Run Docker.
+2. Run Postman.
+3. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
 #### Build:
 
     cd monitoring-system
@@ -30,7 +34,7 @@ Run Docker. Run Postman. In Terminal/Command Line Tool, change the directory (cd
     docker-compose up
     
 #### Start each service:
-Change directory to "sh". Type in each command below in a new Terminal tab.
+Change the directory to "sh". Type EACH command below in a NEW Terminal tab.
 
     sh eureka-service-start.sh
     sh hystrix-service-start.sh
@@ -45,17 +49,19 @@ Type this url:
 
     http://localhost:9000/init
     
-Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If successful, a HTTP response code "Created 201" will be seen.
+Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If successful, the HTTP response status "201 Created" will be seen.
 #### In Web Browser:
-Open the dashboard to see the initial locations of the vehicles:
+Open a web browser window to see the dashboard with the vehicles located at their initial locations:
 
     http://localhost:8080
     
-Open another web browser window, and open the simulator:
+Open another web browser window to see the simulator control panel:
 
     http://localhost:9005
     
-Click "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
+Click "Start simulation".
+
+Congrats! Now in the dashboard window you will see the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string. Learn how to encode and decode your google maps polylines [**here**](https://developers.google.com/maps/documentation/utilities/polylineutility).
 #### Shut down:
 1. Close web browser windows.
 2. In each Terminal tab, press Ctrl + C to shut down each service.
