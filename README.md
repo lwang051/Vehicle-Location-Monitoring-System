@@ -15,7 +15,7 @@ The business logic is simple, yet the whole system is built in microservice arch
 6. Docker
 7. Postman
 ### Commands
-Please follow the instructions below to try out this project and see the outcome!
+Please follow the instructions below to try out this project and see the outcome :)
 #### Pre-steps:
 1. Run Docker.
 2. Run Postman.
