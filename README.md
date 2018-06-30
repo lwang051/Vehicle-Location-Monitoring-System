@@ -51,4 +51,4 @@ Open another web browser window, and open the simulator:
 
     http://localhost:9005
     
-Press "Start simulation". Change to the dashboard window. See the vehicles moving along the path pre-defined in [**this file**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
+Press "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
