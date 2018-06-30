@@ -61,7 +61,7 @@ Open another web browser window to see the simulator control panel:
     
 Click "Start simulation".
 
-Congrats! Now in the dashboard window you will see the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string.
+Congrats! Now in the dashboard window you will see the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string. Learn how to encode and decode your google maps polylines [**here**](https://developers.google.com/maps/documentation/utilities/polylineutility).
 #### Shut down:
 1. Close web browser windows.
 2. In each Terminal tab, press Ctrl + C to shut down each service.
