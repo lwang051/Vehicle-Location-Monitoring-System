@@ -11,6 +11,12 @@ The system simulates the moving/non-moving vehicles, and finally visualize the m
 6. Docker
 7. Postman
 ### Command
+#### Build:
 In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System), and type the commands below:
 
     cd monitoring-system
+    mvn clean install
+    cd ..
+    cd operation-system
+    mvn clean install
+    cd ..
