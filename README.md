@@ -11,7 +11,7 @@ The system simulates the moving/non-moving vehicles, and finally visualize the m
 6. Docker
 7. Postman
 ### Command
-In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System)
+Run Docker. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
 #### Build:
 
     cd monitoring-system
@@ -20,3 +20,19 @@ In Terminal/Command Line Tool, change the directory (cd) into the project direct
     cd operation-system
     mvn clean install
     cd ..
+
+#### Launch RabbitMQ:
+
+    docker-compose up
+    
+#### Start each service:
+
+    cd sh
+    sh eureka-service-start.sh
+    sh hystrix-service-start.sh
+    sh location-service-start.sh
+    sh simulation-service-start.sh
+    sh message-source-service-start.sh
+    sh message-sink-service-start.sh
+    sh dashboard-start.sh
+    
