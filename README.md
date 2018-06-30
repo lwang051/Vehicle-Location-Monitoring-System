@@ -22,6 +22,7 @@ Please follow the instructions below to try out this project and see the outcome
 3. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
 #### Build:
 4.
+
     cd monitoring-system
     mvn clean install
     cd ..
@@ -31,10 +32,11 @@ Please follow the instructions below to try out this project and see the outcome
 
 #### Launch RabbitMQ:
 5.
+
     docker-compose up
     
 #### Start each service:
-Change the directory to "sh". Type EACH command below in a NEW Terminal tab.
+6. Change the directory to "sh". Type EACH command below in a NEW Terminal tab.
 
     sh eureka-service-start.sh
     sh hystrix-service-start.sh
@@ -45,21 +47,21 @@ Change the directory to "sh". Type EACH command below in a NEW Terminal tab.
     sh dashboard-start.sh
     
 #### In Postman:
-Type this url:
+7. Type this url:
 
     http://localhost:9000/init
     
-Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If successful, the HTTP response status "201 Created" will be seen.
+8. Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If successful, the HTTP response status "201 Created" will be seen.
 #### In Web Browser:
-Open a web browser window to see the dashboard with the vehicles located at their initial locations:
+9. Open a web browser window to see the dashboard with the vehicles located at their initial locations:
 
     http://localhost:8080
     
-Open another web browser window to see the simulator control panel:
+10. Open another web browser window to see the simulator control panel:
 
     http://localhost:9005
     
-Click "Start simulation".
+11. Click "Start simulation".
 
 Now in the dashboard window you will see the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string.
 #### Shut down:
