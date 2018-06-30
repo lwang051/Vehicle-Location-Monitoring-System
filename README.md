@@ -41,4 +41,4 @@ Type this url:
 
     http://localhost:9000/init
     
-Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the initial locations in Json format, and paste it into the "Body" input box.
+Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If succeed, a HTTP response code "Created 201" will be seen.
