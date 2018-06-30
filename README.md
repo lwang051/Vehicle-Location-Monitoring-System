@@ -42,3 +42,13 @@ Type this url:
     http://localhost:9000/init
     
 Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If successful, a HTTP response code "Created 201" will be seen.
+#### In Web Browser:
+Open the dashboard to see the initial locations of the vehicles:
+
+    http://localhost:8080
+    
+Open another web browser window, and open the simulator:
+
+    http://localhost:9005
+    
+Press "Start simulation". Change to the dashboard window. See the vehicles moving along the path pre-defined in [**this file**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
