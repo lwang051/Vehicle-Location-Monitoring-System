@@ -51,11 +51,11 @@ Type this url:
     
 Change HTTP verb to "POST". Under the url, change the tab to "Body". Copy the [**initial vehicle locations**](../master/location-service/location.json) (Json format), and paste it into the "Body" input box. Press "Send". If successful, the HTTP response status "201 Created" will be seen.
 #### In Web Browser:
-Open the dashboard to see the initial locations of the vehicles:
+Open a web browser window to see the dashboard with the vehicles located at their initial locations:
 
     http://localhost:8080
     
-Open another web browser window, and open the simulator:
+Open another web browser window to see the simulator control panel:
 
     http://localhost:9005
     
