@@ -3,5 +3,10 @@ This is a system that monitors vehicles' locations on google maps. In real life 
 
 The system simulates the moving/non-moving vehicles, and finally visualize the movement on google maps to the client. The business logic is simple, yet the whole system is built in microservice architecture. Services are well partitioned and isolated, communicating to each other through RESTful APIs. Application health monitoring, service registry/discovery, and circuit breaker are integrated into the system, and more needs to be considered to meet the industry standard and make it a full fledged application. This project is done using Java and Spring tech stack.
 ### environment
-
+1. 14G+ RAM (if running on one node)
+2. Web Browser
+3. JRE 1.8
+4. Maven
+5. Docker
+6. Postman
 ### command
