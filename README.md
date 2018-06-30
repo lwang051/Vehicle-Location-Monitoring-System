@@ -21,7 +21,7 @@ Please follow the instructions below to try out this project and see the outcome
 2. Run Postman.
 3. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
 #### Build:
-
+4.
     cd monitoring-system
     mvn clean install
     cd ..
@@ -30,7 +30,7 @@ Please follow the instructions below to try out this project and see the outcome
     cd ..
 
 #### Launch RabbitMQ:
-
+5.
     docker-compose up
     
 #### Start each service:
@@ -59,7 +59,9 @@ Open another web browser window to see the simulator control panel:
 
     http://localhost:9005
     
-Click "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string.
+Click "Start simulation".
+
+Now in the dashboard window you will see the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string.
 #### Shut down:
 1. Close web browser windows.
 2. In each Terminal tab, press Ctrl + C to shut down each service.
