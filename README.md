@@ -12,4 +12,5 @@ The system simulates the moving/non-moving vehicles, and finally visualize the m
 7. Postman
 ### Command
 In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System), and type the commands below:
+
     cd monitoring-system
