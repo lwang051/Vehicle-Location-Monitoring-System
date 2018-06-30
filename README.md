@@ -55,7 +55,7 @@ Open another web browser window, and open the simulator:
 
     http://localhost:9005
     
-Click "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
+Click "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/paths.json). Note that each path is defined as a polyline encrypted to a string.
 #### Shut down:
 1. Close web browser windows.
 2. In each Terminal tab, press Ctrl + C to shut down each service.
