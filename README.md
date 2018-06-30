@@ -5,8 +5,9 @@ The system simulates the moving/non-moving vehicles, and finally visualize the m
 ### environment
 1. 14G+ RAM (if running on one node)
 2. Web Browser
-3. JRE 1.8
-4. Maven
-5. Docker
-6. Postman
+3. Terminal/Command Line Tool
+4. JRE 1.8
+5. Maven
+6. Docker
+7. Postman
 ### command
