@@ -26,8 +26,8 @@ Run Docker. Run Postman. In Terminal/Command Line Tool, change the directory (cd
     docker-compose up
     
 #### Start each service:
+Change directory to "sh". Type in each command below in a new Terminal tab.
 
-    cd sh
     sh eureka-service-start.sh
     sh hystrix-service-start.sh
     sh location-service-start.sh
@@ -51,4 +51,11 @@ Open another web browser window, and open the simulator:
 
     http://localhost:9005
     
-Press "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
+Click "Start simulation". Change to the dashboard window. See the vehicles moving along the [**pre-defined paths**](../master/simulation-service/src/main/resources/fixture.json). Note that each path is defined as a polyline encrypted to a string.
+
+Change to the simulator window, and go back to previous page. Click "Cancel simulation" to stop the simulation.
+#### Shut down:
+1. Close web browser windows.
+2. In each Terminal tab, press Ctrl + C to shut down each service.
+3. Shut down Docker.
+4. Shut down Postman.
