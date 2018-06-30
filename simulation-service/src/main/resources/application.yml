@@ -10,6 +10,14 @@ next:
   service:
     url: http://message-source-service/api/locations
 
+paths:
+  json:
+    url: /fixture.json
+
+directions:
+  json:
+    url: /directions.json
+
 ---
 spring:
   profiles: test

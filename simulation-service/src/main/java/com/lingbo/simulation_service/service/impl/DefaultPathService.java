@@ -53,12 +53,10 @@ public class DefaultPathService implements PathService {
     
     @Override
     public List<DirectionInput> loadDirectionInput() {
-        final InputStream is = this.getClass().getResourceAsStream("/directions.json");
-
+        final InputStream is = 
+        	this.getClass().getResourceAsStream(environment.getRequiredProperty("directions.json.url"));
         try {
-            return objectMapper.readValue(is, new TypeReference<List<DirectionInput>>() {
-                //Just make Jackson happy
-            });
+            return objectMapper.readValue(is, new TypeReference<List<DirectionInput>>() {});
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
@@ -67,8 +65,8 @@ public class DefaultPathService implements PathService {
 
     @Override
     public SimulationFixture loadSimulationFixture() {
-        final InputStream is = this.getClass().getResourceAsStream("/fixture.json");
-
+        final InputStream is = 
+        	this.getClass().getResourceAsStream(environment.getRequiredProperty("paths.json.url"));
         try {
             return objectMapper.readValue(is, SimulationFixture.class);
         } catch (IOException e) {
