@@ -14,7 +14,7 @@ The business logic is simple, yet the whole system is built in microservice arch
 5. Maven
 6. Docker
 7. Postman
-### Command
+### Commands
 Run Docker. Run Postman. In Terminal/Command Line Tool, change the directory (cd) into the project directory (Vehicle-Location-Monitoring-System).
 #### Build:
 
