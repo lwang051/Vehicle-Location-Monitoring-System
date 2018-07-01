@@ -7,13 +7,8 @@ The business logic is simple, yet the whole system is built in microservice arch
 
 ![alt text](../master/docs/Architecture%20Diagram.png)
 ### Environment
-1. 14G+ RAM (assuming running on one node)
-2. Web Browser
-3. Terminal/Command Line Tool
-4. JRE 1.8
-5. Maven
-6. Docker
-7. Postman
+1. 14G+ RAM (assuming running on one node)  2. Web Browser  3. Terminal/Command Line Tool
+4. JRE 1.8   5. Maven   6. Docker   7. Postman
 ### Commands
 Please follow the instructions below to try out this project and see the outcome :)
 #### Pre-steps:
