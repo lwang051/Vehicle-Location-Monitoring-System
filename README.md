@@ -7,14 +7,14 @@ This is a system that monitors vehicles' locations on google maps. In real life 
 ![alt text](../master/docs/trim2.gif)
 
 ![alt text](../master/docs/trim3.gif)
-
-See the activity diagram below.
-
-![alt text](../master/docs/Activity%20Diagram.png)
-
-The business logic is simple, yet the whole system is built in microservice architecture. Services are well partitioned and isolated, communicating to each other through RESTful APIs. Application health monitoring, service registry/discovery, and circuit breaker are integrated into the system. This project is done using Java and Spring tech stack. See the architecture diagram below.
+### Architecture Diagram
+The business logic is simple, yet the whole system is built in microservice architecture. Services are well partitioned and isolated, communicating to each other through RESTful APIs. Application health monitoring, service registry/discovery, and circuit breaker are integrated into the system. This project is done using Java and Spring tech stack.
 
 ![alt text](../master/docs/Architecture%20Diagram.png)
+
+### Activity Diagram
+
+![alt text](../master/docs/Activity%20Diagram.png)
 ### Environment
 1. 14G+ RAM (assuming running on one node)
 2. Web Browser
