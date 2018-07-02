@@ -16,7 +16,7 @@ The business logic is simple, yet the whole system is built in microservice arch
 
 ![alt text](../master/docs/Activity%20Diagram.png)
 ### Environment
-1. 14G+ RAM (assuming running on one node)
+1. 14G+ RAM (If runs on one node)
 2. Web Browser
 3. Terminal/Command Line Tool
 4. JRE 1.8
