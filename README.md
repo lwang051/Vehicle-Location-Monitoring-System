@@ -5,6 +5,8 @@ Check out the Youtube video here :)
 
 [![IMAGE ALT TEXT HERE](../master/docs/youtube.png)](https://youtu.be/QBf3dIw6LmQ)
 
+Here is a quick view of the video.
+
 ![alt text](../master/docs/trim1.gif)
 
 ![alt text](../master/docs/trim2.gif)
