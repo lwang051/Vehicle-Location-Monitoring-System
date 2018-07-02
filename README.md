@@ -1,8 +1,6 @@
 # Vehicle-Location-Monitoring-System
-This is a system that monitors vehicles' locations on google maps. In real life vehicles are running on roads and real-time data such as the latitude and the longitude are gathered from the moving vehicles, while in this project a simulation service is introduced as a substitution of the otherwise much heavier work. Vehicle initial locations can be posted and stored in database. The system then simulates the moving vehicles and visualize the movement on google maps on the dashboard. 
+This is a system that monitors vehicles' locations on google maps. [![IMAGE ALT TEXT HERE](../master/docs/youtube.png)](https://youtu.be/xqybximL7QI) In real life vehicles are running on roads and real-time data such as the latitude and the longitude are gathered from the moving vehicles, while in this project a simulation service is introduced as a substitution of the otherwise much heavier work. Vehicle initial locations can be posted and stored in database. The system then simulates the moving vehicles and visualize the movement on google maps on the dashboard. 
 ### Demo
-
-[![IMAGE ALT TEXT HERE](../master/docs/youtube.png)](https://youtu.be/xqybximL7QI)
 
 ![alt text](../master/docs/trim1.gif)
 
