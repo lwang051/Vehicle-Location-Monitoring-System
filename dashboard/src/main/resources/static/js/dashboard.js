@@ -819,8 +819,8 @@ function setupMapLegend() {
     info.onAdd = function (map) {
         this._div = L.DomUtil.create('div', 'info');
         // var img = '<img src="https://www.mapbox.com/maki/renders/car-18' + (L.Browser.retina ? '@2x' : '') + '.png" height="18" width="18">';
-        var img = '<img src="/images/wrench' + (L.Browser.retina ? '@2x' : '') + '.png" height="18" width="18">';
-        this._div.innerHTML = '<h4 style="color: black">Spring Uber Vehicles</h4>'
+        var img = '<img src="/images/car' + (L.Browser.retina ? '@2x' : '') + '.png" height="13" width="15">';
+        this._div.innerHTML = '<h4 style="color: black">Spring Boot Vehicles</h4>'
             + '<i class="faa-flash animated">' + img + '</i> Moving &nbsp;&nbsp;&nbsp;&nbsp; ' + img + ' Stopped <br/>'
             + '<i class="fa fa-map-marker" style="color: green;"></i> Normal &nbsp;&nbsp;'
             + '<i class="fa fa-map-marker" style="color: blue"></i> ServiceInfo &nbsp;&nbsp;'
