@@ -24,7 +24,7 @@ The business logic is simple, yet the whole system is built in microservice arch
 1. 14G+ RAM (If runs on one node)
 2. Web Browser
 3. Terminal/Command Line Tool
-4. JRE 1.8
+4. JDK 1.8
 5. Maven
 6. Docker
 7. Postman
